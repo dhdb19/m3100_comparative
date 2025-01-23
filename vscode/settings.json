@@ -1,0 +1,203 @@
+{
+  "workbench.editor.wrapTabs": true,
+  "breadcrumbs.enabled": false,
+  "cSpell.language": "en",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "JetBrains Mono, Regular",
+  "editor.fontLigatures": true,
+  "workbench.settings.editor": "json",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 70,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "latex-workshop.intellisense.citation.backend": "biblatex",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "lualatex",
+      "command": "lualatex",
+      "args": [
+        "-shell-escape", //I can't remember why I needed this in the past
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-output-directory=%OUTDIR%/meta",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-output-directory=%OUTDIR%/meta",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "biber",
+      "command": "biber",
+      "args": [
+        "%DOCFILE%",
+        "-output-directory=%OUTDIR%/meta"
+      ],
+      "env": {}
+    },
+    {
+      "name": "rnw2tex",
+      "command": "Rscript",
+      "args": [
+        "-e",
+        "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+      ],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "lualatex",
+      "tools": [
+        "lualatex",
+        "biber",
+        "lualatex"
+      ]
+    },
+    {
+      "name": "pdflatex -> biber -> pdflatex TWICE",
+      "tools": [
+        "pdflatex",
+        "biber",
+        "pdflatex",
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "RNW",
+      "tools": [
+        "rnw2tex",
+        "lualatex",
+        "biber",
+        "lualatex"
+      ]
+    }
+  ],
+  "window.zoomLevel": 1.65,
+  "workbench.editorAssociations": {
+    "*.pdf": "latex-workshop-pdf-hook"
+  },
+  "notebook.output.lineHeight": 2,
+  "notebook.output.wordWrap": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "git.confirmSync": false,
+  "files.associations": {
+    "*.rmd": "markdown"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu-22.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu-22.04"
+      ]
+    }
+  },
+  // "terminal.integrated.defaultProfile.windows": "R Terminal",
+  "cSpell.enableFiletypes": [
+    "latex",
+    "tex"
+  ],
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.colorTheme": "Nineties Big Blue",
+  
+  // R config
+  "r.rterm.windows": "C:\\Users\\jordi\\AppData\\Roaming\\Python\\Python312\\Scripts\\radian.exe",
+  "r.bracketedPaste": true,
+  "r.rpath.windows": "C:\\Program Files\\R\\R-4.4.0\\bin\\x64\\R.exe",
+  // "latex-workshop.latex.outDir": "%DIR%/meta",
+  "[r]": {
+    "editor.wordWrapColumn": 80,
+    "editor.tabSize": 2,
+  },
+
+
+  "[txt]": {
+    "editor.wordWrapColumn": 80
+  },
+  "workbench.productIconTheme": "material-product-icons",
+  "latex-workshop.intellisense.subsuperscript.enabled": true,
+  // "editor.formatOnSave": true,
+  "auto-rename-tag.activationOnLanguage": [
+    "*"
+  ],
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "notebook.output.scrolling": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "cSpell.userWords": [
+    "blanketly",
+    "deservingness",
+    "Disaggregating",
+    "disempowered",
+    "endogeneity",
+    "ethnonationalism",
+    "ethnonationalist",
+    "Eurobarometer",
+    "exclusionism",
+    "immigrationization",
+    "immigrationized",
+    "immigrization",
+    "Meltzer",
+    "microfoundation",
+    "operationalization",
+    "operationalize",
+    "particularistic",
+    "PRRP",
+    "racialized",
+    "RPPRs",
+    "rudimentarily",
+    "sociotropic",
+    "solidaristic"
+  ],
+  "gitdoc.autoPull": "off",
+  "gitdoc.enabled": false,
+  "gitdoc.timeZone": "DE",
+  "git.enabled": false,
+  "jupyter.askForKernelRestart": false,
+  "quarto.zotero.groupLibraries": [
+    "POL-30240"
+  ],
+  "overleaf-workshop.pdfViewer.themes": {
+    "default": {
+      "fontColor": "#000000",
+      "bgColor": "#FFFFFF"
+    },
+    "light": {
+      "fontColor": "#000000",
+      "bgColor": "#F5F5DC"
+    },
+    "dark": {
+      "fontColor": "#FBF0D9",
+      "bgColor": "#4B4B4B"
+    }
+  }
+  // "onCustomEditor":"pdf.preview",
+}

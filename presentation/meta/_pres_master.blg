@@ -1,0 +1,32 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'C:\Users\jordi\OneDrive\01_Uni\t\t1400_github\presentation\meta\_pres_master.blg'
+[86] biber-MSWIN64:340> INFO - === 
+[112] Biber.pm:420> INFO - Reading 'C:\Users\jordi\OneDrive\01_Uni\t\t1400_github\presentation\meta\_pres_master.bcf'
+[225] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[246] Biber.pm:4463> INFO - Processing section 0
+[256] Biber.pm:4654> INFO - Looking for bibtex file '../references.bib' for section 0
+[303] bibtex.pm:1713> INFO - LaTeX decoding ...
+[558] bibtex.pm:1519> INFO - Found BibTeX data source '../references.bib'
+[1733] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1733] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1733] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1733] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[2204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2204] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[2204] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[2469] bbl.pm:676> INFO - Writing 'C:\Users\jordi\OneDrive\01_Uni\t\t1400_github\presentation\meta\_pres_master.bbl' with encoding 'UTF-8'
+[2746] bbl.pm:779> INFO - Output to C:\Users\jordi\OneDrive\01_Uni\t\t1400_github\presentation\meta\_pres_master.bbl
+[2746] Biber.pm:131> WARN - Duplicate entry key: 'Abbott1998' in file '../references.bib', skipping ...
+[2746] Biber.pm:131> WARN - Invalid namepart option 'prefix ' found in extended name format name 'author' in entry 'deLange2007', ignoring
+[2746] Biber.pm:131> WARN - Invalid namepart option 'given-i ' found in extended name format name 'author' in entry 'Gilens2003', ignoring
+[2746] Biber.pm:131> WARN - Invalid namepart option 'fimily' found in extended name format name 'author' in entry 'Gilens2003', ignoring
+[2746] Biber.pm:131> WARN - Invalid namepart option 'given-i ' found in extended name format name 'editor' in entry 'Alesina2011', ignoring
+[2746] Biber.pm:131> WARN - Invalid namepart option 'given ' found in extended name format name 'editor' in entry 'Alesina2011', ignoring
+[2746] Biber.pm:131> WARN - Invalid namepart option 'family ' found in extended name format name 'editor' in entry 'Alesina2011', ignoring
+[2746] Biber.pm:131> WARN - Invalid namepart option 'given-i ' found in extended name format name 'editor' in entry 'Alesina2011', ignoring
+[2746] Biber.pm:131> WARN - Invalid namepart option 'family ' found in extended name format name 'editor' in entry 'Alesina2011', ignoring
+[2747] Biber.pm:131> WARN - Invalid namepart option 'given-i ' found in extended name format name 'editor' in entry 'Alesina2011', ignoring
+[2747] Biber.pm:131> WARN - Invalid namepart option 'given ' found in extended name format name 'editor' in entry 'Alesina2011', ignoring
+[2747] Biber.pm:131> WARN - Invalid namepart option 'given-i ' found in extended name format name 'author' in entry 'Lipset1963', ignoring
+[2747] Biber.pm:133> INFO - WARNINGS: 12

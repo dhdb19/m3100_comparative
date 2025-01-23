@@ -1,0 +1,136 @@
+\documentclass[aspectratio=169,11pt,xcolor=dvipsnames, t, onlytextwidth]{beamer}
+
+\usepackage{../style/beamerthemeKonstanz}
+
+%------------------------------------------------------
+% \author{Iordanis Pantzartzis}
+\institute{Seminar title}
+\date{Date}
+%------------------------------------------------------
+
+%-------------------------------------------------------------
+%-------------------------------------------------------------
+%-------------------------------------------------------------
+%-------------------------------------------------------------
+
+\begin{document}
+
+
+
+
+% %title-------------------------------------------------
+\begin{frame}[t, plain, noframenumbering]{}
+\setul{0.6ex}{0.15ex}
+
+\begin{beamercolorbox}[right, sep=-5cm, ht=2.5cm, wd=\paperwidth]{frametitle}
+\end{beamercolorbox}
+
+
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=north east,inner sep=0pt] at (current page.north east) {\includegraphics[scale=0.61]{_uni_logo.pdf}};
+  \end{tikzpicture}
+
+
+  \vspace*{-1cm}
+  \setstretch{1.15}
+  \huge{\sethlcolor{kon2}\hl{\textbf{ Placeholder }}}
+
+  \huge{\sethlcolor{kon3}\hl{\textbf{ Placeholder }}}
+
+  \huge{\sethlcolor{kon4}\hl{\textbf{ Placeholder }}}
+
+
+  \vspace*{2cm}
+
+
+  \footnotesize{{\ul{Author}}}\\
+  \footnotesize{\insertinstitute, \insertdate}
+  \nocite{*}
+\end{frame}
+% %title-------------------------------------------------
+
+
+
+% %ToC---------------------------------------------------
+\begin{frame}[t, plain, noframenumbering]
+\setul{0.85ex}{0.28ex}
+
+\begin{beamercolorbox}[sep=0cm, ht=0.75cm, leftskip=0.5cm, wd=\paperwidth]{frametitle}
+ {\ul{\mbox{\textbf{\usebeamerfont{frametitle}{Outline}}}}}
+\end{beamercolorbox}
+
+
+\tableofcontents
+
+\end{frame}
+% %ToC---------------------------------------------------
+
+
+
+%------------------------------------------------------
+% \include{placeholder}
+
+%------------------------------------------------------
+
+
+%------------------------------------------------------
+%------------------------------------------------------
+%------------------------------------------------------
+
+%References--------------------------------------------
+\begin{frame}[t, plain, allowframebreaks]{}
+\setul{0.85ex}{0.28ex}
+
+
+  \begin{beamercolorbox}[sep=0cm, ht=0.75cm, leftskip=0.5cm, wd=\paperwidth]{frametitle}
+  {\ul{\mbox{\textbf{\usebeamerfont{frametitle}{References}}}}}
+  \end{beamercolorbox}
+  \small
+
+  \vspace*{0.5cm}
+
+  \printbibliography
+
+%\setbeamertemplate{footline}{
+  %  \vspace{0.5cm}
+%}
+\end{frame}
+%References--------------------------------------------
+
+
+
+
+% %Endframe----------------------------------------------
+\begin{frame}[t, plain]{}
+\setul{0.6ex}{0.15ex}
+%\setulcolor{kon3}
+
+\begin{beamercolorbox}[right, sep=-5cm, ht=2.5cm, wd=\paperwidth]{frametitle}
+    \end{beamercolorbox}
+
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=north east,inner sep=0pt] at (current page.north east) {\includegraphics[scale=0.61]{_uni_logo.pdf}};
+  \end{tikzpicture}
+
+  \setstretch{1.15}
+  \huge{\sethlcolor{kon2}\hl{\textbf{ Thank you }}}
+
+
+
+  \huge{\sethlcolor{kon3}\hl{\textbf{ for listening. }}}
+
+  \huge{\sethlcolor{kon4}\hl{\textbf{ Any questions? }}}
+
+  \vspace*{0.5cm}
+
+  \footnotesize{{\ul{\textbf{Author}}}}\\
+  \footnotesize{\insertinstitute, \insertdate}
+
+
+\end{frame}
+% %Endframe----------------------------------------------------------
+
+
+
+
+\end{document}
