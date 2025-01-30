@@ -7,3 +7,6 @@ written summaries of literature with in one session approx 7 pages
 
 ## Literature to look up
 gorees tepe 2013 early childare education spendind in ermany
+
+## Term paper ideas
+Look at representation of immigrants for paper
