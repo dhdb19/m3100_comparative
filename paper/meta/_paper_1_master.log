@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.30)  30 JAN 2025 10:27
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.30)  30 JAN 2025 10:48
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/jordi/OneDrive/01_Uni/m/m3000_W_24_25/m3100_comparative/paper/_paper
@@ -62,9 +62,9 @@ iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \belowcaptionskip=\skip50
 \bibindent=\dimen140
 )
-(../style/paper_theme_weidmann.sty
+(../style/paper_theme_dobbins.sty
 
-LaTeX Warning: You have requested package `../style/paper_theme_weidmann',
+LaTeX Warning: You have requested package `../style/paper_theme_dobbins',
                but the package provides `paper_theme_weidmann'.
 
 Package: paper_theme_weidmann 
@@ -2250,7 +2250,7 @@ roman12-regular.otf><../fonts/Lato/Lato-Bold.ttf><C:/Program Files/MiKTeX/fonts/
 opentype/public/tex-gyre/texgyreheros-regular.otf><C:/Program Files/MiKTeX/fonts
 /opentype/public/tex-gyre/texgyreheros-bold.otf><../fonts/Lato/Lato-Regular.ttf>
 <C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on _paper_1_master.pdf (5 pages, 300570 bytes).
+Output written on _paper_1_master.pdf (5 pages, 300461 bytes).
 
 PDF statistics: 170 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 131072)
