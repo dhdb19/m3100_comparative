@@ -44,6 +44,32 @@
 \RequirePackage{ragged2e}
 %Packages----------------------------------
 
+
+%tblrtemplate-----------------------------
+\DefTblrTemplate{caption-tag}{default}{\color{green1}\bfseries{TABLE \thetable}}
+\DefTblrTemplate{caption-sep}{default}{\enskip}
+% \DefTblrTemplate{caption-text}{default}{\InsertTblrText{caption}}
+
+\DefTblrTemplate{caption}{default}{%
+  \UseTblrTemplate{caption-tag}{default}%
+  \UseTblrTemplate{caption-sep}{default}%
+  \UseTblrTemplate{caption-text}{default}%
+}
+\DefTblrTemplate{capcont}{default}{%
+  \UseTblrTemplate{caption-tag}{default}%
+  \UseTblrTemplate{caption-sep}{default}%
+  \UseTblrTemplate{caption-text}{default}
+  \UseTblrTemplate{conthead-text}{default}%
+}
+
+
+% \SetTblrTemplate{caption-tag}{academic}
+% \SetTblrTemplate{caption-sep}{academic}
+% \SetTblrTemplate{caption-text}{academic}
+
+%tblrtemplate-----------------------------
+
+
 %newcomamnds-------------------------------
 \newcommand*{\matric}[1]{\gdef\@matric{#1}}
 \newcommand*{\@matric}{\texttt{\string\matric}matricnumber}
@@ -206,7 +232,16 @@ code={\sffamily \setstretch{1.1}},
 
 
 %Subcaptioneinstellung---------------------
-\captionsetup{font=small, justification=raggedright, labelfont={bf, sf}, singlelinecheck=false, tableposition=top}
+\captionsetup{
+  font=small, 
+  justification=raggedright, 
+  labelfont={bf, sf}, 
+  singlelinecheck=false, 
+  tableposition=top, 
+  textfont=sf, 
+  labelsep=period,
+  figureposition=top,
+}
 %\addto\captionsgerman{\renewcommand{\figurename}{Figure}}
 \addto\captionsenglish{\renewcommand{\figurename}{Figure}}
 \addto\captionsenglish{\renewcommand{\tablename}{Table}}

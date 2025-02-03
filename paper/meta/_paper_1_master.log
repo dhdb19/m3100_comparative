@@ -1,10 +1,10 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.30)  30 JAN 2025 10:48
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.30)  3 FEB 2025 23:56
  system commands enabled.
  file:line:error style messages enabled.
-**c:/Users/jordi/OneDrive/01_Uni/m/m3000_W_24_25/m3100_comparative/paper/_paper
+**c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper
 _1_master
 
-(c:/Users/jordi/OneDrive/01_Uni/m/m3000_W_24_25/m3100_comparative/paper/_paper_
+(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper_
 1_master.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -1812,7 +1812,7 @@ LaTeX Warning: Unused global option(s):
     [xcolor].
 
 
-(c:/Users/jordi/OneDrive/01_Uni/m/m3000_W_24_25/m3100_comparative/paper/meta/_p
+(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.aux)
 \openout1 = _paper_1_master.aux
 
@@ -1893,9 +1893,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 Package hyperref Info: Link coloring OFF on input line 19.
 
-(c:/Users/jordi/OneDrive/01_Uni/m/m3000_W_24_25/m3100_comparative/paper/meta/_p
+(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.out)
-(c:/Users/jordi/OneDrive/01_Uni/m/m3000_W_24_25/m3100_comparative/paper/meta/_p
+(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.out)
 \@outlinefile=\write5
 
@@ -1936,7 +1936,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '_paper_1_master.bbl' found.
 
-(c:/Users/jordi/OneDrive/01_Uni/m/m3000_W_24_25/m3100_comparative/paper/meta/_p
+(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.bbl)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
@@ -2208,15 +2208,32 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+<../figures/_aca_fav.pdf, id=90, 454.69875pt x 198.7425pt>
+File: ../figures/_aca_fav.pdf Graphic file (type pdf)
+<use ../figures/_aca_fav.pdf>
+Package luatex.def Info: ../figures/_aca_fav.pdf  used on input line 34.
+(luatex.def)             Requested size: 454.69763pt x 198.742pt.
+
+Overfull \hbox (1.72974pt too wide) in paragraph at lines 34--36
+[][]
+ []
+
+
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1]
+[1<../figures/_aca_fav.pdf>]
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2]
-(c:/Users/jordi/OneDrive/01_Uni/m/m3000_W_24_25/m3100_comparative/paper/meta/_p
+
+[3]
+(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
@@ -2230,29 +2247,31 @@ Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48851 strings out of 475518
+ 48936 strings out of 475518
  100000,2373549 words of node,token memory allocated
- 1697 words of node memory still in use:
-   31 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 16 glyph, 114 attribute, 94 glue_
-spec, 95 attribute_list, 2 write, 24 pdf_literal, 24 pdf_colorstack nodes
-   avail lists: 1:2,2:1857,3:307,4:347,5:1109,6:92,7:7162,8:34,9:1319,10:27,11:4
-44
- 70717 multiletter control sequences out of 65536+600000
- 112 fonts using 9889383 bytes
- 117i,12n,114p,776b,5046s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/p
-rogram files/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><C:/Program F
-iles/MiKTeX/fonts/opentype/public/lm/lmroman9-bold.otf><C:/Program Files/MiKTeX/
-fonts/opentype/public/lm/lmroman9-regular.otf><C:/Program Files/MiKTeX/fonts/ope
-ntype/public/lm/lmroman6-regular.otf><C:/Program Files/MiKTeX/fonts/opentype/pub
-lic/lm/lmroman8-regular.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lm
-roman12-regular.otf><../fonts/Lato/Lato-Bold.ttf><C:/Program Files/MiKTeX/fonts/
-opentype/public/tex-gyre/texgyreheros-regular.otf><C:/Program Files/MiKTeX/fonts
-/opentype/public/tex-gyre/texgyreheros-bold.otf><../fonts/Lato/Lato-Regular.ttf>
-<C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on _paper_1_master.pdf (5 pages, 300461 bytes).
+ 1757 words of node memory still in use:
+   31 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 16 glyph, 124 attribute, 94 glue_
+spec, 100 attribute_list, 2 write, 24 pdf_literal, 5 pdf_action, 24 pdf_colorsta
+ck nodes
+   avail lists: 1:2,2:1862,3:434,4:356,5:1113,6:87,7:7162,8:130,9:1319,10:153,11
+:444
+ 70790 multiletter control sequences out of 65536+600000
+ 116 fonts using 10241415 bytes
+ 117i,12n,114p,1844b,5046s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<../fonts/Lato/Lato-Italic.ttf><C:/Program Files/MiKTeX/fonts/opentype/public/lm
+/lmroman10-italic.otf><//?/c:/program files/miktex/fonts/opentype/public/lm/lmro
+man10-regular.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-bol
+d.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf><C:
+/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman6-regular.otf><C:/Program 
+Files/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.otf><C:/Program Files/MiK
+TeX/fonts/opentype/public/lm/lmroman12-regular.otf><../fonts/Lato/Lato-Bold.ttf>
+<C:/Program Files/MiKTeX/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf
+><C:/Program Files/MiKTeX/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf><
+../fonts/Lato/Lato-Regular.ttf><C:/Program Files/MiKTeX/fonts/type1/urw/zapfding
+/uzdr.pfb>
+Output written on _paper_1_master.pdf (6 pages, 333745 bytes).
 
-PDF statistics: 170 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 131072)
+PDF statistics: 220 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 131072)
  341 words of extra memory for PDF output out of 10000 (max. 100000000)
 
