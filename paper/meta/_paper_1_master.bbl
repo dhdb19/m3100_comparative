@@ -259,39 +259,6 @@
       \verb https://doi.org/10.1111/gove.12101
       \endverb
     \endentry
-    \entry{KFF1}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ec2f546af34663a28916040c55a90643}{%
-           family={Kaiser\bibnamedelimb Family\bibnamedelimb Foundation},
-           familyi={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{ec2f546af34663a28916040c55a90643}
-      \strng{fullhash}{ec2f546af34663a28916040c55a90643}
-      \strng{fullhashraw}{ec2f546af34663a28916040c55a90643}
-      \strng{bibnamehash}{ec2f546af34663a28916040c55a90643}
-      \strng{authorbibnamehash}{ec2f546af34663a28916040c55a90643}
-      \strng{authornamehash}{ec2f546af34663a28916040c55a90643}
-      \strng{authorfullhash}{ec2f546af34663a28916040c55a90643}
-      \strng{authorfullhashraw}{ec2f546af34663a28916040c55a90643}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{17}
-      \field{month}{1}
-      \field{title}{{KFF} Health Tracking Poll: {The} Public’s Views on the {ACA}}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.kff.org/interactive/kff-health-tracking-poll-the-publics-views-on-the-aca/#?response=Favorable--Unfavorable&aRange=all
-      \endverb
-      \verb{url}
-      \verb https://www.kff.org/interactive/kff-health-tracking-poll-the-publics-views-on-the-aca/#?response=Favorable--Unfavorable&aRange=all
-      \endverb
-    \endentry
     \entry{Trump2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=72da55a97e41a84e605dd7eee0a654f6}{%
@@ -619,39 +586,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1111/gove.12101
-      \endverb
-    \endentry
-    \entry{KFF1}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ec2f546af34663a28916040c55a90643}{%
-           family={Kaiser\bibnamedelimb Family\bibnamedelimb Foundation},
-           familyi={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{ec2f546af34663a28916040c55a90643}
-      \strng{fullhash}{ec2f546af34663a28916040c55a90643}
-      \strng{fullhashraw}{ec2f546af34663a28916040c55a90643}
-      \strng{bibnamehash}{ec2f546af34663a28916040c55a90643}
-      \strng{authorbibnamehash}{ec2f546af34663a28916040c55a90643}
-      \strng{authornamehash}{ec2f546af34663a28916040c55a90643}
-      \strng{authorfullhash}{ec2f546af34663a28916040c55a90643}
-      \strng{authorfullhashraw}{ec2f546af34663a28916040c55a90643}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{17}
-      \field{month}{1}
-      \field{title}{{KFF} Health Tracking Poll: {The} Public’s Views on the {ACA}}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.kff.org/interactive/kff-health-tracking-poll-the-publics-views-on-the-aca/#?response=Favorable--Unfavorable&aRange=all
-      \endverb
-      \verb{url}
-      \verb https://www.kff.org/interactive/kff-health-tracking-poll-the-publics-views-on-the-aca/#?response=Favorable--Unfavorable&aRange=all
       \endverb
     \endentry
     \entry{Trump2024}{online}{}{}
