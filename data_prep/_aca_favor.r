@@ -5,9 +5,11 @@ library("arrow")
 library("modelsummary")
 library("tikzDevice")
 
+install_version("tikzDevice", version = "0.12.4", repos = "https://ftp.fau.de/cran/")
 
-if (!requireNamespace("drat", quietly = TRUE))
+if (!requireNamespace("drat", quietly = TRUE)) {
   install.packages("drat")
+}
 drat::addRepo("daqana")
 
 install.packages("tikzDevice")
