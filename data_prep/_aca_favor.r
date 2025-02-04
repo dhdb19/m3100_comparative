@@ -5,7 +5,12 @@ library("arrow")
 library("gt")
 library("modelsummary")
 library("tikzDevice")
+library("devtools")
+install.packages("fastmap")
+devtools::load_all()
+install_version("tikzDevice", version = "0.12", repos = "http://cran.us.r-project.org")
 
+pkgbuild::check_build_tools(debug = TRUE)
 # ---- load data ----
 aca_favor_raw <- read_csv("data/_kff_aca_favor.csv")
 
@@ -65,8 +70,17 @@ aca_favor_net <- aca_favor_raw %>%
 
 
 options(tikzDefaultEngine = "luatex")
-options(tikzMetricsDictionary = "./vscode/R/dictionary")
+options(
+  tikzSanitizeCharacters = c("%", "$", "}", "{", "^", "_", "#", "&", "~"),
+  tikzReplacementCharacters = c(
+    "\\%", "\\$", "\\}", "\\{", "\\^{}", "\\_{}",
+    "\\#", "\\&", "\\char❵\\~"
+  )
+)
+options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
 tikz("figures/fig1.tex", width = 6.3, height = 3.15, standAlone = TRUE)
+options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
+
 aca_favor_net %>%
   ggplot() +
   geom_hline(
