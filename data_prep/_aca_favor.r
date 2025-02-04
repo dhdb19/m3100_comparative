@@ -1,20 +1,9 @@
 library("tidyverse")
-library("duckdb")
-library("duckplyr")
-library("arrow")
-library("modelsummary")
+library("devtools")
 library("tikzDevice")
+# install_version("tikzDevice", version = "0.12.3", repos = "https://ftp.fau.de/cran/")
 
-install_version("tikzDevice", version = "0.12.4", repos = "https://ftp.fau.de/cran/")
 
-if (!requireNamespace("drat", quietly = TRUE)) {
-  install.packages("drat")
-}
-drat::addRepo("daqana")
-
-install.packages("tikzDevice")
-remotes::install_github("daqana/tikzDevice@issues/176")
-# pkgbuild::check_build_tools()
 # ---- load data ----
 aca_favor_raw <- read_csv("data/_kff_aca_favor.csv")
 
@@ -73,27 +62,8 @@ aca_favor_net <- aca_favor_raw %>%
 
 
 
-options(tikzDefaultEngine = "luatex")
-options(
-  tikzSanitizeCharacters = c("%", "$", "}", "{", "^", "_", "#", "&", "~"),
-  tikzReplacementCharacters = c(
-    "\\%", "\\$", "\\}", "\\{", "\\^{}", "\\_{}",
-    "\\#", "\\&", "\\char❵\\~"
-  )
-)
 
-options(tikzMetricsDictionary = file.path("C:", "Users", "jordi", "R", "tikzMetricsDict.tex", fsep = .Platform$file.sep))
-# options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
-Sys.setenv(TEXINPUTS = paste(Sys.getenv("TEXINPUTS"), "C:/Users/jordi/R/tikzStringWidthCalc.tex", sep = ":"))
-tikz("figures/fig1.tex", width = 6.3, height = 3.15, standAlone = TRUE)
-# options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
-options(
-  tikzSanitizeCharacters = c("%", "$", "}", "{", "^", "_", "#", "&", "~"),
-  tikzReplacementCharacters = c(
-    "\\%", "\\$", "\\}", "\\{", "\\^{}", "\\_{}",
-    "\\#", "\\&", "\\char❵\\~"
-  )
-)
+tikz("figures/fig1.tex", width = 6.3, height = 3.15, standAlone = FALSE)
 aca_favor_net %>%
   ggplot() +
   geom_hline(
@@ -126,8 +96,9 @@ aca_favor_net %>%
   scale_x_date(
     name = "Time",
     date_breaks = "1 year",
-    date_minor_breaks = "1 month",
-    date_labels = "%m-%y",
+    # date_minor_breaks = "1 month",
+    date_labels = "%Y",
+    expand = expansion(add = 5)
   ) +
   geom_line(
     aes(
@@ -142,7 +113,7 @@ aca_favor_net %>%
     color = "grey"
   ) +
   scale_color_manual(
-    name = "Legend",
+    name = "",
     values = c(
       "Favorable" = "#3C714F",
       "Unfavorable" = "#9db0a2",
@@ -156,8 +127,10 @@ aca_favor_net %>%
   ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 10),
-    axis.text = element_text(size = 6)
+    axis.title = element_text(size = 8),
+    axis.text = element_text(size = 5),
+    legend.text = element_text(size = 6),
+    legend.position = "bottom",
   )
 dev.off()
 

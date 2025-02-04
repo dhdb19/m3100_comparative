@@ -1,0 +1,681 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Armour2024}{online}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6a7d44a89402d24ff08c12be1f18ca04}{%
+           family={Armour},
+           familyi={A\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=596c005977270e95bc73d6c0e48c56a3}{%
+           family={Whitehead},
+           familyi={W\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=968c8a8ebcce6bbbcf0b43544bee96b8}{%
+           family={Rovner},
+           familyi={R\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {NPR}%
+      }
+      \list{publisher}{1}{%
+        {NPR}%
+      }
+      \strng{namehash}{9bc97aa0923f45721211922cd48eedfc}
+      \strng{fullhash}{321fc97a115338f38d47ae179e312b42}
+      \strng{fullhashraw}{321fc97a115338f38d47ae179e312b42}
+      \strng{bibnamehash}{321fc97a115338f38d47ae179e312b42}
+      \strng{authorbibnamehash}{321fc97a115338f38d47ae179e312b42}
+      \strng{authornamehash}{9bc97aa0923f45721211922cd48eedfc}
+      \strng{authorfullhash}{321fc97a115338f38d47ae179e312b42}
+      \strng{authorfullhashraw}{321fc97a115338f38d47ae179e312b42}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{11}
+      \field{title}{Here's how {Trump} and the {GOP} may try to weaken {Obamacare}}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.npr.org/sections/shots-health-news/2024/11/21/nx-s1-5198483/trump-republicans-obamacare-aca-medicaid
+      \endverb
+      \verb{url}
+      \verb https://www.npr.org/sections/shots-health-news/2024/11/21/nx-s1-5198483/trump-republicans-obamacare-aca-medicaid
+      \endverb
+    \endentry
+    \entry{Busemeyer2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5674758b1362c76d0fef10c1c5eb89d8}{%
+           family={Busemeyer},
+           familyi={B\bibinitperiod},
+           given={Marius\bibnamedelimb R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=017e2014643bfb75cf8d0652beb637bb}{%
+           family={Abrassart},
+           familyi={A\bibinitperiod},
+           given={Aurélien},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=648b156ec140fb1deb0ddc1046136fff}{%
+           family={Nezi},
+           familyi={N\bibinitperiod},
+           given={Roula},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{641424cc0e96eee6f317377f8e69ca92}
+      \strng{fullhash}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{fullhashraw}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{bibnamehash}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{authorbibnamehash}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{authornamehash}{641424cc0e96eee6f317377f8e69ca92}
+      \strng{authorfullhash}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{authorfullhashraw}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Beyond Positive and Negative: {New} Perspectives on Feedback Effects in Public Opinion on the Welfare State}
+      \field{volume}{51}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{137\bibrangedash 162}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1017/s0007123418000534
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/s0007123418000534
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/s0007123418000534
+      \endverb
+    \endentry
+    \entry{Davis2016}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1d5cf754e730b40b442cc1f452a2c2a7}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58d21ea5cd797bc6ea448f6e769268e2}{%
+           family={Montanaro},
+           familyi={M\bibinitperiod},
+           given={Domenico},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {NPR}%
+      }
+      \list{publisher}{1}{%
+        {NPR}%
+      }
+      \strng{namehash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{fullhash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{fullhashraw}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{bibnamehash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{authorbibnamehash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{authornamehash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{authorfullhash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{authorfullhashraw}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{7}
+      \field{title}{{McCain} Votes No, Dealing Potential Death Blow To {Republican} Health Care Effort}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.npr.org/2017/07/27/539907467/senate-careens-toward-high-drama-midnight-health-care-vote
+      \endverb
+      \verb{url}
+      \verb https://www.npr.org/2017/07/27/539907467/senate-careens-toward-high-drama-midnight-health-care-vote
+      \endverb
+    \endentry
+    \entry{FEC2016}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c50e00cc5e93aec4f025b873a1c122dc}{%
+           family={Federal\bibnamedelimb Election\bibnamedelimb Commission},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{fullhash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{fullhashraw}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{bibnamehash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{authorbibnamehash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{authornamehash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{authorfullhash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{authorfullhashraw}{c50e00cc5e93aec4f025b873a1c122dc}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{FEDERAL ELECTIONS 2016: {Elections} Results for the {U.S. President}, the {U.S. Senate} and the {U.S. House of Representatives}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+      \endverb
+    \endentry
+    \entry{Jacobs2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c5e7b8e40783852a07ab7357ccda2b2a}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Alan\bibnamedelimb M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74d77fd0d7c3ec37f088b7d4fbb56bed}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelimb Kent},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{fullhash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{fullhashraw}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{bibnamehash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{authorbibnamehash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{authornamehash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{authorfullhash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{authorfullhashraw}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Governance}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{When Policies Undo Themselves: {Self}‐Undermining Feedback as a Source of Policy Change}
+      \field{volume}{28}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{441\bibrangedash 457}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/gove.12101
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/gove.12101
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/gove.12101
+      \endverb
+    \endentry
+    \entry{Trump2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72da55a97e41a84e605dd7eee0a654f6}{%
+           family={Trump},
+           familyi={T\bibinitperiod},
+           given={Donald\bibnamedelimb John},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {C-SPAN}%
+      }
+      \list{publisher}{1}{%
+        {C-SPAN}%
+      }
+      \strng{namehash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{fullhash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{fullhashraw}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{bibnamehash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{authorbibnamehash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{authornamehash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{authorfullhash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{authorfullhashraw}{72da55a97e41a84e605dd7eee0a654f6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{9}
+      \field{note}{Debate Transcript}
+      \field{title}{Campaign 2024: {Simulcast} -- {ABC News} Presidential Debate}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.c-span.org/program/campaign-2024/simulcast-abc-news-presidential-debate/648383
+      \endverb
+      \verb{url}
+      \verb https://www.c-span.org/program/campaign-2024/simulcast-abc-news-presidential-debate/648383
+      \endverb
+    \endentry
+    \entry{Wlezien1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e552c4297b662e4c4f9c1d2125625d5a}{%
+           family={Wlezien},
+           familyi={W\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{fullhash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{fullhashraw}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{bibnamehash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{authorbibnamehash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{authornamehash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{authorfullhash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{authorfullhashraw}{e552c4297b662e4c4f9c1d2125625d5a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{The Public as Thermostat: {Dynamics} of Preferences for Spending}
+      \field{volume}{39}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{pages}{981}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2111666
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/2111666
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/2111666
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Armour2024}{online}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6a7d44a89402d24ff08c12be1f18ca04}{%
+           family={Armour},
+           familyi={A\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=596c005977270e95bc73d6c0e48c56a3}{%
+           family={Whitehead},
+           familyi={W\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=968c8a8ebcce6bbbcf0b43544bee96b8}{%
+           family={Rovner},
+           familyi={R\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {NPR}%
+      }
+      \list{publisher}{1}{%
+        {NPR}%
+      }
+      \strng{namehash}{9bc97aa0923f45721211922cd48eedfc}
+      \strng{fullhash}{321fc97a115338f38d47ae179e312b42}
+      \strng{fullhashraw}{321fc97a115338f38d47ae179e312b42}
+      \strng{bibnamehash}{321fc97a115338f38d47ae179e312b42}
+      \strng{authorbibnamehash}{321fc97a115338f38d47ae179e312b42}
+      \strng{authornamehash}{9bc97aa0923f45721211922cd48eedfc}
+      \strng{authorfullhash}{321fc97a115338f38d47ae179e312b42}
+      \strng{authorfullhashraw}{321fc97a115338f38d47ae179e312b42}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{11}
+      \field{title}{Here's how {Trump} and the {GOP} may try to weaken {Obamacare}}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.npr.org/sections/shots-health-news/2024/11/21/nx-s1-5198483/trump-republicans-obamacare-aca-medicaid
+      \endverb
+      \verb{url}
+      \verb https://www.npr.org/sections/shots-health-news/2024/11/21/nx-s1-5198483/trump-republicans-obamacare-aca-medicaid
+      \endverb
+    \endentry
+    \entry{Busemeyer2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5674758b1362c76d0fef10c1c5eb89d8}{%
+           family={Busemeyer},
+           familyi={B\bibinitperiod},
+           given={Marius\bibnamedelimb R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=017e2014643bfb75cf8d0652beb637bb}{%
+           family={Abrassart},
+           familyi={A\bibinitperiod},
+           given={Aurélien},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=648b156ec140fb1deb0ddc1046136fff}{%
+           family={Nezi},
+           familyi={N\bibinitperiod},
+           given={Roula},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{641424cc0e96eee6f317377f8e69ca92}
+      \strng{fullhash}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{fullhashraw}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{bibnamehash}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{authorbibnamehash}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{authornamehash}{641424cc0e96eee6f317377f8e69ca92}
+      \strng{authorfullhash}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \strng{authorfullhashraw}{01fc98866d8af4f4ff0d00ba26d35ff9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Beyond Positive and Negative: {New} Perspectives on Feedback Effects in Public Opinion on the Welfare State}
+      \field{volume}{51}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{137\bibrangedash 162}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1017/s0007123418000534
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/s0007123418000534
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/s0007123418000534
+      \endverb
+    \endentry
+    \entry{Davis2016}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1d5cf754e730b40b442cc1f452a2c2a7}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58d21ea5cd797bc6ea448f6e769268e2}{%
+           family={Montanaro},
+           familyi={M\bibinitperiod},
+           given={Domenico},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {NPR}%
+      }
+      \list{publisher}{1}{%
+        {NPR}%
+      }
+      \strng{namehash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{fullhash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{fullhashraw}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{bibnamehash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{authorbibnamehash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{authornamehash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{authorfullhash}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \strng{authorfullhashraw}{5346ee4b697a5db0c3a12c7ec27c5e75}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{7}
+      \field{title}{{McCain} Votes No, Dealing Potential Death Blow To {Republican} Health Care Effort}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.npr.org/2017/07/27/539907467/senate-careens-toward-high-drama-midnight-health-care-vote
+      \endverb
+      \verb{url}
+      \verb https://www.npr.org/2017/07/27/539907467/senate-careens-toward-high-drama-midnight-health-care-vote
+      \endverb
+    \endentry
+    \entry{FEC2016}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c50e00cc5e93aec4f025b873a1c122dc}{%
+           family={Federal\bibnamedelimb Election\bibnamedelimb Commission},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{fullhash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{fullhashraw}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{bibnamehash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{authorbibnamehash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{authornamehash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{authorfullhash}{c50e00cc5e93aec4f025b873a1c122dc}
+      \strng{authorfullhashraw}{c50e00cc5e93aec4f025b873a1c122dc}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{FEDERAL ELECTIONS 2016: {Elections} Results for the {U.S. President}, the {U.S. Senate} and the {U.S. House of Representatives}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+      \endverb
+    \endentry
+    \entry{Jacobs2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c5e7b8e40783852a07ab7357ccda2b2a}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Alan\bibnamedelimb M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74d77fd0d7c3ec37f088b7d4fbb56bed}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelimb Kent},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{fullhash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{fullhashraw}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{bibnamehash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{authorbibnamehash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{authornamehash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{authorfullhash}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \strng{authorfullhashraw}{cf756ae2ed3a691f4acb6d7497e64af8}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Governance}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{When Policies Undo Themselves: {Self}‐Undermining Feedback as a Source of Policy Change}
+      \field{volume}{28}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{441\bibrangedash 457}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/gove.12101
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/gove.12101
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/gove.12101
+      \endverb
+    \endentry
+    \entry{Trump2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72da55a97e41a84e605dd7eee0a654f6}{%
+           family={Trump},
+           familyi={T\bibinitperiod},
+           given={Donald\bibnamedelimb John},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {C-SPAN}%
+      }
+      \list{publisher}{1}{%
+        {C-SPAN}%
+      }
+      \strng{namehash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{fullhash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{fullhashraw}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{bibnamehash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{authorbibnamehash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{authornamehash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{authorfullhash}{72da55a97e41a84e605dd7eee0a654f6}
+      \strng{authorfullhashraw}{72da55a97e41a84e605dd7eee0a654f6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{9}
+      \field{note}{Debate Transcript}
+      \field{title}{Campaign 2024: {Simulcast} -- {ABC News} Presidential Debate}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.c-span.org/program/campaign-2024/simulcast-abc-news-presidential-debate/648383
+      \endverb
+      \verb{url}
+      \verb https://www.c-span.org/program/campaign-2024/simulcast-abc-news-presidential-debate/648383
+      \endverb
+    \endentry
+    \entry{Wlezien1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e552c4297b662e4c4f9c1d2125625d5a}{%
+           family={Wlezien},
+           familyi={W\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{fullhash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{fullhashraw}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{bibnamehash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{authorbibnamehash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{authornamehash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{authorfullhash}{e552c4297b662e4c4f9c1d2125625d5a}
+      \strng{authorfullhashraw}{e552c4297b662e4c4f9c1d2125625d5a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{The Public as Thermostat: {Dynamics} of Preferences for Spending}
+      \field{volume}{39}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{pages}{981}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2111666
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/2111666
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/2111666
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
