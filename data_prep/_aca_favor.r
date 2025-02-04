@@ -2,14 +2,15 @@ library("tidyverse")
 library("duckdb")
 library("duckplyr")
 library("arrow")
-library("gt")
 library("modelsummary")
-library("devtools")
 library("tikzDevice")
-# install_version("tikzDevice", version = "0.12", repos = "http://cran.us.r-project.org")
 
-system.file("tex", "tikzStringWidthCalc.tex", package = "tikzDevice")
+if (!requireNamespace("drat", quietly = TRUE))
+  install.packages("drat")
+drat::addRepo("daqana")
 
+install.packages("tikzDevice")
+remotes::install_github("daqana/tikzDevice@issues/176")
 # pkgbuild::check_build_tools()
 # ---- load data ----
 aca_favor_raw <- read_csv("data/_kff_aca_favor.csv")
@@ -77,10 +78,12 @@ options(
     "\\#", "\\&", "\\char❵\\~"
   )
 )
-options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
+
+options(tikzMetricsDictionary = file.path("C:", "Users", "jordi", "R", "tikzMetricsDict.tex", fsep = .Platform$file.sep))
+# options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
 Sys.setenv(TEXINPUTS = paste(Sys.getenv("TEXINPUTS"), "C:/Users/jordi/R/tikzStringWidthCalc.tex", sep = ":"))
 tikz("figures/fig1.tex", width = 6.3, height = 3.15, standAlone = TRUE)
-options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
+# options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
 options(
   tikzSanitizeCharacters = c("%", "$", "}", "{", "^", "_", "#", "&", "~"),
   tikzReplacementCharacters = c(
