@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (INITEX)  30 JAN 2025 10:14
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (INITEX)  4 FEB 2025 03:39
  restricted system commands enabled.
 **lualatex.ini
 ("C:/Program Files/MiKTeX/tex/latex/tex-ini-files/lualatex.ini"
@@ -38,14 +38,14 @@ catcodes, registers,
 \strutbox=\box11
 \LaTeXReleaseInfo=\toks10
 
-LaTeX2e <2024-11-01> patch level 1
+LaTeX2e <2024-11-01> patch level 2
 \catcodetable@initex=\catcodetable1
 \catcodetable@string=\catcodetable2
 \catcodetable@latex=\catcodetable3
 \catcodetable@atletter=\catcodetable4
 ("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.ltx"
 ("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3-code.tex"
-Package: expl3 2024-12-25 L3 programming layer (code)
+Package: expl3 2025-01-18 L3 programming layer (code)
 \@expl@luadata@bytecode=\luabytecode1
 Lua function __lua_load_module_p:n = 1
 Inserting `ltx.luadata' in `pre_dump'.
@@ -987,7 +987,7 @@ LaTeX Info: Redefining \: on input line 14055.
 \fboxsep=\dimen68
 \@mplistdepth=\count152
 \@mpfootins=\insert254
-LaTeX Info: Redefining \underline on input line 14737.
+LaTeX Info: Redefining \underline on input line 14744.
 \@gtempa=\dimen69
 \@gtempa=\dimen70
 \@gtempa=\dimen71
@@ -1043,8 +1043,8 @@ LaTeX Info: Redefining \underline on input line 14737.
 \@dashdim=\dimen103
 \@dashbox=\box41
 \@dashcnt=\count165
-LaTeX Info: Command `\linethickness' is already robust on input line 15531.
-LaTeX Info: Command `\thinlines' is already robust on input line 15537.
+LaTeX Info: Command `\linethickness' is already robust on input line 15538.
+LaTeX Info: Command `\thinlines' is already robust on input line 15544.
  title, sectioning,
 \@secpenalty=\count166
 \c@secnumdepth=\count167
@@ -1209,7 +1209,7 @@ Reading Unicode data
 Local configuration file hyphen.cfg used
 ===========================================
 ("C:/Program Files/MiKTeX/tex/generic/babel/hyphen.cfg"
-File: hyphen.cfg 2025/01/01 v25.1 Babel hyphens
+File: hyphen.cfg 2025/01/25 v25.2 Babel hyphens
 
 ("C:/Program Files/MiKTeX/tex/generic/babel/luababel.def")
 \l@english=\language0
@@ -1228,10 +1228,10 @@ xes to external files and packages
 )
 ))
 Beginning to dump on file lualatex.fmt
- (format=lualatex 2025.1.30)
-24482 strings using 442989 bytes
-1078129 memory locations dumped; current usage is 204&513312
-23125 multiletter control sequences
+ (format=lualatex 2025.2.4)
+24488 strings using 443150 bytes
+1078187 memory locations dumped; current usage is 204&513350
+23131 multiletter control sequences
 \font\nullfont=nullfont
 \font\OMX/cmex/m/n/10=cmex10
 \font\tenln=line10

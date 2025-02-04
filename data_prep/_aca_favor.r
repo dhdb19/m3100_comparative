@@ -4,13 +4,13 @@ library("duckplyr")
 library("arrow")
 library("gt")
 library("modelsummary")
-library("tikzDevice")
 library("devtools")
-install.packages("fastmap")
-devtools::load_all()
-install_version("tikzDevice", version = "0.12", repos = "http://cran.us.r-project.org")
+library("tikzDevice")
+# install_version("tikzDevice", version = "0.12", repos = "http://cran.us.r-project.org")
 
-pkgbuild::check_build_tools(debug = TRUE)
+system.file("tex", "tikzStringWidthCalc.tex", package = "tikzDevice")
+
+# pkgbuild::check_build_tools()
 # ---- load data ----
 aca_favor_raw <- read_csv("data/_kff_aca_favor.csv")
 
@@ -78,9 +78,16 @@ options(
   )
 )
 options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
+Sys.setenv(TEXINPUTS = paste(Sys.getenv("TEXINPUTS"), "C:/Users/jordi/R/tikzStringWidthCalc.tex", sep = ":"))
 tikz("figures/fig1.tex", width = 6.3, height = 3.15, standAlone = TRUE)
 options(tikzMetricsDictionary = "C:/Users/jordi/R/tikzStringWidthCalc.tex")
-
+options(
+  tikzSanitizeCharacters = c("%", "$", "}", "{", "^", "_", "#", "&", "~"),
+  tikzReplacementCharacters = c(
+    "\\%", "\\$", "\\}", "\\{", "\\^{}", "\\_{}",
+    "\\#", "\\&", "\\char❵\\~"
+  )
+)
 aca_favor_net %>%
   ggplot() +
   geom_hline(

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.30)  4 FEB 2025 01:54
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.4)  4 FEB 2025 03:41
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper
@@ -6,8 +6,8 @@ _1_master
 
 (c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper_
 1_master.tex
-LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-12-25>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
 Lua module: luaotfload 2024-02-14 v3.28 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
@@ -387,7 +387,7 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \WF@everypar=\toks31
 Package: wrapfig 2003/01/31  v 3.6
 ) ("C:/Program Files/MiKTeX/tex/latex/enumitem/enumitem.sty"
-Package: enumitem 2019/06/20 v3.9 Customized lists
+Package: enumitem 2025/01/19 v3.10 Customized lists
 \labelindent=\skip51
 \enit@outerparindent=\dimen259
 \enit@toks=\toks32
@@ -494,7 +494,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 ("C:/Program Files/MiKTeX/tex/generic/babel/babel.sty"
-Package: babel 2025/01/01 v25.1 The multilingual framework for pdfLaTeX, LuaLaT
+Package: babel 2025/01/25 v25.2 The multilingual framework for pdfLaTeX, LuaLaT
 eX and XeLaTeX
 
 ("C:/Program Files/MiKTeX/tex/generic/babel/luababel.def"
@@ -1063,7 +1063,7 @@ Package biblatex Info: LuaTeX detected.
 Package biblatex Info: Document encoding is UTF8 ....
 
 ("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.sty"
-Package: expl3 2024-12-25 L3 programming layer (loader) 
+Package: expl3 2025-01-18 L3 programming layer (loader) 
 
 ("C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-luatex.def"
 File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
@@ -1072,7 +1072,7 @@ Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box70
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2024-12-25 L3 programming layer (loader) 
+(biblatex)             2025-01-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -1304,7 +1304,7 @@ Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
 \h@ngscolonwd=\skip104
 )
 ("C:/Program Files/MiKTeX/tex/latex/lettrine/lettrine.sty"
-File: lettrine.sty 2024-11-14 v2.70 (Daniel Flipo)
+File: lettrine.sty 2025-01-30 v2.80 (Daniel Flipo)
 
 ("C:/Program Files/MiKTeX/tex/latex/l3packages/xfp/xfp.sty"
 Package: xfp 2024-08-16 L3 Floating point unit
@@ -1329,13 +1329,14 @@ Package: xfp 2024-08-16 L3 Floating point unit
 \L@slope=\dimen358
 \L@height=\dimen359
 \L@novskip=\dimen360
-\L@ruleht=\dimen361
-\L@target@ht=\dimen362
-\L@target@dp=\dimen363
-\L@target@tht=\dimen364
-\LettrineWidth=\dimen365
-\LettrineHeight=\dimen366
-\LettrineDepth=\dimen367
+\L@target@ht=\dimen361
+\L@target@dp=\dimen362
+\L@target@tht=\dimen363
+\LettrineWidth=\dimen364
+\LettrineHeight=\dimen365
+\LettrineDepth=\dimen366
+\L@finalht=\dimen367
+\L@finaldp=\dimen368
 
 Loading lettrine.cfg
 ("C:/Program Files/MiKTeX/tex/latex/lettrine/lettrine.cfg")
@@ -1345,8 +1346,8 @@ Loading lettrine.cfg
 ("C:/Program Files/MiKTeX/tex/latex/footmisc/footmisc.sty"
 Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
 \FN@temptoken=\toks54
-\footnotemargin=\dimen368
-\@outputbox@depth=\dimen369
+\footnotemargin=\dimen369
+\@outputbox@depth=\dimen370
 Package footmisc Info: Declaring symbol style bringhurst on input line 699.
 Package footmisc Info: Declaring symbol style chicago on input line 707.
 Package footmisc Info: Declaring symbol style wiley on input line 716.
@@ -1386,7 +1387,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \c@tcblayer=\count528
 \c@tcolorbox@number=\count529
 \l__tcobox_tmpa_box=\box105
-\l__tcobox_tmpa_dim=\dimen370
+\l__tcobox_tmpa_dim=\dimen371
 \tcb@temp=\box106
 \tcb@temp=\box107
 \tcb@temp=\box108
@@ -1431,9 +1432,9 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '6.4.1'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.4.1'
 ) ("C:/Program Files/MiKTeX/tex/latex/tcolorbox/tcbfitting.code.tex"
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
-\tcbfitdim=\dimen371
-\tcb@lowerfitdim=\dimen372
-\tcb@upperfitdim=\dimen373
+\tcbfitdim=\dimen372
+\tcb@lowerfitdim=\dimen373
+\tcb@upperfitdim=\dimen374
 \tcb@cur@hbadness=\count534
 ) ("C:/Program Files/MiKTeX/tex/latex/tcolorbox/tcblistingsutf8.code.tex"
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.4.1'
@@ -1444,14 +1445,14 @@ Library (tcolorbox): 'tcblistings.code.tex' version '6.4.1'
 \lst@gtempboxa=\box114
 \lst@token=\toks57
 \lst@length=\count536
-\lst@currlwidth=\dimen374
+\lst@currlwidth=\dimen375
 \lst@column=\count537
 \lst@pos=\count538
-\lst@lostspace=\dimen375
-\lst@width=\dimen376
+\lst@lostspace=\dimen376
+\lst@width=\dimen377
 \lst@newlines=\count539
 \lst@lineno=\count540
-\lst@maxwidth=\dimen377
+\lst@maxwidth=\dimen378
 
 ("C:/Program Files/MiKTeX/tex/latex/listings/lstpatch.sty"
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
@@ -1508,9 +1509,9 @@ eX
 \l__fontspec_emdef_int=\count552
 \l__fontspec_strong_int=\count553
 \l__fontspec_strongdef_int=\count554
-\l__fontspec_tmpa_dim=\dimen378
-\l__fontspec_tmpb_dim=\dimen379
-\l__fontspec_tmpc_dim=\dimen380
+\l__fontspec_tmpa_dim=\dimen379
+\l__fontspec_tmpb_dim=\dimen380
+\l__fontspec_tmpc_dim=\dimen381
 
 ("C:/Program Files/MiKTeX/tex/latex/base/fontenc.sty"
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -1547,14 +1548,14 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@affil=\count560
 )
 ("C:/Program Files/MiKTeX/tex/latex/pdfpages/pdfpages.sty"
-Package: pdfpages 2024/10/28 v0.6c Insert pages of external PDF documents (AM)
+Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
 
 ("C:/Program Files/MiKTeX/tex/latex/tools/calc.sty"
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count561
 \calc@Bcount=\count562
-\calc@Adimen=\dimen381
-\calc@Bdimen=\dimen382
+\calc@Adimen=\dimen382
+\calc@Bdimen=\dimen383
 \calc@Askip=\skip107
 \calc@Bskip=\skip108
 LaTeX Info: Redefining \setlength on input line 80.
@@ -1564,15 +1565,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 ("C:/Program Files/MiKTeX/tex/latex/eso-pic/eso-pic.sty"
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen383
-\ESO@tempdimb=\dimen384
+\ESO@tempdima=\dimen384
+\ESO@tempdimb=\dimen385
 )
-\AM@pagewidth=\dimen385
-\AM@pageheight=\dimen386
-\AM@fboxrule=\dimen387
+\AM@pagewidth=\dimen386
+\AM@pageheight=\dimen387
+\AM@fboxrule=\dimen388
 
 ("C:/Program Files/MiKTeX/tex/latex/pdfpages/ppluatex.def"
-File: ppluatex.def 2024/10/28 v0.6c Pdfpages driver for LuaTeX (AM)
+File: ppluatex.def 2025/01/30 v0.6e Pdfpages driver for LuaTeX (AM)
 )
 \pdfpages@includegraphics@status=\count564
 \AM@pagebox=\box116
@@ -1788,15 +1789,15 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
 ("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen388
+\arrowsize=\dimen389
 ))
 ("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.
 tex"
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen389
-\pgfarrowlength=\dimen390
-\pgfarrowwidth=\dimen391
-\pgfarrowlinewidth=\dimen392
+\pgfarrowinset=\dimen390
+\pgfarrowlength=\dimen391
+\pgfarrowwidth=\dimen392
+\pgfarrowlinewidth=\dimen393
 )
 ("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibr
 arycalc.code.tex"
@@ -1814,8 +1815,8 @@ LaTeX Warning: Unused global option(s):
 
 (c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.aux
-(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/fi
-g1.aux))
+(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/./
+figures/fig1.aux))
 \openout1 = _paper_1_master.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -1841,13 +1842,13 @@ LaTeX Font Info:    ... okay on input line 19.
  ("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count567
-\scratchdimen=\dimen393
+\scratchdimen=\dimen394
 \scratchbox=\box118
 \nofMPsegments=\count568
 \nofMParguments=\count569
 \everyMPshowfont=\toks61
 \MPscratchCnt=\count570
-\MPscratchDim=\dimen394
+\MPscratchDim=\dimen395
 \MPnumerator=\count571
 \makeMPintoPDFobject=\count572
 \everyMPtoPDFconversion=\toks62
@@ -2224,9 +2225,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]
-\openout2 = fig1.aux
+\openout2 = ./figures/fig1.aux
 
-No file fig1.tex.
+No file ./figures/fig1.tex.
 
 
 
@@ -2240,11 +2241,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [3]
 (c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.aux
-(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/fi
-g1.aux))
+(c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/./
+figures/fig1.aux))
  ***********
-LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-12-25>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
  ***********
 
 
@@ -2258,7 +2259,7 @@ Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48933 strings out of 475518
+ 48973 strings out of 475512
  100000,2373549 words of node,token memory allocated
  1745 words of node memory still in use:
    31 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 16 glyph, 122 attribute, 94 glue_
@@ -2266,7 +2267,7 @@ spec, 99 attribute_list, 2 write, 24 pdf_literal, 4 pdf_action, 24 pdf_colorstac
 k nodes
    avail lists: 1:2,2:1861,3:366,4:356,5:1113,6:88,7:7162,8:112,9:1319,10:135,11
 :444
- 70780 multiletter control sequences out of 65536+600000
+ 70823 multiletter control sequences out of 65536+600000
  113 fonts using 10021071 bytes
  117i,12n,114p,1844b,5046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/p
