@@ -259,6 +259,96 @@
       \verb https://doi.org/10.1111/gove.12101
       \endverb
     \endentry
+    \entry{Pierson1993}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
+           family={Pierson},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{bibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorbibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{World Politics}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{When Effect Becomes Cause: {Policy} Feedback and Political Change}
+      \field{volume}{45}
+      \field{year}{1993}
+      \field{dateera}{ce}
+      \field{pages}{595\bibrangedash 628}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.2307/2950710
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/2950710
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/2950710
+      \endverb
+    \endentry
+    \entry{Pierson2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
+           family={Pierson},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{bibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorbibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Increasing Returns, Path Dependence, and the Study of Politics}
+      \field{volume}{94}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{pages}{251\bibrangedash 267}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.2307/2586011
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/2586011
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/2586011
+      \endverb
+    \endentry
     \entry{Trump2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=72da55a97e41a84e605dd7eee0a654f6}{%
@@ -588,6 +678,96 @@
       \verb https://doi.org/10.1111/gove.12101
       \endverb
     \endentry
+    \entry{Pierson1993}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
+           family={Pierson},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{bibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorbibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{World Politics}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{When Effect Becomes Cause: {Policy} Feedback and Political Change}
+      \field{volume}{45}
+      \field{year}{1993}
+      \field{dateera}{ce}
+      \field{pages}{595\bibrangedash 628}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.2307/2950710
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/2950710
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/2950710
+      \endverb
+    \endentry
+    \entry{Pierson2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
+           family={Pierson},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{bibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorbibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Increasing Returns, Path Dependence, and the Study of Politics}
+      \field{volume}{94}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{pages}{251\bibrangedash 267}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.2307/2586011
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/2586011
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/2586011
+      \endverb
+    \endentry
     \entry{Trump2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=72da55a97e41a84e605dd7eee0a654f6}{%
@@ -676,6 +856,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Βusemeyer2019}
 \endrefsection
 \endinput
 
