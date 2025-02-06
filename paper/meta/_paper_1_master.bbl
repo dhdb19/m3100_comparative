@@ -73,6 +73,45 @@
       \verb https://www.npr.org/sections/shots-health-news/2024/11/21/nx-s1-5198483/trump-republicans-obamacare-aca-medicaid
       \endverb
     \endentry
+    \entry{Baumgartner2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3b74bc39361feef1212427c2122f5c9a}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Frank\bibnamedelimb R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f76cb34aea8d463f345ef733b47632a}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Bryan\bibnamedelimb D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{fullhash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{fullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{bibnamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorbibnamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authornamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorfullhash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorfullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{6}
+      \field{title}{Policy dynamics}
+      \field{year}{2002}
+      \field{dateera}{ce}
+    \endentry
     \entry{Busemeyer2019}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5674758b1362c76d0fef10c1c5eb89d8}{%
@@ -257,6 +296,50 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1111/gove.12101
+      \endverb
+    \endentry
+    \entry{Krasner1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c91afe87b934615ab360106ee3e60ef8}{%
+           family={Krasner},
+           familyi={K\bibinitperiod},
+           given={Stephen\bibnamedelimb D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{fullhash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{fullhashraw}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{bibnamehash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{authorbibnamehash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{authornamehash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{authorfullhash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{authorfullhashraw}{c91afe87b934615ab360106ee3e60ef8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Comparative Political Studies}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{Sovereignty}
+      \field{volume}{21}
+      \field{year}{1988}
+      \field{dateera}{ce}
+      \field{pages}{66\bibrangedash 94}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1177/0010414088021001004
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0010414088021001004
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0010414088021001004
       \endverb
     \endentry
     \entry{Pierson1993}{article}{}{}
@@ -492,6 +575,45 @@
       \verb https://www.npr.org/sections/shots-health-news/2024/11/21/nx-s1-5198483/trump-republicans-obamacare-aca-medicaid
       \endverb
     \endentry
+    \entry{Baumgartner2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3b74bc39361feef1212427c2122f5c9a}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Frank\bibnamedelimb R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f76cb34aea8d463f345ef733b47632a}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Bryan\bibnamedelimb D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{fullhash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{fullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{bibnamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorbibnamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authornamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorfullhash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorfullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{6}
+      \field{title}{Policy dynamics}
+      \field{year}{2002}
+      \field{dateera}{ce}
+    \endentry
     \entry{Busemeyer2019}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5674758b1362c76d0fef10c1c5eb89d8}{%
@@ -676,6 +798,50 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1111/gove.12101
+      \endverb
+    \endentry
+    \entry{Krasner1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c91afe87b934615ab360106ee3e60ef8}{%
+           family={Krasner},
+           familyi={K\bibinitperiod},
+           given={Stephen\bibnamedelimb D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{fullhash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{fullhashraw}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{bibnamehash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{authorbibnamehash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{authornamehash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{authorfullhash}{c91afe87b934615ab360106ee3e60ef8}
+      \strng{authorfullhashraw}{c91afe87b934615ab360106ee3e60ef8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Comparative Political Studies}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{Sovereignty}
+      \field{volume}{21}
+      \field{year}{1988}
+      \field{dateera}{ce}
+      \field{pages}{66\bibrangedash 94}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1177/0010414088021001004
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0010414088021001004
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0010414088021001004
       \endverb
     \endentry
     \entry{Pierson1993}{article}{}{}
