@@ -1,22 +1,22 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.blg'
-[87] biber-MSWIN64:340> INFO - === 
-[120] Biber.pm:420> INFO - Reading 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bcf'
-[235] Biber.pm:994> INFO - Found 12 citekeys in bib section 0
-[252] Biber.pm:4463> INFO - Processing section 0
-[263] Biber.pm:4654> INFO - Looking for bibtex file '../references.bib' for section 0
-[322] bibtex.pm:1713> INFO - LaTeX decoding ...
-[580] bibtex.pm:1519> INFO - Found BibTeX data source '../references.bib'
-[686] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[686] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[686] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[686] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[707] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[707] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[707] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[707] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[720] bbl.pm:676> INFO - Writing 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl' with encoding 'UTF-8'
-[731] bbl.pm:779> INFO - Output to C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl
-[731] Biber.pm:131> WARN - Duplicate entry key: 'Abbott1998' in file '../references.bib', skipping ...
-[731] Biber.pm:131> WARN - I didn't find a database entry for 'Βusemeyer2019' (section 0)
-[731] Biber.pm:133> INFO - WARNINGS: 2
+[256] biber-MSWIN64:340> INFO - === 
+[333] Biber.pm:420> INFO - Reading 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bcf'
+[502] Biber.pm:994> INFO - Found 12 citekeys in bib section 0
+[530] Biber.pm:4463> INFO - Processing section 0
+[547] Biber.pm:4654> INFO - Looking for bibtex file '../references.bib' for section 0
+[620] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1012] bibtex.pm:1519> INFO - Found BibTeX data source '../references.bib'
+[1193] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1193] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1194] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1194] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1232] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1232] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1260] bbl.pm:676> INFO - Writing 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl' with encoding 'UTF-8'
+[1286] bbl.pm:779> INFO - Output to C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl
+[1286] Biber.pm:131> WARN - Duplicate entry key: 'Abbott1998' in file '../references.bib', skipping ...
+[1287] Biber.pm:131> WARN - I didn't find a database entry for 'Βusemeyer2019' (section 0)
+[1287] Biber.pm:133> INFO - WARNINGS: 2
