@@ -1,22 +1,23 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.blg'
-[160] biber-MSWIN64:340> INFO - === 
-[205] Biber.pm:420> INFO - Reading 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bcf'
-[436] Biber.pm:994> INFO - Found 12 citekeys in bib section 0
-[519] Biber.pm:4463> INFO - Processing section 0
-[584] Biber.pm:4654> INFO - Looking for bibtex file '../references.bib' for section 0
-[686] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1348] bibtex.pm:1519> INFO - Found BibTeX data source '../references.bib'
-[1545] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1545] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1545] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[1545] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[1591] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1591] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1591] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[1591] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[1610] bbl.pm:676> INFO - Writing 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl' with encoding 'UTF-8'
-[1627] bbl.pm:779> INFO - Output to C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl
-[1628] Biber.pm:131> WARN - Duplicate entry key: 'Abbott1998' in file '../references.bib', skipping ...
-[1628] Biber.pm:131> WARN - I didn't find a database entry for 'Βusemeyer2019' (section 0)
-[1628] Biber.pm:133> INFO - WARNINGS: 2
+[208] biber-MSWIN64:340> INFO - === 
+[279] Biber.pm:420> INFO - Reading 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bcf'
+[542] Biber.pm:994> INFO - Found 16 citekeys in bib section 0
+[573] Biber.pm:4463> INFO - Processing section 0
+[597] Biber.pm:4654> INFO - Looking for bibtex file '../references.bib' for section 0
+[718] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1326] bibtex.pm:1519> INFO - Found BibTeX data source '../references.bib'
+[1608] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1608] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1608] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1608] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1700] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1700] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1700] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1700] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1735] bbl.pm:676> INFO - Writing 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl' with encoding 'UTF-8'
+[1763] bbl.pm:779> INFO - Output to C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl
+[1764] Biber.pm:131> WARN - Duplicate entry key: 'Abbott1998' in file '../references.bib', skipping ...
+[1764] Biber.pm:131> WARN - I didn't find a database entry for 'Βusemeyer2019' (section 0)
+[1764] Biber.pm:131> WARN - I didn't find a database entry for 'Baumgartner' (section 0)
+[1764] Biber.pm:133> INFO - WARNINGS: 3

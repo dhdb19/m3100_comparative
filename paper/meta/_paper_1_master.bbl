@@ -73,6 +73,39 @@
       \verb https://www.npr.org/sections/shots-health-news/2024/11/21/nx-s1-5198483/trump-republicans-obamacare-aca-medicaid
       \endverb
     \endentry
+    \entry{Arthur1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5892ac766ff8f473109e96dcad7f8676}{%
+           family={Arthur},
+           familyi={A\bibinitperiod},
+           given={W.\bibnamedelimi Brian},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Michigan Press}%
+      }
+      \strng{namehash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{fullhash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{fullhashraw}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{bibnamehash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{authorbibnamehash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{authornamehash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{authorfullhash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{authorfullhashraw}{5892ac766ff8f473109e96dcad7f8676}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{10}
+      \field{title}{Increasing Returns and Path Dependence in the Economy}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
     \entry{Baumgartner2002}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=3b74bc39361feef1212427c2122f5c9a}{%
@@ -99,6 +132,7 @@
       \strng{authornamehash}{7b68395790182a8ac22814bfc0b95a7f}
       \strng{authorfullhash}{7b68395790182a8ac22814bfc0b95a7f}
       \strng{authorfullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -110,6 +144,47 @@
       \field{month}{6}
       \field{title}{Policy dynamics}
       \field{year}{2002}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Baumgartner2009}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3b74bc39361feef1212427c2122f5c9a}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Frank\bibnamedelimb R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f76cb34aea8d463f345ef733b47632a}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Bryan\bibnamedelimb D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{fullhash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{fullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{bibnamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorbibnamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authornamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorfullhash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorfullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{edition}{2}
+      \field{month}{5}
+      \field{title}{Agendas and Instability in American Politics}
+      \field{year}{2009}
       \field{dateera}{ce}
     \endentry
     \entry{Busemeyer2019}{article}{}{}
@@ -246,6 +321,56 @@
       \endverb
       \verb{url}
       \verb https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+      \endverb
+    \endentry
+    \entry{Greif2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d40007f0c71e833ca9ef8ee09ee6e938}{%
+           family={Greif},
+           familyi={G\bibinitperiod},
+           given={Avner},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0405420307b78914e1756f8704fd857d}{%
+           family={Laitin},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelimb D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{fullhash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{fullhashraw}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{bibnamehash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{authorbibnamehash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{authornamehash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{authorfullhash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{authorfullhashraw}{f1820dba6f0872e63dda59b37bc34dff}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{A Theory of Endogenous Institutional Change}
+      \field{volume}{98}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{633\bibrangedash 652}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1017/s0003055404041395
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/s0003055404041395
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/s0003055404041395
       \endverb
     \endentry
     \entry{Jacobs2014}{article}{}{}
@@ -575,6 +700,39 @@
       \verb https://www.npr.org/sections/shots-health-news/2024/11/21/nx-s1-5198483/trump-republicans-obamacare-aca-medicaid
       \endverb
     \endentry
+    \entry{Arthur1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5892ac766ff8f473109e96dcad7f8676}{%
+           family={Arthur},
+           familyi={A\bibinitperiod},
+           given={W.\bibnamedelimi Brian},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Michigan Press}%
+      }
+      \strng{namehash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{fullhash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{fullhashraw}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{bibnamehash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{authorbibnamehash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{authornamehash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{authorfullhash}{5892ac766ff8f473109e96dcad7f8676}
+      \strng{authorfullhashraw}{5892ac766ff8f473109e96dcad7f8676}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{10}
+      \field{title}{Increasing Returns and Path Dependence in the Economy}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
     \entry{Baumgartner2002}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=3b74bc39361feef1212427c2122f5c9a}{%
@@ -601,6 +759,7 @@
       \strng{authornamehash}{7b68395790182a8ac22814bfc0b95a7f}
       \strng{authorfullhash}{7b68395790182a8ac22814bfc0b95a7f}
       \strng{authorfullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -612,6 +771,47 @@
       \field{month}{6}
       \field{title}{Policy dynamics}
       \field{year}{2002}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Baumgartner2009}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3b74bc39361feef1212427c2122f5c9a}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Frank\bibnamedelimb R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f76cb34aea8d463f345ef733b47632a}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Bryan\bibnamedelimb D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{fullhash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{fullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{bibnamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorbibnamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authornamehash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorfullhash}{7b68395790182a8ac22814bfc0b95a7f}
+      \strng{authorfullhashraw}{7b68395790182a8ac22814bfc0b95a7f}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{edition}{2}
+      \field{month}{5}
+      \field{title}{Agendas and Instability in American Politics}
+      \field{year}{2009}
       \field{dateera}{ce}
     \endentry
     \entry{Busemeyer2019}{article}{}{}
@@ -748,6 +948,56 @@
       \endverb
       \verb{url}
       \verb https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+      \endverb
+    \endentry
+    \entry{Greif2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d40007f0c71e833ca9ef8ee09ee6e938}{%
+           family={Greif},
+           familyi={G\bibinitperiod},
+           given={Avner},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0405420307b78914e1756f8704fd857d}{%
+           family={Laitin},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelimb D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{fullhash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{fullhashraw}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{bibnamehash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{authorbibnamehash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{authornamehash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{authorfullhash}{f1820dba6f0872e63dda59b37bc34dff}
+      \strng{authorfullhashraw}{f1820dba6f0872e63dda59b37bc34dff}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{A Theory of Endogenous Institutional Change}
+      \field{volume}{98}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{633\bibrangedash 652}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1017/s0003055404041395
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/s0003055404041395
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/s0003055404041395
       \endverb
     \endentry
     \entry{Jacobs2014}{article}{}{}
@@ -1022,6 +1272,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Baumgartner}
   \missing{Βusemeyer2019}
 \endrefsection
 \endinput
