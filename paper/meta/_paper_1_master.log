@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.4)  7 FEB 2025 00:15
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.4)  8 FEB 2025 00:04
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper
@@ -2174,6 +2174,8 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [4]
 
 [5]
+
+[6]
 (c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.aux)
  ***********
@@ -2188,28 +2190,28 @@ Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59255 strings out of 475512
+ 59267 strings out of 475512
  125007,2848258 words of node,token memory allocated
  1575 words of node memory still in use:
    31 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 2 glyph, 96 attribute, 94 glue_sp
 ec, 86 attribute_list, 2 write, 24 pdf_literal, 5 pdf_action, 24 pdf_colorstack 
 nodes
-   avail lists: 1:2,2:8301,3:3312,4:171,5:460,6:42,7:7961,8:112,9:617,10:381,11:
-707
- 80881 multiletter control sequences out of 65536+600000
- 105 fonts using 8726231 bytes
- 102i,11n,108p,1870b,5046s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/p
-rogram files/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><C:/Program F
-iles/MiKTeX/fonts/opentype/public/lm/lmroman9-bold.otf><C:/Program Files/MiKTeX/
-fonts/opentype/public/lm/lmroman9-regular.otf><C:/Program Files/MiKTeX/fonts/ope
-ntype/public/lm/lmroman6-regular.otf><C:/Program Files/MiKTeX/fonts/opentype/pub
-lic/lm/lmroman8-regular.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lm
-roman12-regular.otf><../fonts/Lato/Lato-Bold.ttf><../fonts/Lato/Lato-Regular.ttf
->
-Output written on _paper_1_master.pdf (6 pages, 103775 bytes).
+   avail lists: 1:2,2:8308,3:3317,4:184,5:477,6:41,7:8055,8:112,9:617,10:459,11:
+698
+ 80892 multiletter control sequences out of 65536+600000
+ 106 fonts using 8770559 bytes
+ 102i,12n,108p,2201b,5046s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<../fonts/Lato/Lato-Italic.ttf><C:/Program Files/MiKTeX/fonts/opentype/public/lm
+/lmroman10-italic.otf><//?/c:/program files/miktex/fonts/opentype/public/lm/lmro
+man10-regular.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-bol
+d.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf><C:
+/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman6-regular.otf><C:/Program 
+Files/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.otf><C:/Program Files/MiK
+TeX/fonts/opentype/public/lm/lmroman12-regular.otf><../fonts/Lato/Lato-Bold.ttf>
+<../fonts/Lato/Lato-Regular.ttf>
+Output written on _paper_1_master.pdf (7 pages, 115730 bytes).
 
-PDF statistics: 202 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 131072)
+PDF statistics: 221 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 

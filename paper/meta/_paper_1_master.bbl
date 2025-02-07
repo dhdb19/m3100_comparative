@@ -496,48 +496,46 @@
       \verb https://doi.org/10.1111/gove.12101
       \endverb
     \endentry
-    \entry{Krasner1988}{article}{}{}
+    \entry{Leali2023}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c91afe87b934615ab360106ee3e60ef8}{%
-           family={Krasner},
-           familyi={K\bibinitperiod},
-           given={Stephen\bibnamedelimb D.},
-           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+        {{un=0,uniquepart=base,hash=8cbd27c3dac57e55cbf00979dd158db2}{%
+           family={Leali},
+           familyi={L\bibinitperiod},
+           given={Giorgo},
+           giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{fullhash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{fullhashraw}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{bibnamehash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{authorbibnamehash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{authornamehash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{authorfullhash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{authorfullhashraw}{c91afe87b934615ab360106ee3e60ef8}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \list{organization}{1}{%
+        {Politico}%
+      }
+      \list{publisher}{1}{%
+        {Politico}%
+      }
+      \strng{namehash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{fullhash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{fullhashraw}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{bibnamehash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{authorbibnamehash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{authornamehash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{authorfullhash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{authorfullhashraw}{8cbd27c3dac57e55cbf00979dd158db2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{journaltitle}{Comparative Political Studies}
-      \field{month}{4}
-      \field{number}{1}
-      \field{title}{Sovereignty}
-      \field{volume}{21}
-      \field{year}{1988}
+      \field{day}{25}
+      \field{month}{3}
+      \field{title}{France is on fire. {How} bad is it this time?}
+      \field{year}{2023}
       \field{dateera}{ce}
-      \field{pages}{66\bibrangedash 94}
-      \range{pages}{29}
-      \verb{doi}
-      \verb 10.1177/0010414088021001004
-      \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1177/0010414088021001004
+      \verb https://www.politico.eu/article/france-emmanuel-macron-is-on-fire-over-pension-reform-how-bad-is-it/
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1177/0010414088021001004
+      \verb https://www.politico.eu/article/france-emmanuel-macron-is-on-fire-over-pension-reform-how-bad-is-it/
       \endverb
     \endentry
     \entry{Pierson1993}{article}{}{}
@@ -1196,48 +1194,46 @@
       \verb https://doi.org/10.1111/gove.12101
       \endverb
     \endentry
-    \entry{Krasner1988}{article}{}{}
+    \entry{Leali2023}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c91afe87b934615ab360106ee3e60ef8}{%
-           family={Krasner},
-           familyi={K\bibinitperiod},
-           given={Stephen\bibnamedelimb D.},
-           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+        {{un=0,uniquepart=base,hash=8cbd27c3dac57e55cbf00979dd158db2}{%
+           family={Leali},
+           familyi={L\bibinitperiod},
+           given={Giorgo},
+           giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{fullhash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{fullhashraw}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{bibnamehash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{authorbibnamehash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{authornamehash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{authorfullhash}{c91afe87b934615ab360106ee3e60ef8}
-      \strng{authorfullhashraw}{c91afe87b934615ab360106ee3e60ef8}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \list{organization}{1}{%
+        {Politico}%
+      }
+      \list{publisher}{1}{%
+        {Politico}%
+      }
+      \strng{namehash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{fullhash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{fullhashraw}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{bibnamehash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{authorbibnamehash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{authornamehash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{authorfullhash}{8cbd27c3dac57e55cbf00979dd158db2}
+      \strng{authorfullhashraw}{8cbd27c3dac57e55cbf00979dd158db2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{journaltitle}{Comparative Political Studies}
-      \field{month}{4}
-      \field{number}{1}
-      \field{title}{Sovereignty}
-      \field{volume}{21}
-      \field{year}{1988}
+      \field{day}{25}
+      \field{month}{3}
+      \field{title}{France is on fire. {How} bad is it this time?}
+      \field{year}{2023}
       \field{dateera}{ce}
-      \field{pages}{66\bibrangedash 94}
-      \range{pages}{29}
-      \verb{doi}
-      \verb 10.1177/0010414088021001004
-      \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1177/0010414088021001004
+      \verb https://www.politico.eu/article/france-emmanuel-macron-is-on-fire-over-pension-reform-how-bad-is-it/
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1177/0010414088021001004
+      \verb https://www.politico.eu/article/france-emmanuel-macron-is-on-fire-over-pension-reform-how-bad-is-it/
       \endverb
     \endentry
     \entry{Pierson1993}{article}{}{}
