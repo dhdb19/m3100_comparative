@@ -187,6 +187,79 @@
       \field{year}{2009}
       \field{dateera}{ce}
     \endentry
+    \entry{Baumgartner2018}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3b74bc39361feef1212427c2122f5c9a}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Frank\bibnamedelimb R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f76cb34aea8d463f345ef733b47632a}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Bryan\bibnamedelimb D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=877c174aedda4209a3c6a2c6d8075f13}{%
+           family={Mortensen},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=bc7427f3b49250ff56de16db193e861d}{%
+           family={Weible},
+           familyi={W\bibinitperiod},
+           given={Christopher\bibnamedelimb M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=41c7f245359eef1cb2e36b8ae25e831b}{%
+           family={Sabatier},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelimb A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{9f92fda25f1dfcb92df53b5bef7a2af7}
+      \strng{fullhash}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{fullhashraw}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{bibnamehash}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{authorbibnamehash}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{authornamehash}{9f92fda25f1dfcb92df53b5bef7a2af7}
+      \strng{authorfullhash}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{authorfullhashraw}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{editorbibnamehash}{5046fa6694db48cba70ef89c38ba25a7}
+      \strng{editornamehash}{5046fa6694db48cba70ef89c38ba25a7}
+      \strng{editorfullhash}{5046fa6694db48cba70ef89c38ba25a7}
+      \strng{editorfullhashraw}{5046fa6694db48cba70ef89c38ba25a7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Theories of the Policy Process}
+      \field{day}{15}
+      \field{month}{5}
+      \field{title}{Punctuated Equilibrium Theory: Explaining Stability and Change in Public Policymaking}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{55\bibrangedash 101}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.4324/9780429494284
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4324/9780429494284
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4324/9780429494284
+      \endverb
+    \endentry
     \entry{Busemeyer2019}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5674758b1362c76d0fef10c1c5eb89d8}{%
@@ -814,6 +887,79 @@
       \field{year}{2009}
       \field{dateera}{ce}
     \endentry
+    \entry{Baumgartner2018}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3b74bc39361feef1212427c2122f5c9a}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Frank\bibnamedelimb R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f76cb34aea8d463f345ef733b47632a}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Bryan\bibnamedelimb D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=877c174aedda4209a3c6a2c6d8075f13}{%
+           family={Mortensen},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=bc7427f3b49250ff56de16db193e861d}{%
+           family={Weible},
+           familyi={W\bibinitperiod},
+           given={Christopher\bibnamedelimb M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=41c7f245359eef1cb2e36b8ae25e831b}{%
+           family={Sabatier},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelimb A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{9f92fda25f1dfcb92df53b5bef7a2af7}
+      \strng{fullhash}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{fullhashraw}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{bibnamehash}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{authorbibnamehash}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{authornamehash}{9f92fda25f1dfcb92df53b5bef7a2af7}
+      \strng{authorfullhash}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{authorfullhashraw}{3066a5b32f383d2f47a45d4075ae118d}
+      \strng{editorbibnamehash}{5046fa6694db48cba70ef89c38ba25a7}
+      \strng{editornamehash}{5046fa6694db48cba70ef89c38ba25a7}
+      \strng{editorfullhash}{5046fa6694db48cba70ef89c38ba25a7}
+      \strng{editorfullhashraw}{5046fa6694db48cba70ef89c38ba25a7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Theories of the Policy Process}
+      \field{day}{15}
+      \field{month}{5}
+      \field{title}{Punctuated Equilibrium Theory: Explaining Stability and Change in Public Policymaking}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{55\bibrangedash 101}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.4324/9780429494284
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4324/9780429494284
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4324/9780429494284
+      \endverb
+    \endentry
     \entry{Busemeyer2019}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5674758b1362c76d0fef10c1c5eb89d8}{%
@@ -1272,8 +1418,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Baumgartner}
-  \missing{Βusemeyer2019}
 \endrefsection
 \endinput
 
