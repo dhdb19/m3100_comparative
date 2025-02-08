@@ -446,6 +446,56 @@
       \verb https://doi.org/10.1017/s0003055404041395
       \endverb
     \endentry
+    \entry{Hall1996}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0a3de4cc09ea58d09b07abcf40354009}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelimb A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=167f8b803e7b29932ac8fe493fcc28e3}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Rosemary\bibnamedelimb C.\bibnamedelimi R.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9e9408927843dad533d243f12ff28c78}
+      \strng{fullhash}{9e9408927843dad533d243f12ff28c78}
+      \strng{fullhashraw}{9e9408927843dad533d243f12ff28c78}
+      \strng{bibnamehash}{9e9408927843dad533d243f12ff28c78}
+      \strng{authorbibnamehash}{9e9408927843dad533d243f12ff28c78}
+      \strng{authornamehash}{9e9408927843dad533d243f12ff28c78}
+      \strng{authorfullhash}{9e9408927843dad533d243f12ff28c78}
+      \strng{authorfullhashraw}{9e9408927843dad533d243f12ff28c78}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Political Studies}
+      \field{month}{12}
+      \field{number}{5}
+      \field{title}{Political Science and the Three New Institutionalisms}
+      \field{volume}{44}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{936\bibrangedash 957}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1111/j.1467-9248.1996.tb00343.x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/j.1467-9248.1996.tb00343.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/j.1467-9248.1996.tb00343.x
+      \endverb
+    \endentry
     \entry{Jacobs2014}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c5e7b8e40783852a07ab7357ccda2b2a}{%
@@ -494,6 +544,160 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1111/gove.12101
+      \endverb
+    \endentry
+    \entry{Kahnemann1979}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhashraw}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{bibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorbibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authornamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhashraw}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Econometrica}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Prospect Theory: {An} Analysis of Decision under Risk}
+      \field{volume}{47}
+      \field{year}{1979}
+      \field{dateera}{ce}
+      \field{pages}{263\bibrangedash 291}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.2307/1914185
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/1914185
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/1914185
+      \endverb
+    \endentry
+    \entry{Kahnemann1982}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f98811f35f2a5d68ea95bf9b4def931}{%
+           family={Slovic},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{fda2d383a773a3b6271dea8baf8c82dd}
+      \strng{fullhash}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{fullhashraw}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{bibnamehash}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{authorbibnamehash}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{authornamehash}{fda2d383a773a3b6271dea8baf8c82dd}
+      \strng{authorfullhash}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{authorfullhashraw}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{4}
+      \field{subtitle}{Heuristics and Biases}
+      \field{title}{Judgment under uncertainty}
+      \field{year}{1982}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Kahnemann1991}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f90496623bb691c5c893f5d36073b1b}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Jack\bibnamedelimb L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b968bbcc6d4f6baf47e9fbac4012621e}{%
+           family={Thaler},
+           familyi={T\bibinitperiod},
+           given={Richard\bibnamedelimb H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fda2d383a773a3b6271dea8baf8c82dd}
+      \strng{fullhash}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{fullhashraw}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{bibnamehash}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{authorbibnamehash}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{authornamehash}{fda2d383a773a3b6271dea8baf8c82dd}
+      \strng{authorfullhash}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{authorfullhashraw}{4a2c7e216ab4d58fbdfd426042538924}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of Economic Perspectives}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Anomalies: The Endowment Effect, Loss Aversion, and Status Quo Bias}
+      \field{volume}{5}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{193\bibrangedash 206}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1257/jep.5.1.193
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1257/jep.5.1.193
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1257/jep.5.1.193
       \endverb
     \endentry
     \entry{Leali2023}{online}{}{}
@@ -583,6 +787,49 @@
       \verb https://doi.org/10.2307/2950710
       \endverb
     \endentry
+    \entry{Pierson1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
+           family={Pierson},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{bibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorbibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{10}
+      \field{title}{Dismantling the Welfare State?}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/cbo9780511805288
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/cbo9780511805288
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/cbo9780511805288
+      \endverb
+    \endentry
     \entry{Pierson2000}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
@@ -600,7 +847,7 @@
       \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
       \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
       \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -626,6 +873,50 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.2307/2586011
+      \endverb
+    \endentry
+    \entry{Simon1955}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=09c462602325128c408aa39c70c6ae62}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Herbert\bibnamedelimb A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{fullhash}{09c462602325128c408aa39c70c6ae62}
+      \strng{fullhashraw}{09c462602325128c408aa39c70c6ae62}
+      \strng{bibnamehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authorbibnamehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authornamehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authorfullhash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authorfullhashraw}{09c462602325128c408aa39c70c6ae62}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{A Behavioral Model of Rational Choice}
+      \field{volume}{69}
+      \field{year}{1955}
+      \field{dateera}{ce}
+      \field{pages}{99}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/1884852
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/1884852
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/1884852
       \endverb
     \endentry
     \entry{Trump2024}{online}{}{}
@@ -669,6 +960,56 @@
       \endverb
       \verb{url}
       \verb https://www.c-span.org/program/campaign-2024/simulcast-abc-news-presidential-debate/648383
+      \endverb
+    \endentry
+    \entry{Tversky1991}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a349865aebf1e8bcdeecbe70b2ed03b7}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90cdea5582a22a9fcc5c0fc0f6a66705}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{970825844438ed0a637ee09d984dbab0}
+      \strng{fullhash}{970825844438ed0a637ee09d984dbab0}
+      \strng{fullhashraw}{970825844438ed0a637ee09d984dbab0}
+      \strng{bibnamehash}{970825844438ed0a637ee09d984dbab0}
+      \strng{authorbibnamehash}{970825844438ed0a637ee09d984dbab0}
+      \strng{authornamehash}{970825844438ed0a637ee09d984dbab0}
+      \strng{authorfullhash}{970825844438ed0a637ee09d984dbab0}
+      \strng{authorfullhashraw}{970825844438ed0a637ee09d984dbab0}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{Loss aversion in Riskless Choice: {A} Reference-Dependent model}
+      \field{volume}{106}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{1039\bibrangedash 1061}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.2307/2937956
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/2937956
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/2937956
       \endverb
     \endentry
     \entry{Wlezien1995}{article}{}{}
@@ -1144,6 +1485,56 @@
       \verb https://doi.org/10.1017/s0003055404041395
       \endverb
     \endentry
+    \entry{Hall1996}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0a3de4cc09ea58d09b07abcf40354009}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelimb A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=167f8b803e7b29932ac8fe493fcc28e3}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Rosemary\bibnamedelimb C.\bibnamedelimi R.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9e9408927843dad533d243f12ff28c78}
+      \strng{fullhash}{9e9408927843dad533d243f12ff28c78}
+      \strng{fullhashraw}{9e9408927843dad533d243f12ff28c78}
+      \strng{bibnamehash}{9e9408927843dad533d243f12ff28c78}
+      \strng{authorbibnamehash}{9e9408927843dad533d243f12ff28c78}
+      \strng{authornamehash}{9e9408927843dad533d243f12ff28c78}
+      \strng{authorfullhash}{9e9408927843dad533d243f12ff28c78}
+      \strng{authorfullhashraw}{9e9408927843dad533d243f12ff28c78}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Political Studies}
+      \field{month}{12}
+      \field{number}{5}
+      \field{title}{Political Science and the Three New Institutionalisms}
+      \field{volume}{44}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{936\bibrangedash 957}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1111/j.1467-9248.1996.tb00343.x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/j.1467-9248.1996.tb00343.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/j.1467-9248.1996.tb00343.x
+      \endverb
+    \endentry
     \entry{Jacobs2014}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c5e7b8e40783852a07ab7357ccda2b2a}{%
@@ -1192,6 +1583,160 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1111/gove.12101
+      \endverb
+    \endentry
+    \entry{Kahnemann1991}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f90496623bb691c5c893f5d36073b1b}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Jack\bibnamedelimb L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b968bbcc6d4f6baf47e9fbac4012621e}{%
+           family={Thaler},
+           familyi={T\bibinitperiod},
+           given={Richard\bibnamedelimb H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fda2d383a773a3b6271dea8baf8c82dd}
+      \strng{fullhash}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{fullhashraw}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{bibnamehash}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{authorbibnamehash}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{authornamehash}{fda2d383a773a3b6271dea8baf8c82dd}
+      \strng{authorfullhash}{4a2c7e216ab4d58fbdfd426042538924}
+      \strng{authorfullhashraw}{4a2c7e216ab4d58fbdfd426042538924}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of Economic Perspectives}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Anomalies: The Endowment Effect, Loss Aversion, and Status Quo Bias}
+      \field{volume}{5}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{193\bibrangedash 206}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1257/jep.5.1.193
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1257/jep.5.1.193
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1257/jep.5.1.193
+      \endverb
+    \endentry
+    \entry{Kahnemann1982}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f98811f35f2a5d68ea95bf9b4def931}{%
+           family={Slovic},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{fda2d383a773a3b6271dea8baf8c82dd}
+      \strng{fullhash}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{fullhashraw}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{bibnamehash}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{authorbibnamehash}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{authornamehash}{fda2d383a773a3b6271dea8baf8c82dd}
+      \strng{authorfullhash}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \strng{authorfullhashraw}{d90ee1b97f0941f4e3b3368ed6fe1260}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{4}
+      \field{subtitle}{Heuristics and Biases}
+      \field{title}{Judgment under uncertainty}
+      \field{year}{1982}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Kahnemann1979}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhashraw}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{bibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorbibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authornamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhashraw}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Econometrica}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Prospect Theory: {An} Analysis of Decision under Risk}
+      \field{volume}{47}
+      \field{year}{1979}
+      \field{dateera}{ce}
+      \field{pages}{263\bibrangedash 291}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.2307/1914185
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/1914185
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/1914185
       \endverb
     \endentry
     \entry{Leali2023}{online}{}{}
@@ -1281,6 +1826,49 @@
       \verb https://doi.org/10.2307/2950710
       \endverb
     \endentry
+    \entry{Pierson1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
+           family={Pierson},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{bibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorbibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{10}
+      \field{title}{Dismantling the Welfare State?}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/cbo9780511805288
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/cbo9780511805288
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/cbo9780511805288
+      \endverb
+    \endentry
     \entry{Pierson2000}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
@@ -1298,7 +1886,7 @@
       \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
       \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
       \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1324,6 +1912,50 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.2307/2586011
+      \endverb
+    \endentry
+    \entry{Simon1955}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=09c462602325128c408aa39c70c6ae62}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Herbert\bibnamedelimb A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{fullhash}{09c462602325128c408aa39c70c6ae62}
+      \strng{fullhashraw}{09c462602325128c408aa39c70c6ae62}
+      \strng{bibnamehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authorbibnamehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authornamehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authorfullhash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authorfullhashraw}{09c462602325128c408aa39c70c6ae62}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{A Behavioral Model of Rational Choice}
+      \field{volume}{69}
+      \field{year}{1955}
+      \field{dateera}{ce}
+      \field{pages}{99}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/1884852
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/1884852
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/1884852
       \endverb
     \endentry
     \entry{Trump2024}{online}{}{}
@@ -1367,6 +1999,56 @@
       \endverb
       \verb{url}
       \verb https://www.c-span.org/program/campaign-2024/simulcast-abc-news-presidential-debate/648383
+      \endverb
+    \endentry
+    \entry{Tversky1991}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a349865aebf1e8bcdeecbe70b2ed03b7}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90cdea5582a22a9fcc5c0fc0f6a66705}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{970825844438ed0a637ee09d984dbab0}
+      \strng{fullhash}{970825844438ed0a637ee09d984dbab0}
+      \strng{fullhashraw}{970825844438ed0a637ee09d984dbab0}
+      \strng{bibnamehash}{970825844438ed0a637ee09d984dbab0}
+      \strng{authorbibnamehash}{970825844438ed0a637ee09d984dbab0}
+      \strng{authornamehash}{970825844438ed0a637ee09d984dbab0}
+      \strng{authorfullhash}{970825844438ed0a637ee09d984dbab0}
+      \strng{authorfullhashraw}{970825844438ed0a637ee09d984dbab0}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{Loss aversion in Riskless Choice: {A} Reference-Dependent model}
+      \field{volume}{106}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{1039\bibrangedash 1061}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.2307/2937956
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/2937956
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/2937956
       \endverb
     \endentry
     \entry{Wlezien1995}{article}{}{}
