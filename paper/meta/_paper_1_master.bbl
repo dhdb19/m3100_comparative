@@ -316,6 +316,54 @@
       \verb https://doi.org/10.1017/s0007123418000534
       \endverb
     \endentry
+    \entry{Claxton2011}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ec500fcf6c377595edf516692f23d0fa}{%
+           family={Claxton},
+           familyi={C\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b999ed2b4824e36eaf0e823df269fdc}{%
+           family={Damico},
+           familyi={D\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Kaiser Family Foundation}%
+      }
+      \list{publisher}{1}{%
+        {Kaiser Family Foundation}%
+      }
+      \strng{namehash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{fullhash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{fullhashraw}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{bibnamehash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{authorbibnamehash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{authornamehash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{authorfullhash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{authorfullhashraw}{c94c2c48f254c10c3a1098e4c370c09d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{2}
+      \field{title}{Snapshot: {Employer} Health insurance costs and worker cpmpensation}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kff.org/health-costs/issue-brief/snapshots-employer-health-insurance-costs-and-worker-compensation/
+      \endverb
+      \verb{url}
+      \verb https://www.kff.org/health-costs/issue-brief/snapshots-employer-health-insurance-costs-and-worker-compensation/
+      \endverb
+    \endentry
     \entry{Davis2016}{online}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=1d5cf754e730b40b442cc1f452a2c2a7}{%
@@ -444,6 +492,48 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1017/s0003055404041395
+      \endverb
+    \endentry
+    \entry{Hacker1998}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c74311c756f948bb854d9207b5fd971a}{%
+           family={Hacker},
+           familyi={H\bibinitperiod},
+           given={Jacob\bibnamedelimb S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{fullhash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{fullhashraw}{c74311c756f948bb854d9207b5fd971a}
+      \strng{bibnamehash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{authorbibnamehash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{authornamehash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{authorfullhash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{authorfullhashraw}{c74311c756f948bb854d9207b5fd971a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Studies in American Political Development}
+      \field{month}{4}
+      \field{number}{01}
+      \field{title}{The Historical Logic of National Health Insurance: {Structure} and Sequence in the Development of {British}, {Canadian}, and {U.S.} Medical Policy}
+      \field{volume}{12}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/s0898588x98001308
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/s0898588x98001308
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/s0898588x98001308
       \endverb
     \endentry
     \entry{Hall1996}{article}{}{}
@@ -1355,6 +1445,54 @@
       \verb https://doi.org/10.1017/s0007123418000534
       \endverb
     \endentry
+    \entry{Claxton2011}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ec500fcf6c377595edf516692f23d0fa}{%
+           family={Claxton},
+           familyi={C\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b999ed2b4824e36eaf0e823df269fdc}{%
+           family={Damico},
+           familyi={D\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Kaiser Family Foundation}%
+      }
+      \list{publisher}{1}{%
+        {Kaiser Family Foundation}%
+      }
+      \strng{namehash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{fullhash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{fullhashraw}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{bibnamehash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{authorbibnamehash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{authornamehash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{authorfullhash}{c94c2c48f254c10c3a1098e4c370c09d}
+      \strng{authorfullhashraw}{c94c2c48f254c10c3a1098e4c370c09d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{2}
+      \field{title}{Snapshot: {Employer} Health insurance costs and worker cpmpensation}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kff.org/health-costs/issue-brief/snapshots-employer-health-insurance-costs-and-worker-compensation/
+      \endverb
+      \verb{url}
+      \verb https://www.kff.org/health-costs/issue-brief/snapshots-employer-health-insurance-costs-and-worker-compensation/
+      \endverb
+    \endentry
     \entry{Davis2016}{online}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=1d5cf754e730b40b442cc1f452a2c2a7}{%
@@ -1483,6 +1621,48 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1017/s0003055404041395
+      \endverb
+    \endentry
+    \entry{Hacker1998}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c74311c756f948bb854d9207b5fd971a}{%
+           family={Hacker},
+           familyi={H\bibinitperiod},
+           given={Jacob\bibnamedelimb S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{fullhash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{fullhashraw}{c74311c756f948bb854d9207b5fd971a}
+      \strng{bibnamehash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{authorbibnamehash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{authornamehash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{authorfullhash}{c74311c756f948bb854d9207b5fd971a}
+      \strng{authorfullhashraw}{c74311c756f948bb854d9207b5fd971a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Studies in American Political Development}
+      \field{month}{4}
+      \field{number}{01}
+      \field{title}{The Historical Logic of National Health Insurance: {Structure} and Sequence in the Development of {British}, {Canadian}, and {U.S.} Medical Policy}
+      \field{volume}{12}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/s0898588x98001308
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/s0898588x98001308
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/s0898588x98001308
       \endverb
     \endentry
     \entry{Hall1996}{article}{}{}
