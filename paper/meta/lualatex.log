@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (INITEX)  4 FEB 2025 16:45
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (INITEX)  11 FEB 2025 17:43
  restricted system commands enabled.
 **lualatex.ini
 ("C:/Program Files/MiKTeX/tex/latex/tex-ini-files/lualatex.ini"
@@ -1228,9 +1228,9 @@ xes to external files and packages
 )
 ))
 Beginning to dump on file lualatex.fmt
- (format=lualatex 2025.2.4)
-24488 strings using 443150 bytes
-1078455 memory locations dumped; current usage is 204&513484
+ (format=lualatex 2025.2.11)
+24488 strings using 443151 bytes
+1078159 memory locations dumped; current usage is 204&513336
 23131 multiletter control sequences
 \font\nullfont=nullfont
 \font\OMX/cmex/m/n/10=cmex10

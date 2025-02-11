@@ -1,5 +1,6 @@
 library("arrow")
 library("tidyverse")
+library("ggrepel")
 library("tikzDevice")
 
 # ---- load data ----
@@ -97,9 +98,29 @@ ecec_1993_2024 <- read_parquet("data/ecec_1993_2024.parquet")
 
 
 # ---- figure 3 ----
-tikz("figures/fig3.tex", width = 6.3, height = 3.15, standAlone = FALSE)
+tikz("figures/fig3.tex", width = 6.3, height = 4, standAlone = FALSE)
 ecec_1993_2024 %>%
   ggplot() +
+  geom_rect(
+    aes(
+      xmin = as.Date("1993-01-01"),
+      xmax = as.Date("1994-09-26"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("2009-01-20"),
+      xmax = as.Date("2010-03-23"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
   geom_hline(
     yintercept = 0,
     color = "grey"
@@ -111,23 +132,48 @@ ecec_1993_2024 %>%
     ),
     color = "#3C714F"
   ) +
-  geom_vline(
-    xintercept = as.Date("2010-03-23"),
-    lty = "dashed",
-    color = "grey"
+  # geom_text(
+  #   aes(
+  #     x = date,
+  #     y = Value,
+  #     label = Value
+  #   ),
+  #   color = "black",
+  #   check_overlap = TRUE,
+  #   vjust = -2,
+  #   size = 3
+  # ) +
+  geom_label_repel(
+    aes(
+      x = date,
+      y = Value,
+      label = Value,
+    ),
+    direction = "y",
+    size = 2,
+    min.segment.length = 0,
+    segment.linetype = "dashed",
+    segment.size = 0.1,
+    nudge_y = 0.5,
+    xlim = c(-Inf, Inf)
   ) +
-  geom_vline(
-    xintercept = as.Date("1993-01-01"),
-    lty = "dashed",
-    color = "grey"
-  ) +
-  geom_vline(
-    xintercept = as.Date("1994-09-26"),
-    lty = "dashed",
-    color = "grey"
-  ) +
+  # geom_vline(
+  #   xintercept = as.Date("2010-03-23"),
+  #   lty = "dashed",
+  #   color = "grey"
+  # ) +
+  # geom_vline(
+  #   xintercept = as.Date("1993-01-01"),
+  #   lty = "dashed",
+  #   color = "grey"
+  # ) +
+  # geom_vline(
+  #   xintercept = as.Date("1994-09-26"),
+  #   lty = "dashed",
+  #   color = "grey"
+  # ) +
   scale_y_continuous(
-    limits = c(0, 5),
+    limits = c(0, 4.1),
     name = "Cost (USD)",
     breaks = waiver(),
     n.breaks = 10,
@@ -137,7 +183,7 @@ ecec_1993_2024 %>%
     name = "Time",
     date_breaks = "1 year",
     # date_minor_breaks = "1 month",
-    date_labels = "%y",
+    date_labels = "'%y",
     expand = expansion(add = 5)
   ) +
   scale_color_manual(
@@ -146,24 +192,35 @@ ecec_1993_2024 %>%
   annotate(
     geom = "label",
     x = as.Date("1995-12-26"),
-    y = 3.5,
+    y = 0.5,
     label = "Clinton healthcare \n reform effort",
     size = 2.75,
     label.padding = unit(0.5, "lines")
   ) +
   annotate(
     geom = "label",
-    x = as.Date("2010-03-23"),
-    y = 3.5,
-    label = "ACA comes \n into force",
+    x = as.Date("2009-08-01"),
+    y = 0.5,
+    label = "Obama inaugurated -- \n ACA comes into force",
     size = 2.75,
     label.padding = unit(0.5, "lines")
   ) +
+  coord_cartesian(clip = "off") +
+  # annotate(
+  #   geom = "rect",
+  #   xmin = ecec_1993_2024$date - days(150),
+  #   xmax = ecec_1993_2024$date + days(150),
+  #   ymin = ecec_1993_2024$Value - 0.05,
+  #   ymax = ecec_1993_2024$Value + 0.05,
+  #   fill = "#ffffff",
+  #   color = "black"
+  # ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
     axis.title = element_text(size = 8),
     axis.text = element_text(size = 5),
     legend.text = element_text(size = 6),
     legend.position = "bottom",
+    plot.margin = margin(10, 10, 10, 10),
   )
 dev.off()

@@ -100,8 +100,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{26}
-      \field{month}{10}
       \field{title}{Increasing Returns and Path Dependence in the Economy}
       \field{year}{1994}
       \field{dateera}{ce}
@@ -140,8 +138,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{15}
-      \field{month}{6}
       \field{title}{Policy dynamics}
       \field{year}{2002}
       \field{dateera}{ce}
@@ -180,10 +176,8 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{edition}{2}
-      \field{month}{5}
-      \field{title}{Agendas and Instability in American Politics}
+      \field{title}{Agendas and Instability in {American} Politics}
       \field{year}{2009}
       \field{dateera}{ce}
     \endentry
@@ -243,9 +237,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Theories of the Policy Process}
-      \field{day}{15}
-      \field{month}{5}
-      \field{title}{Punctuated Equilibrium Theory: Explaining Stability and Change in Public Policymaking}
+      \field{title}{Punctuated Equilibrium Theory: {Explaining} Stability and Change in Public Policymaking}
       \field{year}{2018}
       \field{dateera}{ce}
       \field{pages}{55\bibrangedash 101}
@@ -258,6 +250,38 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.4324/9780429494284
+      \endverb
+    \endentry
+    \entry{ECEC}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4f08c6b6b92e8f7c2e1a441ed9d23189}{%
+           family={{Bureau of Labor Statistics}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Department of Labor}%
+      }
+      \strng{namehash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{fullhash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{fullhashraw}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{bibnamehash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{authorbibnamehash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{authornamehash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{authorfullhash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{authorfullhashraw}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Data set}
+      \field{title}{Employer Costs for Employee Compensation}
+      \verb{urlraw}
+      \verb https://www.bls.gov/ecec/
+      \endverb
+      \verb{url}
+      \verb https://www.bls.gov/ecec/
       \endverb
     \endentry
     \entry{Busemeyer2019}{article}{}{}
@@ -726,8 +750,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{30}
-      \field{month}{4}
       \field{subtitle}{Heuristics and Biases}
       \field{title}{Judgment under uncertainty}
       \field{year}{1982}
@@ -905,8 +927,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{28}
-      \field{month}{10}
       \field{title}{Dismantling the Welfare State?}
       \field{year}{1994}
       \field{dateera}{ce}
@@ -1229,8 +1249,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{26}
-      \field{month}{10}
       \field{title}{Increasing Returns and Path Dependence in the Economy}
       \field{year}{1994}
       \field{dateera}{ce}
@@ -1269,8 +1287,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{15}
-      \field{month}{6}
       \field{title}{Policy dynamics}
       \field{year}{2002}
       \field{dateera}{ce}
@@ -1309,10 +1325,8 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{edition}{2}
-      \field{month}{5}
-      \field{title}{Agendas and Instability in American Politics}
+      \field{title}{Agendas and Instability in {American} Politics}
       \field{year}{2009}
       \field{dateera}{ce}
     \endentry
@@ -1372,9 +1386,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Theories of the Policy Process}
-      \field{day}{15}
-      \field{month}{5}
-      \field{title}{Punctuated Equilibrium Theory: Explaining Stability and Change in Public Policymaking}
+      \field{title}{Punctuated Equilibrium Theory: {Explaining} Stability and Change in Public Policymaking}
       \field{year}{2018}
       \field{dateera}{ce}
       \field{pages}{55\bibrangedash 101}
@@ -1387,6 +1399,38 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.4324/9780429494284
+      \endverb
+    \endentry
+    \entry{ECEC}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4f08c6b6b92e8f7c2e1a441ed9d23189}{%
+           family={{Bureau of Labor Statistics}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Department of Labor}%
+      }
+      \strng{namehash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{fullhash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{fullhashraw}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{bibnamehash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{authorbibnamehash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{authornamehash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{authorfullhash}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \strng{authorfullhashraw}{4f08c6b6b92e8f7c2e1a441ed9d23189}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Data set}
+      \field{title}{Employer Costs for Employee Compensation}
+      \verb{urlraw}
+      \verb https://www.bls.gov/ecec/
+      \endverb
+      \verb{url}
+      \verb https://www.bls.gov/ecec/
       \endverb
     \endentry
     \entry{Busemeyer2019}{article}{}{}
@@ -1862,8 +1906,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{30}
-      \field{month}{4}
       \field{subtitle}{Heuristics and Biases}
       \field{title}{Judgment under uncertainty}
       \field{year}{1982}
@@ -2034,8 +2076,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{28}
-      \field{month}{10}
       \field{title}{Dismantling the Welfare State?}
       \field{year}{1994}
       \field{dateera}{ce}
