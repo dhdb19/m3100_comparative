@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.11)  12 FEB 2025 08:14
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.11)  13 FEB 2025 00:53
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper
@@ -2183,29 +2183,40 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 [6]
 
-[7] (../figures/fig3.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 916--198
+[7]
+
+[8] (../figures/fig3.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 916--190
 [][]
  []
 
 
 
-[8] (../figures/fig4.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 1328--207
+[9] (../figures/fig4.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 1328--199
 [][]
  []
 
 
-
-[9]
 
 [10]
 
-[11]
+[11] (../figures/fig7.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3228--224
+[][]
+ []
+
+
 
 [12]
 
 [13]
+
+[14]
+
+[15]
+
+[16]
 (c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.aux)
  ***********
@@ -2220,15 +2231,15 @@ Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 60788 strings out of 475512
- 244220,2848258 words of node,token memory allocated
- 1693 words of node memory still in use:
-   32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 4 glyph, 
-110 attribute, 94 glue_spec, 93 attribute_list, 2 write, 24 pdf_literal, 10 pdf_
-action, 24 pdf_colorstack nodes
-   avail lists: 1:9,2:35627,3:10853,4:643,5:508,6:59,7:11008,8:112,9:2227,10:28,
-11:792
- 82361 multiletter control sequences out of 65536+600000
+ 60836 strings out of 475512
+ 381616,2848258 words of node,token memory allocated
+ 1716 words of node memory still in use:
+   32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_
+kern, 5 glyph, 112 attribute, 94 glue_spec, 94 attribute_list, 2 write, 24 pdf_l
+iteral, 11 pdf_action, 24 pdf_colorstack nodes
+   avail lists: 1:7,2:52697,3:22710,4:1403,5:525,6:55,7:16211,8:112,9:4899,10:28
+,11:792
+ 82396 multiletter control sequences out of 65536+600000
  108 fonts using 8946575 bytes
  102i,11n,108p,2580b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <../fonts/Lato/Lato-Italic.ttf><C:/Program Files/MiKTeX/fonts/opentype/public/lm
@@ -2239,9 +2250,9 @@ d.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf><C:
 Files/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.otf><C:/Program Files/MiK
 TeX/fonts/opentype/public/lm/lmroman12-regular.otf><../fonts/Lato/Lato-Bold.ttf>
 <../fonts/Lato/Lato-Regular.ttf>
-Output written on _paper_1_master.pdf (14 pages, 177514 bytes).
+Output written on _paper_1_master.pdf (17 pages, 217024 bytes).
 
-PDF statistics: 345 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 131072)
+PDF statistics: 381 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -252,6 +252,86 @@
       \verb https://doi.org/10.4324/9780429494284
       \endverb
     \endentry
+    \entry{Blendon2008}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=3e1850874bdbd3c4d596cde105935f9e}{%
+           family={Blendon},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelimb J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f030f6f7477198c0e192c412eb7a0a1}{%
+           family={Altman},
+           familyi={A\bibinitperiod},
+           given={Drew\bibnamedelimb E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53a1fe032582583a84eb48848320ed83}{%
+           family={Benson},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelimb M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d13eace3c4d5ccc2cef30785509e88f}{%
+           family={Brodie},
+           familyi={B\bibinitperiod},
+           given={Mollyann},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee4619e3d07953b6f58f35f8abc4241b}{%
+           family={Buhr},
+           familyi={B\bibinitperiod},
+           given={Tami},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d4a7c46507676595eb3cc285acae4ce}{%
+           family={Deane},
+           familyi={D\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b77c11ea8c8547ae3ea2d6d669d57ba5}{%
+           family={Buscho},
+           familyi={B\bibinitperiod},
+           given={Sasha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5aa0d794f55f40a403adc5cf00a7e017}
+      \strng{fullhash}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{fullhashraw}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{bibnamehash}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{authorbibnamehash}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{authornamehash}{5aa0d794f55f40a403adc5cf00a7e017}
+      \strng{authorfullhash}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{authorfullhashraw}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{journaltitle}{New England Journal of Medicine}
+      \field{month}{10}
+      \field{number}{19}
+      \field{title}{Voters and Health Reform in the 2008 Presidential Election}
+      \field{volume}{359}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{2050\bibrangedash 2061}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1056/nejmsr0807717
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1056/nejmsr0807717
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1056/nejmsr0807717
+      \endverb
+    \endentry
     \entry{ECEC}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4f08c6b6b92e8f7c2e1a441ed9d23189}{%
@@ -956,6 +1036,46 @@
       \verb https://www.politico.eu/article/france-emmanuel-macron-is-on-fire-over-pension-reform-how-bad-is-it/
       \endverb
     \endentry
+    \entry{Obama2009}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=722c9c14a6dd3ebdf304d6ca5818bb98}{%
+           family={Obama},
+           familyi={O\bibinitperiod},
+           given={Barack\bibnamedelimb Hussein},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {The White House}%
+      }
+      \list{publisher}{1}{%
+        {The White House}%
+      }
+      \strng{namehash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{fullhash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{fullhashraw}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{bibnamehash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{authorbibnamehash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{authornamehash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{authorfullhash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{authorfullhashraw}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Speech Transcript}
+      \field{title}{Remarks by the President to a Joint Session of {Congress} on Health Care}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://obamawhitehouse.archives.gov/the-press-office/remarks-president-a-joint-session-congress-health-care
+      \endverb
+      \verb{url}
+      \verb https://obamawhitehouse.archives.gov/the-press-office/remarks-president-a-joint-session-congress-health-care
+      \endverb
+    \endentry
     \entry{Pierson1993}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
@@ -1353,12 +1473,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{10}
-      \field{month}{9}
       \field{note}{Debate Transcript}
       \field{title}{Campaign 2024: {Simulcast} -- {ABC News} Presidential Debate}
       \field{year}{2024}
-      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://www.c-span.org/program/campaign-2024/simulcast-abc-news-presidential-debate/648383
       \endverb
@@ -1414,6 +1531,45 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.2307/2937956
+      \endverb
+    \endentry
+    \entry{Census2022}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb461c0c6976b357452502c0cb338c70}{%
+           family={U.S.\bibnamedelimi Census\bibnamedelimb Bureau},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Department of Commerce}%
+      }
+      \list{publisher}{1}{%
+        {U.S. Department of Commerce}%
+      }
+      \strng{namehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{fullhash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{fullhashraw}{fb461c0c6976b357452502c0cb338c70}
+      \strng{bibnamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorbibnamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authornamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorfullhash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorfullhashraw}{fb461c0c6976b357452502c0cb338c70}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{8}
+      \field{title}{{SIPP} introduction {\& }history}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.census.gov/programs-surveys/sipp/about/sipp-introduction-history.html
+      \endverb
+      \verb{url}
+      \verb https://www.census.gov/programs-surveys/sipp/about/sipp-introduction-history.html
       \endverb
     \endentry
     \entry{Wlezien1995}{article}{}{}
@@ -1695,6 +1851,86 @@
       \verb https://doi.org/10.4324/9780429494284
       \endverb
     \endentry
+    \entry{Blendon2008}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=3e1850874bdbd3c4d596cde105935f9e}{%
+           family={Blendon},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelimb J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f030f6f7477198c0e192c412eb7a0a1}{%
+           family={Altman},
+           familyi={A\bibinitperiod},
+           given={Drew\bibnamedelimb E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53a1fe032582583a84eb48848320ed83}{%
+           family={Benson},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelimb M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d13eace3c4d5ccc2cef30785509e88f}{%
+           family={Brodie},
+           familyi={B\bibinitperiod},
+           given={Mollyann},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee4619e3d07953b6f58f35f8abc4241b}{%
+           family={Buhr},
+           familyi={B\bibinitperiod},
+           given={Tami},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d4a7c46507676595eb3cc285acae4ce}{%
+           family={Deane},
+           familyi={D\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b77c11ea8c8547ae3ea2d6d669d57ba5}{%
+           family={Buscho},
+           familyi={B\bibinitperiod},
+           given={Sasha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5aa0d794f55f40a403adc5cf00a7e017}
+      \strng{fullhash}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{fullhashraw}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{bibnamehash}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{authorbibnamehash}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{authornamehash}{5aa0d794f55f40a403adc5cf00a7e017}
+      \strng{authorfullhash}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \strng{authorfullhashraw}{e67ca72d0e9021d59220fb5bd54e5eb8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{journaltitle}{New England Journal of Medicine}
+      \field{month}{10}
+      \field{number}{19}
+      \field{title}{Voters and Health Reform in the 2008 Presidential Election}
+      \field{volume}{359}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{2050\bibrangedash 2061}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1056/nejmsr0807717
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1056/nejmsr0807717
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1056/nejmsr0807717
+      \endverb
+    \endentry
     \entry{ECEC}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4f08c6b6b92e8f7c2e1a441ed9d23189}{%
@@ -2399,6 +2635,46 @@
       \verb https://www.politico.eu/article/france-emmanuel-macron-is-on-fire-over-pension-reform-how-bad-is-it/
       \endverb
     \endentry
+    \entry{Obama2009}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=722c9c14a6dd3ebdf304d6ca5818bb98}{%
+           family={Obama},
+           familyi={O\bibinitperiod},
+           given={Barack\bibnamedelimb Hussein},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {The White House}%
+      }
+      \list{publisher}{1}{%
+        {The White House}%
+      }
+      \strng{namehash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{fullhash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{fullhashraw}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{bibnamehash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{authorbibnamehash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{authornamehash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{authorfullhash}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \strng{authorfullhashraw}{722c9c14a6dd3ebdf304d6ca5818bb98}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Speech Transcript}
+      \field{title}{Remarks by the President to a Joint Session of {Congress} on Health Care}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://obamawhitehouse.archives.gov/the-press-office/remarks-president-a-joint-session-congress-health-care
+      \endverb
+      \verb{url}
+      \verb https://obamawhitehouse.archives.gov/the-press-office/remarks-president-a-joint-session-congress-health-care
+      \endverb
+    \endentry
     \entry{Pierson1993}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
@@ -2796,12 +3072,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{10}
-      \field{month}{9}
       \field{note}{Debate Transcript}
       \field{title}{Campaign 2024: {Simulcast} -- {ABC News} Presidential Debate}
       \field{year}{2024}
-      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://www.c-span.org/program/campaign-2024/simulcast-abc-news-presidential-debate/648383
       \endverb
@@ -2857,6 +3130,45 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.2307/2937956
+      \endverb
+    \endentry
+    \entry{Census2022}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb461c0c6976b357452502c0cb338c70}{%
+           family={U.S.\bibnamedelimi Census\bibnamedelimb Bureau},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Department of Commerce}%
+      }
+      \list{publisher}{1}{%
+        {U.S. Department of Commerce}%
+      }
+      \strng{namehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{fullhash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{fullhashraw}{fb461c0c6976b357452502c0cb338c70}
+      \strng{bibnamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorbibnamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authornamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorfullhash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorfullhashraw}{fb461c0c6976b357452502c0cb338c70}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{8}
+      \field{title}{{SIPP} introduction {\& }history}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.census.gov/programs-surveys/sipp/about/sipp-introduction-history.html
+      \endverb
+      \verb{url}
+      \verb https://www.census.gov/programs-surveys/sipp/about/sipp-introduction-history.html
       \endverb
     \endentry
     \entry{Wlezien1995}{article}{}{}
