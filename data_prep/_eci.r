@@ -143,7 +143,7 @@ ecec_1993_2024 %>%
   #   vjust = -2,
   #   size = 3
   # ) +
-  geom_label_repel(
+  geom_text_repel(
     aes(
       x = date,
       y = Value,
@@ -174,13 +174,13 @@ ecec_1993_2024 %>%
   # ) +
   scale_y_continuous(
     limits = c(0, 4.1),
-    name = "Cost (USD)",
+    name = "ECEC (USD)",
     breaks = waiver(),
     n.breaks = 10,
     expand = expansion(add = 0)
   ) +
   scale_x_date(
-    name = "Time",
+    name = "Year",
     date_breaks = "1 year",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",

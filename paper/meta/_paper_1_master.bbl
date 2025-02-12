@@ -436,6 +436,60 @@
       \verb https://www.npr.org/2017/07/27/539907467/senate-careens-toward-high-drama-midnight-health-care-vote
       \endverb
     \endentry
+    \entry{Census2013}{report}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2bd02c5ca86c67edca391b3187b4f3ec}{%
+           family={DeNavas-Walt},
+           familyi={D\bibinithyphendelim W\bibinitperiod},
+           given={Carmen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f453798eecffa3f9810f97c7a436a64}{%
+           family={Proctor},
+           familyi={P\bibinitperiod},
+           given={Bernadette\bibnamedelimb D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7e3cc6992f4c2a6f239986349166078}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Jessica\bibnamedelimb C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Census Bureau}%
+      }
+      \list{publisher}{1}{%
+        {U.S. Census Bureau}%
+      }
+      \strng{namehash}{707d9fc41eee2c80d06b9acff748c582}
+      \strng{fullhash}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{fullhashraw}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{bibnamehash}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{authorbibnamehash}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{authornamehash}{707d9fc41eee2c80d06b9acff748c582}
+      \strng{authorfullhash}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{authorfullhashraw}{239c4eadbdf31fff7252c290bd627ed5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{9}
+      \field{title}{Health Insurance Coverage in the {United States}: 2012}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.census.gov/library/publications/2013/demo/p60-245.html
+      \endverb
+      \verb{url}
+      \verb https://www.census.gov/library/publications/2013/demo/p60-245.html
+      \endverb
+    \endentry
     \entry{FEC2016}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c50e00cc5e93aec4f025b873a1c122dc}{%
@@ -812,6 +866,54 @@
       \verb https://doi.org/10.1257/jep.5.1.193
       \endverb
     \endentry
+    \entry{Census2024}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45c043048cf28977bec6d8e8f939c808}{%
+           family={Keisler-Starkey},
+           familyi={K\bibinithyphendelim S\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=501b2a13ba1ba85c7e36f684a02603c0}{%
+           family={Bunch},
+           familyi={B\bibinitperiod},
+           given={Lisa\bibnamedelimb N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Census Bureau}%
+      }
+      \list{publisher}{1}{%
+        {U.S. Census Bureau}%
+      }
+      \strng{namehash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{fullhash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{fullhashraw}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{bibnamehash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{authorbibnamehash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{authornamehash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{authorfullhash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{authorfullhashraw}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{9}
+      \field{title}{Health Insurance Coverage in the {United States}: 2023}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.census.gov/library/publications/2024/demo/p60-284.html
+      \endverb
+      \verb{url}
+      \verb https://www.census.gov/library/publications/2024/demo/p60-284.html
+      \endverb
+    \endentry
     \entry{Leali2023}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8cbd27c3dac57e55cbf00979dd158db2}{%
@@ -985,6 +1087,124 @@
       \verb https://doi.org/10.2307/2586011
       \endverb
     \endentry
+    \entry{Schoen2011}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=38451ec6535c7c7d70dc024dbbdd173e}{%
+           family={Schoen},
+           familyi={S\bibinitperiod},
+           given={Cathy},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3640b3269aad02e042d42836a5721adf}{%
+           family={Doty},
+           familyi={D\bibinitperiod},
+           given={Michelle\bibnamedelimb M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a7dca7bfa6fb31ffd77894e79fed9a2}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={Ruth\bibnamedelimb H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=255043893a1683bf49faf026bff65d7a}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Sara\bibnamedelimb R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b33c563af2f302c27cf1c51752f61971}
+      \strng{fullhash}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{fullhashraw}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{bibnamehash}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{authorbibnamehash}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{authornamehash}{b33c563af2f302c27cf1c51752f61971}
+      \strng{authorfullhash}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{authorfullhashraw}{cc8ec2171570447e3afca0af607f20bc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Health Affairs}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{{Affordable Care Act} reforms could reduce the number of underinsured {US} adults by 70 percent}
+      \field{volume}{30}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{1762\bibrangedash 1771}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1377/hlthaff.2011.0335
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1377/hlthaff.2011.0335
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1377/hlthaff.2011.0335
+      \endverb
+    \endentry
+    \entry{Seabury2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=54528837fdeffd3e25b8574d89d340ee}{%
+           family={Seabury},
+           familyi={S\bibinitperiod},
+           given={Seth\bibnamedelimb A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bb86151296a7512ad4861c0909c9b32}{%
+           family={Jena},
+           familyi={J\bibinitperiod},
+           given={Anupam\bibnamedelimb B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58f37baece5b1514868a96c85a424cd1}{%
+           family={Chandra},
+           familyi={C\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af1e9331e8b8ab2ea861789640159622}
+      \strng{fullhash}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{fullhashraw}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{bibnamehash}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{authorbibnamehash}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{authornamehash}{af1e9331e8b8ab2ea861789640159622}
+      \strng{authorfullhash}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{authorfullhashraw}{cc8f7e18a7d8f99b8549401e62384df7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{journaltitle}{JAMA}
+      \field{month}{11}
+      \field{number}{20}
+      \field{title}{Trends in the Earnings of Health Care Professionals in the {United States}, 1987-2010}
+      \field{volume}{308}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{2083}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1001/jama.2012.14552
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1001/jama.2012.14552
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1001/jama.2012.14552
+      \endverb
+    \endentry
     \entry{Simon1955}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=09c462602325128c408aa39c70c6ae62}{%
@@ -1027,6 +1247,80 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.2307/1884852
+      \endverb
+    \endentry
+    \entry{Starr2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=01c0dc60bc08ca8d299977de9af67906}{%
+           family={Starr},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{fullhash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{fullhashraw}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{bibnamehash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{authorbibnamehash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{authornamehash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{authorfullhash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{authorfullhashraw}{01c0dc60bc08ca8d299977de9af67906}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Remedy and Reaction: {The }Peculiar {American} Struggle over Health Care Reform}
+      \field{year}{2011}
+    \endentry
+    \entry{Thorpe1999}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cf590d488d8f3a285bcb93be3ee1dd25}{%
+           family={Thorpe},
+           familyi={T\bibinitperiod},
+           given={Kenneth\bibnamedelimb E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{fullhash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{fullhashraw}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{bibnamehash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{authorbibnamehash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{authornamehash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{authorfullhash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{authorfullhashraw}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Health Politics Policy and Law}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Managed Care as Victim or Villain?}
+      \field{volume}{24}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{949\bibrangedash 956}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1215/03616878-24-5-949
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1215/03616878-24-5-949
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1215/03616878-24-5-949
       \endverb
     \endentry
     \entry{Trump2024}{online}{}{}
@@ -1585,6 +1879,60 @@
       \verb https://www.npr.org/2017/07/27/539907467/senate-careens-toward-high-drama-midnight-health-care-vote
       \endverb
     \endentry
+    \entry{Census2013}{report}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2bd02c5ca86c67edca391b3187b4f3ec}{%
+           family={DeNavas-Walt},
+           familyi={D\bibinithyphendelim W\bibinitperiod},
+           given={Carmen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f453798eecffa3f9810f97c7a436a64}{%
+           family={Proctor},
+           familyi={P\bibinitperiod},
+           given={Bernadette\bibnamedelimb D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7e3cc6992f4c2a6f239986349166078}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Jessica\bibnamedelimb C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Census Bureau}%
+      }
+      \list{publisher}{1}{%
+        {U.S. Census Bureau}%
+      }
+      \strng{namehash}{707d9fc41eee2c80d06b9acff748c582}
+      \strng{fullhash}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{fullhashraw}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{bibnamehash}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{authorbibnamehash}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{authornamehash}{707d9fc41eee2c80d06b9acff748c582}
+      \strng{authorfullhash}{239c4eadbdf31fff7252c290bd627ed5}
+      \strng{authorfullhashraw}{239c4eadbdf31fff7252c290bd627ed5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{9}
+      \field{title}{Health Insurance Coverage in the {United States}: 2012}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.census.gov/library/publications/2013/demo/p60-245.html
+      \endverb
+      \verb{url}
+      \verb https://www.census.gov/library/publications/2013/demo/p60-245.html
+      \endverb
+    \endentry
     \entry{FEC2016}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c50e00cc5e93aec4f025b873a1c122dc}{%
@@ -1961,6 +2309,54 @@
       \verb https://doi.org/10.2307/1914185
       \endverb
     \endentry
+    \entry{Census2024}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45c043048cf28977bec6d8e8f939c808}{%
+           family={Keisler-Starkey},
+           familyi={K\bibinithyphendelim S\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=501b2a13ba1ba85c7e36f684a02603c0}{%
+           family={Bunch},
+           familyi={B\bibinitperiod},
+           given={Lisa\bibnamedelimb N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Census Bureau}%
+      }
+      \list{publisher}{1}{%
+        {U.S. Census Bureau}%
+      }
+      \strng{namehash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{fullhash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{fullhashraw}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{bibnamehash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{authorbibnamehash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{authornamehash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{authorfullhash}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \strng{authorfullhashraw}{965fdd46f49ab7ad5b2a45c8b75fcf1a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{9}
+      \field{title}{Health Insurance Coverage in the {United States}: 2023}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.census.gov/library/publications/2024/demo/p60-284.html
+      \endverb
+      \verb{url}
+      \verb https://www.census.gov/library/publications/2024/demo/p60-284.html
+      \endverb
+    \endentry
     \entry{Leali2023}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8cbd27c3dac57e55cbf00979dd158db2}{%
@@ -2134,6 +2530,124 @@
       \verb https://doi.org/10.2307/2586011
       \endverb
     \endentry
+    \entry{Schoen2011}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=38451ec6535c7c7d70dc024dbbdd173e}{%
+           family={Schoen},
+           familyi={S\bibinitperiod},
+           given={Cathy},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3640b3269aad02e042d42836a5721adf}{%
+           family={Doty},
+           familyi={D\bibinitperiod},
+           given={Michelle\bibnamedelimb M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a7dca7bfa6fb31ffd77894e79fed9a2}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={Ruth\bibnamedelimb H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=255043893a1683bf49faf026bff65d7a}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Sara\bibnamedelimb R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b33c563af2f302c27cf1c51752f61971}
+      \strng{fullhash}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{fullhashraw}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{bibnamehash}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{authorbibnamehash}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{authornamehash}{b33c563af2f302c27cf1c51752f61971}
+      \strng{authorfullhash}{cc8ec2171570447e3afca0af607f20bc}
+      \strng{authorfullhashraw}{cc8ec2171570447e3afca0af607f20bc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Health Affairs}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{{Affordable Care Act} reforms could reduce the number of underinsured {US} adults by 70 percent}
+      \field{volume}{30}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{1762\bibrangedash 1771}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1377/hlthaff.2011.0335
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1377/hlthaff.2011.0335
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1377/hlthaff.2011.0335
+      \endverb
+    \endentry
+    \entry{Seabury2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=54528837fdeffd3e25b8574d89d340ee}{%
+           family={Seabury},
+           familyi={S\bibinitperiod},
+           given={Seth\bibnamedelimb A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bb86151296a7512ad4861c0909c9b32}{%
+           family={Jena},
+           familyi={J\bibinitperiod},
+           given={Anupam\bibnamedelimb B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58f37baece5b1514868a96c85a424cd1}{%
+           family={Chandra},
+           familyi={C\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af1e9331e8b8ab2ea861789640159622}
+      \strng{fullhash}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{fullhashraw}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{bibnamehash}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{authorbibnamehash}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{authornamehash}{af1e9331e8b8ab2ea861789640159622}
+      \strng{authorfullhash}{cc8f7e18a7d8f99b8549401e62384df7}
+      \strng{authorfullhashraw}{cc8f7e18a7d8f99b8549401e62384df7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{journaltitle}{JAMA}
+      \field{month}{11}
+      \field{number}{20}
+      \field{title}{Trends in the Earnings of Health Care Professionals in the {United States}, 1987-2010}
+      \field{volume}{308}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{2083}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1001/jama.2012.14552
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1001/jama.2012.14552
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1001/jama.2012.14552
+      \endverb
+    \endentry
     \entry{Simon1955}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=09c462602325128c408aa39c70c6ae62}{%
@@ -2176,6 +2690,80 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.2307/1884852
+      \endverb
+    \endentry
+    \entry{Starr2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=01c0dc60bc08ca8d299977de9af67906}{%
+           family={Starr},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{fullhash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{fullhashraw}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{bibnamehash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{authorbibnamehash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{authornamehash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{authorfullhash}{01c0dc60bc08ca8d299977de9af67906}
+      \strng{authorfullhashraw}{01c0dc60bc08ca8d299977de9af67906}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Remedy and Reaction: {The }Peculiar {American} Struggle over Health Care Reform}
+      \field{year}{2011}
+    \endentry
+    \entry{Thorpe1999}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cf590d488d8f3a285bcb93be3ee1dd25}{%
+           family={Thorpe},
+           familyi={T\bibinitperiod},
+           given={Kenneth\bibnamedelimb E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{fullhash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{fullhashraw}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{bibnamehash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{authorbibnamehash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{authornamehash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{authorfullhash}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \strng{authorfullhashraw}{cf590d488d8f3a285bcb93be3ee1dd25}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Health Politics Policy and Law}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Managed Care as Victim or Villain?}
+      \field{volume}{24}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{949\bibrangedash 956}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1215/03616878-24-5-949
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1215/03616878-24-5-949
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1215/03616878-24-5-949
       \endverb
     \endentry
     \entry{Trump2024}{online}{}{}

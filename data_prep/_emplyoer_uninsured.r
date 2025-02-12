@@ -19,7 +19,7 @@ emp_un <- emp_un %>%
 
 
 
-tikz("figures/fig4.tex", width = 6.3, height = 4, standAlone = FALSE)
+tikz("figures/fig4.tex", width = 6.3, height = 4.5, standAlone = FALSE)
 emp_un %>%
   ggplot() +
   geom_rect(
