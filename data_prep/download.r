@@ -23,3 +23,71 @@ map(
     }
   )
 )
+
+years1 <- seq(1997, 2003)
+
+map(
+  years1,
+  possibly(
+    function(year) {
+      download.file(
+        glue(
+          "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/{year}/personsx.sas"
+        ),
+        destfile = glue("data/{year}_personsx.sas")
+      )
+      download.file(
+        glue(
+          "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/{year}/househld.sas"
+        ),
+        destfile = glue("data/{year}_household.sas")
+      )
+    }
+  )
+)
+
+
+years2 <- seq(2004, 2018)
+
+map(
+  years2,
+  possibly(
+    function(year) {
+      download.file(
+        glue(
+          "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/{year}/person/personsx.sas"
+        ),
+        destfile = glue("data/{year}_personsx.sas")
+      )
+      download.file(
+        glue(
+          "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/{year}/household/househld.sas"
+        ),
+        destfile = glue("data/{year}_household.sas")
+      )
+    }
+  )
+)
+
+
+
+
+map(
+  years2,
+  possibly(
+    function(year) {
+      download.file(
+        glue(
+          "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/{year}/personsx.sas"
+        ),
+        destfile = glue("data/{year}_personsx.sas")
+      )
+      download.file(
+        glue(
+          "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/{year}/househld.sas"
+        ),
+        destfile = glue("data/{year}_household.sas")
+      )
+    }
+  )
+)
