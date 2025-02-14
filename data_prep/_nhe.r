@@ -677,6 +677,121 @@ dev.off()
 
 
 
+nhe_plot_6 <- nhe %>%
+  ggplot() +
+  # geom_vline(
+  #   xintercept = as.Date("1960-01-01"),
+  #   color = "grey",
+  # ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("1993-01-01"),
+      xmax = as.Date("1994-09-26"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("2009-01-20"),
+      xmax = as.Date("2010-03-23"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  geom_vline(
+    xintercept = as.Date("1965-07-30"),
+    lty = "solid",
+    color = "grey",
+  ) +
+  # annotate(
+  #   geom = "label",
+  #   x = as.Date("1965-07-30"),
+  #   y = 3500,
+  #   label = "Medicare and Medicaid \n signed into law",
+  #   size = 2,
+  #   label.padding = unit(0.5, "lines")
+  # ) +
+  annotate(
+    geom = "label",
+    x = as.Date("1993-11-13"),
+    y = 1500,
+    label = "Clinton healthcare \n reform effort",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  annotate(
+    geom = "label",
+    x = as.Date("2009-08-01"),
+    y = 1500,
+    label = "Obama inaugurated -- \n ACA comes into force",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  geom_line(
+    aes(
+      y = (state_and_local * gdp_deflator) / population,
+      x = year,
+      color = "Medicaid (state and local) \n (GDP deflator, reference 2025)"
+    ),
+    lty = "solid"
+  ) +
+  geom_line(
+    aes(
+      y = (federal * gdp_deflator) / population,
+      x = year,
+      color = "Medicaid (federal) \n (GDP deflator, reference 2025)"
+    ),
+    lty = "dashed"
+  ) +
+  scale_y_continuous(
+    limits = c(0, 2000),
+    name = "Health care expenditure p.c. (USD)",
+    breaks = waiver(),
+    n.breaks = 10,
+    expand = expansion(add = 0)
+  ) +
+  scale_x_date(
+    limits = c(as.Date("1965-07-30"), as.Date("2023-01-01")),
+    name = "Year",
+    date_breaks = "2 years",
+    # date_minor_breaks = "1 month",
+    date_labels = "'%y",
+    expand = expansion(add = 5)
+  ) +
+  scale_color_manual(
+    name = "",
+    values = c(
+      "Medicaid (federal) \n (GDP deflator, reference 2025)" = "#a4cbae",
+      "Medicaid (state and local) \n (GDP deflator, reference 2025)" = "#3c644b",
+      "Nominal" = "grey"
+    ),
+    limits = c(
+      "Medicaid (state and local) \n (GDP deflator, reference 2025)",
+      "Medicaid (federal) \n (GDP deflator, reference 2025)"
+    ),
+  ) +
+  coord_cartesian(clip = "off") +
+  theme(
+    panel.background = element_rect(fill = "#f0f0f0"),
+    axis.title = element_text(size = 8),
+    axis.text = element_text(size = 5),
+    legend.text = element_text(size = 8),
+    legend.position = "bottom",
+    plot.margin = margin(10, 45, 10, 10),
+    legend.key.spacing.x = unit(1.5, "cm")
+  )
+nhe_plot_6
+
+
+tikz("figures/fig12.tex", width = 6.3, height = 4, standAlone = FALSE)
+nhe_plot_6
+dev.off()
+
 
 
 

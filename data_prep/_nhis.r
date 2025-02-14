@@ -4,9 +4,10 @@ years <- seq(1969, 2014)
 
 years9 <- seq(1969, 1971)
 
+years11 <- seq(1997, 2014)
 # ---- households ----
 map(
-  years9,
+  years11,
   possibly(
     function(year) {
       read.SAScii(
@@ -36,20 +37,16 @@ df1969 <- read_parquet("data/_nhis/household_parquet/1969_household.parquet")
 # ---- personx ----
 
 map(
-  years,
+  years11,
   possibly(
     function(year) {
-      assign(
-        df,
-        read.SAScii(
-          glue("data/_nhis/personsx_dat/{year}_personsx.dat"),
-          glue("data/_nhis/personsx_sas/{year}_personsx.sas")
+      read.SAScii(
+        glue("data/_nhis/personsx_dat/{year}_personsx.dat"),
+        glue("data/_nhis/personsx_sas/{year}_personsx.sas")
+      ) %>%
+        write_parquet(
+          glue("data/_nhis/personsx_parquet/{year}_personsx.parquet")
         )
-      )
-      write_parquet(
-        df,
-        glue("data/_nhis/personsx_parquet/{year}_personsx.parquet")
-      )
     }
   )
 )
@@ -75,11 +72,11 @@ map(
 
 
 read.SAScii(
-  "data/_nhis/healthin_dat/1970_healthin.dat",
-  "data/_nhis/healthin_sas/1970_healthin.sas"
+  "data/_nhis/healthin_dat/1980_healthin.dat",
+  "data/_nhis/healthin_sas/1980_healthin.sas"
 ) %>%
   write_parquet(
-    "data/_nhis/healthin_parquet/1970_healthin.parquet"
+    "data/_nhis/healthin_parquet/1980_healthin.parquet"
   )
 
 read.SAScii("data/_nhis/healthin_dat/1970_healthin.dat", "data/_nhis/healthin_sas/1970_healthin.sas")
