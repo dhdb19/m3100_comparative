@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.11)  13 FEB 2025 00:53
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.11)  14 FEB 2025 03:36
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper
@@ -1895,7 +1895,11 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
-aper_1_master.aux)
+aper_1_master.aux
+
+LaTeX Warning: Label `fig:expend_priv' multiply defined.
+
+)
 \openout1 = _paper_1_master.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -2202,7 +2206,7 @@ Overfull \hbox (2.3321pt too wide) in paragraph at lines 1328--199
 [10]
 
 [11] (../figures/fig7.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 3228--224
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3228--227
 [][]
  []
 
@@ -2210,19 +2214,47 @@ Overfull \hbox (2.3321pt too wide) in paragraph at lines 3228--224
 
 [12]
 
-[13]
+[13] (../figures/fig8.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 1221--240
+[][]
+ []
 
-[14]
+(../figures/fig9.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 1240--247
+[][]
+ []
+
+
+
+[14] (../figures/fig10.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 1240--254
+[][]
+ []
+
+(../figures/fig11.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 1021--261
+[][]
+ []
+
+
 
 [15]
 
 [16]
+
+[17]
+
+[18]
 (c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `_paper_1_master.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
@@ -2231,7 +2263,7 @@ Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 60836 strings out of 475512
+ 60890 strings out of 475512
  381616,2848258 words of node,token memory allocated
  1716 words of node memory still in use:
    32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_
@@ -2239,7 +2271,7 @@ kern, 5 glyph, 112 attribute, 94 glue_spec, 94 attribute_list, 2 write, 24 pdf_l
 iteral, 11 pdf_action, 24 pdf_colorstack nodes
    avail lists: 1:7,2:52697,3:22710,4:1403,5:525,6:55,7:16211,8:112,9:4899,10:28
 ,11:792
- 82396 multiletter control sequences out of 65536+600000
+ 82420 multiletter control sequences out of 65536+600000
  108 fonts using 8946575 bytes
  102i,11n,108p,2580b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <../fonts/Lato/Lato-Italic.ttf><C:/Program Files/MiKTeX/fonts/opentype/public/lm
@@ -2250,9 +2282,9 @@ d.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf><C:
 Files/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.otf><C:/Program Files/MiK
 TeX/fonts/opentype/public/lm/lmroman12-regular.otf><../fonts/Lato/Lato-Bold.ttf>
 <../fonts/Lato/Lato-Regular.ttf>
-Output written on _paper_1_master.pdf (17 pages, 217024 bytes).
+Output written on _paper_1_master.pdf (19 pages, 246260 bytes).
 
-PDF statistics: 381 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 131072)
+PDF statistics: 394 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 
