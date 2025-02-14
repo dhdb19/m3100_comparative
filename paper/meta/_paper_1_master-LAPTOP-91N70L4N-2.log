@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.11)  14 FEB 2025 13:23
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.11)  14 FEB 2025 11:08
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper
@@ -2264,12 +2264,12 @@ Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  60890 strings out of 475512
- 381614,2848258 words of node,token memory allocated
+ 381616,2848258 words of node,token memory allocated
  1716 words of node memory still in use:
    32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_
 kern, 5 glyph, 112 attribute, 94 glue_spec, 94 attribute_list, 2 write, 24 pdf_l
 iteral, 11 pdf_action, 24 pdf_colorstack nodes
-   avail lists: 1:7,2:52697,3:22710,4:1403,5:526,6:55,7:16221,8:112,9:4899,10:28
+   avail lists: 1:7,2:52697,3:22710,4:1403,5:525,6:55,7:16211,8:112,9:4899,10:28
 ,11:792
  82420 multiletter control sequences out of 65536+600000
  108 fonts using 8946575 bytes
@@ -2282,7 +2282,7 @@ d.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf><C:
 Files/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.otf><C:/Program Files/MiK
 TeX/fonts/opentype/public/lm/lmroman12-regular.otf><../fonts/Lato/Lato-Bold.ttf>
 <../fonts/Lato/Lato-Regular.ttf>
-Output written on _paper_1_master.pdf (19 pages, 246287 bytes).
+Output written on _paper_1_master.pdf (19 pages, 246260 bytes).
 
 PDF statistics: 394 PDF objects out of 1000 (max. 8388607)
  61 named destinations out of 1000 (max. 131072)
