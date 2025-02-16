@@ -1,24 +1,24 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.blg'
-[92] biber-MSWIN64:340> INFO - === 
-[120] Biber.pm:420> INFO - Reading 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bcf'
-[259] Biber.pm:994> INFO - Found 40 citekeys in bib section 0
-[277] Biber.pm:4463> INFO - Processing section 0
-[287] Biber.pm:4654> INFO - Looking for bibtex file '../references.bib' for section 0
-[336] bibtex.pm:1713> INFO - LaTeX decoding ...
-[701] bibtex.pm:1519> INFO - Found BibTeX data source '../references.bib'
-[951] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[951] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[951] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[951] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[1022] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1022] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1023] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[1023] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[1064] bbl.pm:676> INFO - Writing 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl' with encoding 'UTF-8'
-[1107] bbl.pm:779> INFO - Output to C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl
-[1107] Biber.pm:131> WARN - Duplicate entry key: 'Abbott1998' in file '../references.bib', skipping ...
-[1107] Biber.pm:131> WARN - Duplicate entry key: 'Kahnemann1979' in file '../references.bib', skipping ...
-[1107] Biber.pm:131> WARN - Duplicate entry key: 'Mahoney2000' in file '../references.bib', skipping ...
-[1108] Biber.pm:131> WARN - Invalid namepart option 'give-i' found in extended name format name 'author' in entry 'Starr2011', ignoring
-[1108] Biber.pm:133> INFO - WARNINGS: 4
+[124] biber-MSWIN64:340> INFO - === 
+[163] Biber.pm:420> INFO - Reading 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bcf'
+[342] Biber.pm:994> INFO - Found 40 citekeys in bib section 0
+[365] Biber.pm:4463> INFO - Processing section 0
+[381] Biber.pm:4654> INFO - Looking for bibtex file '../references.bib' for section 0
+[436] bibtex.pm:1713> INFO - LaTeX decoding ...
+[803] bibtex.pm:1519> INFO - Found BibTeX data source '../references.bib'
+[1066] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1067] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1067] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1067] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1145] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1145] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1145] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1145] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1194] bbl.pm:676> INFO - Writing 'C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl' with encoding 'UTF-8'
+[1243] bbl.pm:779> INFO - Output to C:\Users\jordi\OneDrive\01_Uni\M\m3000_W_24_25\m3100_comparative\paper\meta\_paper_1_master.bbl
+[1243] Biber.pm:131> WARN - Duplicate entry key: 'Abbott1998' in file '../references.bib', skipping ...
+[1243] Biber.pm:131> WARN - Duplicate entry key: 'Kahnemann1979' in file '../references.bib', skipping ...
+[1243] Biber.pm:131> WARN - Duplicate entry key: 'Mahoney2000' in file '../references.bib', skipping ...
+[1243] Biber.pm:131> WARN - Invalid namepart option 'give-i' found in extended name format name 'author' in entry 'Starr2011', ignoring
+[1243] Biber.pm:133> INFO - WARNINGS: 4

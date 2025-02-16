@@ -171,7 +171,7 @@
 {}
 
 \titleformat{\subsection}
-{\color{green1rgb}\sffamily\itshape}
+{\color{green1rgb}\sffamily\bfseries\itshape}
 {}
 {0em}
 {}
@@ -193,7 +193,7 @@
 %TikzLibraries-----------------------------
 
 %TikzStyles--------------------------------
-\tikzstyle{startstop} = [rectangle, draw=black, text width=4cm, minimum width=3cm, minimum height=1cm, fill=white]
+\tikzstyle{startstop} = [rectangle, text width=4cm, minimum width=3cm, minimum height=1cm, fill=black!7]
 \tikzstyle{S1} = [rectangle, text width=2cm, minimum width=1.5cm, minimum height=1cm, fill=white]
 \tikzstyle{S2} = [rectangle, text width=2.5cm, minimum width=1.5cm, minimum height=1cm, fill=white]
 \tikzstyle{S3} = [rectangle, draw=black, text width=2cm, minimum width=1.5cm, minimum height=1cm, fill=white]
@@ -202,13 +202,11 @@
 \tikzstyle{startstop1} = [rectangle, draw=black, text width=3cm, minimum width=3cm, minimum height=0.5cm, fill=white]
 \tikzstyle{S4} = [rectangle, draw=gray, dashed, text width=3.5cm, minimum width=3cm, minimum height=0.5cm, fill=white]
 \tikzstyle{Mg} = [rectangle, draw=gray, dashed, text width=4cm, minimum width=3cm, minimum height=0.5cm, fill=white]
-\tikzstyle{Mk} = [rectangle, draw=gray, dashed, text width=3cm, minimum width=3cm, minimum height=0.5cm, fill=white]
+\tikzstyle{Mk} = [rectangle, draw=gray, dashed, minimum width=3cm, minimum height=0.5cm, fill=white, align=flush left]
 %TikzStyles--------------------------------
 
 %Biblatex----------------------------------
 \addbibresource{../references.bib}
-% \addbibresource{../ContentLit.bib}
-% \addbibresource{../references.bib}
 % \DeclareLanguageMapping{english}{english-apa}
 \setlength{\bibitemsep}{0pt}
 \AtBeginBibliography{\small}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.15)  16 FEB 2025 01:22
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.15)  16 FEB 2025 04:10
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper
@@ -2408,11 +2408,6 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [6]
 
 [7]
-Overfull \hbox (8.21078pt too wide) in paragraph at lines 119--120
-[][] 
- []
-
-
 
 [8]
 
@@ -2426,56 +2421,56 @@ Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no = (U+003D) in font nullfont!
 Missing character: There is no ] (U+005D) in font nullfont!
 ] (../figures/fig3.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 916--138
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 1300--142
 [][]
  []
 
 
 
 [10] (../figures/fig4.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 1328--147
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 2172--151
 [][]
  []
 
 
 
 [11] (../figures/fig20.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 1659--156
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 1659--160
 [][]
  []
 
 
 
 [12] (../figures/fig18.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 3423--171
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3423--175
 [][]
  []
 
 
 
 [13] (../figures/fig17.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 3420--180
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3420--184
 [][]
  []
 
 
 
 [14] (../figures/fig16.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 3486--189
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3486--193
 [][]
  []
 
 
 
 [15] (../figures/fig12.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 3280--198
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3280--202
 [][]
  []
 
 
 
 [16] (../figures/fig19.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 3074--207
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3074--211
 [][]
  []
 
@@ -2484,26 +2479,26 @@ Overfull \hbox (2.3321pt too wide) in paragraph at lines 3074--207
 [17]
 
 [18] (../figures/fig7.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 2451--226
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 2451--230
 [][]
  []
 
 
 
 [19] (../figures/fig13.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 988--239
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 988--243
 [][]
  []
 
 (../figures/fig14.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 948--246
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 948--250
 [][]
  []
 
 
 
 [20] (../figures/fig15.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 978--253
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 978--257
 [][]
  []
 
@@ -2528,35 +2523,36 @@ Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 61350 strings out of 475512
+ 61355 strings out of 475512
  476918,3417909 words of node,token memory allocated
  1910 words of node memory still in use:
    32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_
 kern, 19 glyph, 142 attribute, 94 glue_spec, 109 attribute_list, 2 write, 24 pdf
 _literal, 12 pdf_action, 24 pdf_colorstack nodes
-   avail lists: 1:25,2:88301,3:31805,4:1097,5:1133,6:99,7:15778,8:130,9:3819,10:
+   avail lists: 1:24,2:88301,3:31805,4:1097,5:1131,6:99,7:15778,8:130,9:3819,10:
 28,11:850
- 82805 multiletter control sequences out of 65536+600000
- 130 fonts using 11056287 bytes
- 102i,12n,110p,2581b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 82810 multiletter control sequences out of 65536+600000
+ 131 fonts using 11100615 bytes
+ 102i,12n,110p,3046b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman8-bold.otf><../fonts/La
-to/Lato-Italic.ttf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman10-i
-talic.otf><//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman10-regula
-r.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-bold.otf><C:/Pr
-ogram Files/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf><C:/Program Fil
-es/MiKTeX/fonts/opentype/public/lm/lmroman6-regular.otf><C:/Program Files/MiKTeX
-/fonts/opentype/public/lm/lmroman8-regular.otf><C:/Program Files/MiKTeX/fonts/op
-entype/public/lm/lmroman12-regular.otf><../fonts/Lato/Lato-Bold.ttf><C:/Program 
-Files/MiKTeX/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf><C:/Program
- Files/MiKTeX/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf><../fonts/Lat
-o/Lato-Regular.ttf><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/
-urw/zapfding/uzdr.pfb>
-Output written on _paper_1_master.pdf (26 pages, 647663 bytes).
+to/Lato-Italic.ttf><../fonts/Lato/Lato-BoldItalic.ttf><C:/Program Files/MiKTeX/f
+onts/opentype/public/lm/lmroman10-italic.otf><//?/c:/program files/miktex/fonts/
+opentype/public/lm/lmroman10-regular.otf><C:/Program Files/MiKTeX/fonts/opentype
+/public/lm/lmroman9-bold.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/l
+mroman9-regular.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman6-r
+egular.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.ot
+f><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf><../fo
+nts/Lato/Lato-Bold.ttf><C:/Program Files/MiKTeX/fonts/opentype/public/tex-gyre/t
+exgyreheros-regular.otf><C:/Program Files/MiKTeX/fonts/opentype/public/tex-gyre/
+texgyreheros-bold.otf><../fonts/Lato/Lato-Regular.ttf><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on _paper_1_master.pdf (26 pages, 667846 bytes).
 
-PDF statistics: 530 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 540 PDF objects out of 1000 (max. 8388607)
  78 named destinations out of 1000 (max. 131072)
  341 words of extra memory for PDF output out of 10000 (max. 100000000)
 

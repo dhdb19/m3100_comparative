@@ -1,6 +1,6 @@
 # ---- ingest data ----
 emp_un <- read_csv(
-  "data/employer_uninsured.csv",
+  "data/_employer_uninsured/employer_uninsured.csv",
   col_types = cols(
     year = col_double(),
     employer = col_double(),
@@ -19,8 +19,7 @@ emp_un <- emp_un %>%
 
 
 
-tikz("figures/fig4.tex", width = 6.3, height = 4.5, standAlone = FALSE)
-emp_un %>%
+emp_un_plot <- emp_un %>%
   ggplot() +
   geom_rect(
     aes(
@@ -47,23 +46,41 @@ emp_un %>%
     lty = "dashed",
     color = "grey",
   ) +
-  geom_hline(
-    yintercept = 0,
-    color = "grey"
-  ) +
-  geom_line(
+  geom_point(
     aes(
       x = year,
       y = employer * 100,
       color = "Employer-based insurance"
     ),
+    shape = 4,
+    size = 1,
   ) +
-  geom_line(
+  geom_point(
     aes(
       x = year,
       y = uninsured * 100,
       color = "Uninsured"
     ),
+    shape = 5,
+    size = 1,
+  ) +
+  geom_smooth(
+    aes(
+      x = year,
+      y = employer * 100,
+      color = "Employer-based insurance"
+    ),
+    method = "lm",
+    linewidth = 0.4,
+  ) +
+  geom_smooth(
+    aes(
+      x = year,
+      y = uninsured * 100,
+      color = "Uninsured"
+    ),
+    method = "lm",
+    linewidth = 0.4,
   ) +
   # geom_ribbon(
   #   data = subset(emp_un, year > as.Date("2008-12-31")),
@@ -75,34 +92,34 @@ emp_un %>%
   #   ),
   #   alpha = 0.2,
   # ) +
-  geom_text_repel(
-    aes(
-      x = year,
-      y = uninsured * 100,
-      label = uninsured * 100,
-    ),
-    direction = "y",
-    size = 2,
-    min.segment.length = 0,
-    segment.linetype = "dashed",
-    segment.size = 0.1,
-    # nudge_y = 2,
-    xlim = c(-Inf, Inf),
-  ) +
-  geom_text_repel(
-    aes(
-      x = year,
-      y = employer * 100,
-      label = employer * 100,
-    ),
-    direction = "y",
-    size = 2,
-    min.segment.length = 0,
-    segment.linetype = "dashed",
-    segment.size = 0.1,
-    # nudge_y = 10,
-    xlim = c(-Inf, Inf),
-  ) +
+  # geom_text_repel(
+  #   aes(
+  #     x = year,
+  #     y = uninsured * 100,
+  #     label = uninsured * 100,
+  #   ),
+  #   direction = "y",
+  #   size = 2,
+  #   min.segment.length = 0,
+  #   segment.linetype = "dashed",
+  #   segment.size = 0.1,
+  #   # nudge_y = 2,
+  #   xlim = c(-Inf, Inf),
+  # ) +
+  # geom_text_repel(
+  #   aes(
+  #     x = year,
+  #     y = employer * 100,
+  #     label = employer * 100,
+  #   ),
+  #   direction = "y",
+  #   size = 2,
+  #   min.segment.length = 0,
+  #   segment.linetype = "dashed",
+  #   segment.size = 0.1,
+  #   # nudge_y = 10,
+  #   xlim = c(-Inf, Inf),
+  # ) +
   scale_y_continuous(
     limits = c(0, 80),
     name = "Percentage",
@@ -148,7 +165,7 @@ emp_un %>%
     name = "",
     values = c(
       "Employer-based insurance" = "#3C714F",
-      "Uninsured" = "#9db0a2"
+      "Uninsured" = "#D81B60"
     ),
     limits = c(
       "Employer-based insurance",
@@ -162,7 +179,15 @@ emp_un %>%
     axis.text = element_text(size = 5),
     legend.text = element_text(size = 6),
     legend.position = "bottom",
-    plot.margin = margin(10, 10, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm")
+    plot.margin = margin(10, 45, 10, 10),
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
   )
+emp_un_plot
+
+
+
+tikz("figures/fig4.tex", width = 6.3, height = 4, standAlone = FALSE)
+emp_un_plot
 dev.off()
