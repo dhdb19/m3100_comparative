@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.11)  14 FEB 2025 13:23
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.2.15)  16 FEB 2025 01:22
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/_paper
@@ -506,7 +506,7 @@ File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package: wrapfig 2003/01/31  v 3.6
 )
 ("C:/Program Files/MiKTeX/tex/latex/enumitem/enumitem.sty"
-Package: enumitem 2025/01/19 v3.10 Customized lists
+Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip51
 \enit@outerparindent=\dimen273
 \enit@toks=\toks39
@@ -613,7 +613,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 ("C:/Program Files/MiKTeX/tex/generic/babel/babel.sty"
-Package: babel 2025/01/25 v25.2 The multilingual framework for pdfLaTeX, LuaLaT
+Package: babel 2025/02/02 v25.3 The multilingual framework for pdfLaTeX, LuaLaT
 eX and XeLaTeX
 
 ("C:/Program Files/MiKTeX/tex/generic/babel/luababel.def"
@@ -1860,6 +1860,46 @@ Package fontspec Info:
 (fontspec)             Heros/BI:mode=node;script=latn;language=dflt;+tlig;+smcp
 ;"
 
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script dflt
+ with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'Lato(1)' created for font 'Lato' with
+(fontspec)             options [Path=../fonts/Lato/,Extension =
+(fontspec)             .ttf,UprightFont=*-Light,ItalicFont=*-LightItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[../fonts/Lato/Lato-Light.ttf]:mode=node;script=latn
+;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[../fonts/Lato/Lato-LightItalic.ttf]:mode=node;scrip
+t=latn;language=dflt;"
+
 
 ("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibr
 aryshapes.geometric.code.tex"
@@ -1895,11 +1935,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
-aper_1_master.aux
-
-LaTeX Warning: Label `fig:expend_priv' multiply defined.
-
-)
+aper_1_master.aux)
 \openout1 = _paper_1_master.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -1960,7 +1996,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=-37.0pt
-* \headheight=42.67912pt
+* \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
@@ -2124,20 +2160,58 @@ Package microtype Info: No adjustment of kerning.
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-("C:/Program Files/MiKTeX/tex/latex/microtype/mt-TU-basic.cfg"
-File: mt-TU-basic.cfg 2021/06/22 v1.1 microtype config. file: fonts with basic 
-glyph set (RS)
-)
+(./_declaration_plagiarism.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(49.79231pt, 483.69687pt, 64.01869pt)
+* v-part:(T,H,B)=(130.31366pt, 681.44353pt, 33.28966pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=648.15387pt
+* \oddsidemargin=-22.47768pt
+* \evensidemargin=-22.47768pt
+* \topmargin=58.04367pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=33.28966pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<../figures/_uni_logo.pdf, id=42, 233.31259pt x 128.0374pt>
+File: ../figures/_uni_logo.pdf Graphic file (type pdf)
+<use ../figures/_uni_logo.pdf>
+Package luatex.def Info: ../figures/_uni_logo.pdf  used on input line 9.
+(luatex.def)             Requested size: 233.31201pt x 128.03706pt.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `Lato' (encoding: TU).
+(microtype)             `TeXGyreHeros' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 
-Overfull \hbox (1.40889pt too wide) in paragraph at lines 25--25
-[] [] 
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
 
 ("C:/Program Files/MiKTeX/tex/latex/amsfonts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2145,7 +2219,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ("C:/Program Files/MiKTeX/tex/latex/microtype/mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 ("C:/Program Files/MiKTeX/tex/latex/amsfonts/umsb.fd"
@@ -2158,16 +2232,160 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 142
+.
+
+("C:/Program Files/MiKTeX/tex/latex/psnfss/upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+){C:/Users/jordi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+("C:/Program Files/MiKTeX/tex/latex/microtype/mt-TU-basic.cfg"
+File: mt-TU-basic.cfg 2021/06/22 v1.1 microtype config. file: fonts with basic 
+glyph set (RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Lato' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 
 [1
 
-{C:/Users/jordi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+<../figures/_uni_logo.pdf>]
+File: ../figures/_uni_logo.pdf Graphic file (type pdf)
+<use ../figures/_uni_logo.pdf>
+Package luatex.def Info: ../figures/_uni_logo.pdf  used on input line 156.
+(luatex.def)             Requested size: 233.31201pt x 128.03706pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+
+Package tabularray Warning: Table width is too small, need 12.79999pt more!
+
+> Step: build the whole table.
+
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 196--197
+[][] 
+ []
+
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+warning  (file ../figures/signature_iordanis2.pdf) (pdf inclusion): PDF inclusio
+n: found PDF version '1.6', but at most version '1.5' allowed
+<../figures/signature_iordanis2.pdf, id=70, 203.26941pt x 87.21584pt>
+File: ../figures/signature_iordanis2.pdf Graphic file (type pdf)
+<use ../figures/signature_iordanis2.pdf>
+Package luatex.def Info: ../figures/signature_iordanis2.pdf  used on input line
+ 214.
+(luatex.def)             Requested size: 125.99469pt x 54.06006pt.
+File: ../figures/signature_iordanis2.pdf Graphic file (type pdf)
+<use ../figures/signature_iordanis2.pdf>
+Package luatex.def Info: ../figures/signature_iordanis2.pdf  used on input line
+ 214.
+(luatex.def)             Requested size: 125.99469pt x 54.06006pt.
+File: ../figures/signature_iordanis2.pdf Graphic file (type pdf)
+<use ../figures/signature_iordanis2.pdf>
+Package luatex.def Info: ../figures/signature_iordanis2.pdf  used on input line
+ 214.
+(luatex.def)             Requested size: 125.99469pt x 54.06006pt.
+> Step: build the whole table.
+File: ../figures/signature_iordanis2.pdf Graphic file (type pdf)
+<use ../figures/signature_iordanis2.pdf>
+Package luatex.def Info: ../figures/signature_iordanis2.pdf  used on input line
+ 214.
+(luatex.def)             Requested size: 125.99469pt x 54.06006pt.
+
+Overfull \hbox (30.73634pt too wide) in paragraph at lines 177--221
+[]$[]$$[]$$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--221
+
+ []
+
+
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(49.79231pt, 483.69687pt, 64.01869pt)
+* v-part:(T,H,B)=(130.31366pt, 681.44353pt, 33.28966pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=648.15387pt
+* \oddsidemargin=-22.47768pt
+* \evensidemargin=-22.47768pt
+* \topmargin=58.04367pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=33.28966pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[2
+
+<../figures/signature_iordanis2.pdf>])
+Overfull \hbox (1.40889pt too wide) in paragraph at lines 25--25
+[] [] 
+ []
+
+
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 (../figures/fig1.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 752--46
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3445--39
 [][]
  []
 
@@ -2177,6 +2395,8 @@ Overfull \hbox (2.3321pt too wide) in paragraph at lines 752--46
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]
 
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2]
 
 [3]
@@ -2188,73 +2408,118 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [6]
 
 [7]
+Overfull \hbox (8.21078pt too wide) in paragraph at lines 119--120
+[][] 
+ []
 
-[8] (../figures/fig3.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 916--190
+
+
+[8]
+
+[9
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+] (../figures/fig3.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 916--138
 [][]
  []
 
 
 
-[9] (../figures/fig4.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 1328--199
+[10] (../figures/fig4.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 1328--147
 [][]
  []
 
 
 
-[10]
-
-[11] (../figures/fig7.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 3228--227
+[11] (../figures/fig20.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 1659--156
 [][]
  []
 
 
 
-[12]
-
-[13] (../figures/fig8.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 1221--240
-[][]
- []
-
-(../figures/fig9.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 1240--247
+[12] (../figures/fig18.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3423--171
 [][]
  []
 
 
 
-[14] (../figures/fig10.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 1240--254
-[][]
- []
-
-(../figures/fig11.tex)
-Overfull \hbox (2.3321pt too wide) in paragraph at lines 1021--261
+[13] (../figures/fig17.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3420--180
 [][]
  []
 
 
 
-[15]
+[14] (../figures/fig16.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3486--189
+[][]
+ []
 
-[16]
+
+
+[15] (../figures/fig12.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3280--198
+[][]
+ []
+
+
+
+[16] (../figures/fig19.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 3074--207
+[][]
+ []
+
+
 
 [17]
 
-[18]
+[18] (../figures/fig7.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 2451--226
+[][]
+ []
+
+
+
+[19] (../figures/fig13.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 988--239
+[][]
+ []
+
+(../figures/fig14.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 948--246
+[][]
+ []
+
+
+
+[20] (../figures/fig15.tex)
+Overfull \hbox (2.3321pt too wide) in paragraph at lines 978--253
+[][]
+ []
+
+
+
+[21]
+
+[22]
+
+[23]
 (c:/Users/jordi/OneDrive/01_Uni/M/m3000_W_24_25/m3100_comparative/paper/meta/_p
 aper_1_master.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `_paper_1_master.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
@@ -2263,28 +2528,35 @@ Package logreq Info: Writing requests to '_paper_1_master.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 60890 strings out of 475512
- 381614,2848258 words of node,token memory allocated
- 1716 words of node memory still in use:
+ 61350 strings out of 475512
+ 476918,3417909 words of node,token memory allocated
+ 1910 words of node memory still in use:
    32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_
-kern, 5 glyph, 112 attribute, 94 glue_spec, 94 attribute_list, 2 write, 24 pdf_l
-iteral, 11 pdf_action, 24 pdf_colorstack nodes
-   avail lists: 1:7,2:52697,3:22710,4:1403,5:526,6:55,7:16221,8:112,9:4899,10:28
-,11:792
- 82420 multiletter control sequences out of 65536+600000
- 108 fonts using 8946575 bytes
- 102i,11n,108p,2580b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<../fonts/Lato/Lato-Italic.ttf><C:/Program Files/MiKTeX/fonts/opentype/public/lm
-/lmroman10-italic.otf><//?/c:/program files/miktex/fonts/opentype/public/lm/lmro
-man10-regular.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-bol
-d.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf><C:
-/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman6-regular.otf><C:/Program 
-Files/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.otf><C:/Program Files/MiK
-TeX/fonts/opentype/public/lm/lmroman12-regular.otf><../fonts/Lato/Lato-Bold.ttf>
-<../fonts/Lato/Lato-Regular.ttf>
-Output written on _paper_1_master.pdf (19 pages, 246287 bytes).
+kern, 19 glyph, 142 attribute, 94 glue_spec, 109 attribute_list, 2 write, 24 pdf
+_literal, 12 pdf_action, 24 pdf_colorstack nodes
+   avail lists: 1:25,2:88301,3:31805,4:1097,5:1133,6:99,7:15778,8:130,9:3819,10:
+28,11:850
+ 82805 multiletter control sequences out of 65536+600000
+ 130 fonts using 11056287 bytes
+ 102i,12n,110p,2581b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman8-bold.otf><../fonts/La
+to/Lato-Italic.ttf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman10-i
+talic.otf><//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman10-regula
+r.otf><C:/Program Files/MiKTeX/fonts/opentype/public/lm/lmroman9-bold.otf><C:/Pr
+ogram Files/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf><C:/Program Fil
+es/MiKTeX/fonts/opentype/public/lm/lmroman6-regular.otf><C:/Program Files/MiKTeX
+/fonts/opentype/public/lm/lmroman8-regular.otf><C:/Program Files/MiKTeX/fonts/op
+entype/public/lm/lmroman12-regular.otf><../fonts/Lato/Lato-Bold.ttf><C:/Program 
+Files/MiKTeX/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf><C:/Program
+ Files/MiKTeX/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf><../fonts/Lat
+o/Lato-Regular.ttf><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
+ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/
+urw/zapfding/uzdr.pfb>
+Output written on _paper_1_master.pdf (26 pages, 647663 bytes).
 
-PDF statistics: 394 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 131072)
- 256 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 530 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 131072)
+ 341 words of extra memory for PDF output out of 10000 (max. 100000000)
 

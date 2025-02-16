@@ -252,6 +252,47 @@
       \verb https://doi.org/10.4324/9780429494284
       \endverb
     \endentry
+    \entry{Beach2019}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d503b87e2d2fb8df394d24e8de7dfed0}{%
+           family={Beach},
+           familyi={B\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67990674b9100831b301fac234f9bd8f}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Rasmus},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Michigan Press}%
+      }
+      \strng{namehash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{fullhash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{fullhashraw}{8bcd807f400e08c52f26271762f2e289}
+      \strng{bibnamehash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{authorbibnamehash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{authornamehash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{authorfullhash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{authorfullhashraw}{8bcd807f400e08c52f26271762f2e289}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{subtitle}{Foundations and Guidelines}
+      \field{title}{Process-Tracing Methods}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.3998/mpub.10072208
+      \endverb
+    \endentry
     \entry{Blendon2008}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=3e1850874bdbd3c4d596cde105935f9e}{%
@@ -420,6 +461,43 @@
       \verb https://doi.org/10.1017/s0007123418000534
       \endverb
     \endentry
+    \entry{NHEA}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5b66ca68cc9f1797b1d5996fa186ecd}{%
+           family={{Centers for Medicare \& Medicaid Services}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Department of Health and Human Services}%
+      }
+      \strng{namehash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{fullhash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{fullhashraw}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{bibnamehash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{authorbibnamehash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{authornamehash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{authorfullhash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{authorfullhashraw}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{12}
+      \field{note}{Data set}
+      \field{title}{National health Expenditure Accounts: {Historical}}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bls.gov/ecec/
+      \endverb
+      \verb{url}
+      \verb https://www.bls.gov/ecec/
+      \endverb
+    \endentry
     \entry{Claxton2011}{online}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ec500fcf6c377595edf516692f23d0fa}{%
@@ -467,6 +545,41 @@
       \verb{url}
       \verb https://www.kff.org/health-costs/issue-brief/snapshots-employer-health-insurance-costs-and-worker-compensation/
       \endverb
+    \endentry
+    \entry{Coleman1986}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=75bd153ea6e371d26904dafbd68d45c0}{%
+           family={Coleman},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{fullhash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{fullhashraw}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{bibnamehash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{authorbibnamehash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{authornamehash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{authorfullhash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{authorfullhashraw}{75bd153ea6e371d26904dafbd68d45c0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Sociology}
+      \field{number}{6}
+      \field{title}{Social Theory, Social Research, and a Theory of Action}
+      \field{volume}{91}
+      \field{year}{1986}
+      \field{pages}{1309\bibrangedash 1335}
+      \range{pages}{27}
     \endentry
     \entry{Davis2016}{online}{}{}
       \name{author}{2}{}{%
@@ -600,6 +713,65 @@
       \endverb
       \verb{url}
       \verb https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+      \endverb
+    \endentry
+    \entry{Goertz2007}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=76f61a083d9ccda064b9e9c0e21ac78d}{%
+           family={Goertz},
+           familyi={G\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d240cbcd718498ca0830ab45c1afbf7}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Jack\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=76f61a083d9ccda064b9e9c0e21ac78d}{%
+           family={Goertz},
+           familyi={G\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7d240cbcd718498ca0830ab45c1afbf7}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Jack\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{fullhash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{fullhashraw}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{bibnamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{authorbibnamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{authornamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{authorfullhash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{authorfullhashraw}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{editorbibnamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{editornamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{editorfullhash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{editorfullhashraw}{6f472f1389bc9bb645fd99cd234eaadf}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Explaining war and peace: {Case} studies and necessary condition counterfactuals}
+      \field{edition}{1}
+      \field{title}{Causal explanation, necessary conditions, and case studies}
+      \field{year}{2007}
+      \field{pages}{9\bibrangedash 45}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.4324/9780203089101
       \endverb
     \endentry
     \entry{Greif2004}{article}{}{}
@@ -743,6 +915,61 @@
       \verb{url}
       \verb https://doi.org/10.1111/j.1467-9248.1996.tb00343.x
       \endverb
+    \endentry
+    \entry{Hedström1998}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=266cca1a9ba1a410d6971f23f3572df4}{%
+           family={Hedström},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9b40bdedfebb1b8c1454eda6dd1d46c}{%
+           family={Swedberg},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=266cca1a9ba1a410d6971f23f3572df4}{%
+           family={Hedström},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a9b40bdedfebb1b8c1454eda6dd1d46c}{%
+           family={Swedberg},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{fullhash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{fullhashraw}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{bibnamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{authorbibnamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{authornamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{authorfullhash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{authorfullhashraw}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{editorbibnamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{editornamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{editorfullhash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{editorfullhashraw}{595479ea08263ca667ce06f3d7b5b805}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Social Mechanisms: {An} Analytical Approach to Social Theory}
+      \field{title}{Social mechanisms: {An} introductory essay}
+      \field{year}{1998}
+      \field{pages}{1\bibrangedash 31}
+      \range{pages}{31}
     \endentry
     \entry{Jacobs2014}{article}{}{}
       \name{author}{2}{}{%
@@ -944,6 +1171,39 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1257/jep.5.1.193
+      \endverb
+    \endentry
+    \entry{KFF1}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ec2f546af34663a28916040c55a90643}{%
+           family={Kaiser\bibnamedelimb Family\bibnamedelimb Foundation},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec2f546af34663a28916040c55a90643}
+      \strng{fullhash}{ec2f546af34663a28916040c55a90643}
+      \strng{fullhashraw}{ec2f546af34663a28916040c55a90643}
+      \strng{bibnamehash}{ec2f546af34663a28916040c55a90643}
+      \strng{authorbibnamehash}{ec2f546af34663a28916040c55a90643}
+      \strng{authornamehash}{ec2f546af34663a28916040c55a90643}
+      \strng{authorfullhash}{ec2f546af34663a28916040c55a90643}
+      \strng{authorfullhashraw}{ec2f546af34663a28916040c55a90643}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{1}
+      \field{title}{{KFF} Health Tracking Poll: {The} Public’s Views on the {ACA}}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kff.org/interactive/kff-health-tracking-poll-the-publics-views-on-the-aca/#?response=Favorable--Unfavorable&aRange=all
+      \endverb
+      \verb{url}
+      \verb https://www.kff.org/interactive/kff-health-tracking-poll-the-publics-views-on-the-aca/#?response=Favorable--Unfavorable&aRange=all
       \endverb
     \endentry
     \entry{Census2024}{report}{}{}
@@ -1851,6 +2111,47 @@
       \verb https://doi.org/10.4324/9780429494284
       \endverb
     \endentry
+    \entry{Beach2019}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d503b87e2d2fb8df394d24e8de7dfed0}{%
+           family={Beach},
+           familyi={B\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67990674b9100831b301fac234f9bd8f}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Rasmus},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Michigan Press}%
+      }
+      \strng{namehash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{fullhash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{fullhashraw}{8bcd807f400e08c52f26271762f2e289}
+      \strng{bibnamehash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{authorbibnamehash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{authornamehash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{authorfullhash}{8bcd807f400e08c52f26271762f2e289}
+      \strng{authorfullhashraw}{8bcd807f400e08c52f26271762f2e289}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{subtitle}{Foundations and Guidelines}
+      \field{title}{Process-Tracing Methods}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.3998/mpub.10072208
+      \endverb
+    \endentry
     \entry{Blendon2008}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=3e1850874bdbd3c4d596cde105935f9e}{%
@@ -2019,6 +2320,43 @@
       \verb https://doi.org/10.1017/s0007123418000534
       \endverb
     \endentry
+    \entry{NHEA}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5b66ca68cc9f1797b1d5996fa186ecd}{%
+           family={{Centers for Medicare \& Medicaid Services}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {U.S. Department of Health and Human Services}%
+      }
+      \strng{namehash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{fullhash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{fullhashraw}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{bibnamehash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{authorbibnamehash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{authornamehash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{authorfullhash}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \strng{authorfullhashraw}{b5b66ca68cc9f1797b1d5996fa186ecd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{12}
+      \field{note}{Data set}
+      \field{title}{National health Expenditure Accounts: {Historical}}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bls.gov/ecec/
+      \endverb
+      \verb{url}
+      \verb https://www.bls.gov/ecec/
+      \endverb
+    \endentry
     \entry{Claxton2011}{online}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ec500fcf6c377595edf516692f23d0fa}{%
@@ -2066,6 +2404,41 @@
       \verb{url}
       \verb https://www.kff.org/health-costs/issue-brief/snapshots-employer-health-insurance-costs-and-worker-compensation/
       \endverb
+    \endentry
+    \entry{Coleman1986}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=75bd153ea6e371d26904dafbd68d45c0}{%
+           family={Coleman},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{fullhash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{fullhashraw}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{bibnamehash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{authorbibnamehash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{authornamehash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{authorfullhash}{75bd153ea6e371d26904dafbd68d45c0}
+      \strng{authorfullhashraw}{75bd153ea6e371d26904dafbd68d45c0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Sociology}
+      \field{number}{6}
+      \field{title}{Social Theory, Social Research, and a Theory of Action}
+      \field{volume}{91}
+      \field{year}{1986}
+      \field{pages}{1309\bibrangedash 1335}
+      \range{pages}{27}
     \endentry
     \entry{Davis2016}{online}{}{}
       \name{author}{2}{}{%
@@ -2199,6 +2572,65 @@
       \endverb
       \verb{url}
       \verb https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+      \endverb
+    \endentry
+    \entry{Goertz2007}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=76f61a083d9ccda064b9e9c0e21ac78d}{%
+           family={Goertz},
+           familyi={G\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d240cbcd718498ca0830ab45c1afbf7}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Jack\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=76f61a083d9ccda064b9e9c0e21ac78d}{%
+           family={Goertz},
+           familyi={G\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7d240cbcd718498ca0830ab45c1afbf7}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Jack\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{fullhash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{fullhashraw}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{bibnamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{authorbibnamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{authornamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{authorfullhash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{authorfullhashraw}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{editorbibnamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{editornamehash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{editorfullhash}{6f472f1389bc9bb645fd99cd234eaadf}
+      \strng{editorfullhashraw}{6f472f1389bc9bb645fd99cd234eaadf}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Explaining war and peace: {Case} studies and necessary condition counterfactuals}
+      \field{edition}{1}
+      \field{title}{Causal explanation, necessary conditions, and case studies}
+      \field{year}{2007}
+      \field{pages}{9\bibrangedash 45}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.4324/9780203089101
       \endverb
     \endentry
     \entry{Greif2004}{article}{}{}
@@ -2342,6 +2774,61 @@
       \verb{url}
       \verb https://doi.org/10.1111/j.1467-9248.1996.tb00343.x
       \endverb
+    \endentry
+    \entry{Hedström1998}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=266cca1a9ba1a410d6971f23f3572df4}{%
+           family={Hedström},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9b40bdedfebb1b8c1454eda6dd1d46c}{%
+           family={Swedberg},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=266cca1a9ba1a410d6971f23f3572df4}{%
+           family={Hedström},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a9b40bdedfebb1b8c1454eda6dd1d46c}{%
+           family={Swedberg},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{fullhash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{fullhashraw}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{bibnamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{authorbibnamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{authornamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{authorfullhash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{authorfullhashraw}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{editorbibnamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{editornamehash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{editorfullhash}{595479ea08263ca667ce06f3d7b5b805}
+      \strng{editorfullhashraw}{595479ea08263ca667ce06f3d7b5b805}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Social Mechanisms: {An} Analytical Approach to Social Theory}
+      \field{title}{Social mechanisms: {An} introductory essay}
+      \field{year}{1998}
+      \field{pages}{1\bibrangedash 31}
+      \range{pages}{31}
     \endentry
     \entry{Jacobs2014}{article}{}{}
       \name{author}{2}{}{%
@@ -2543,6 +3030,39 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.2307/1914185
+      \endverb
+    \endentry
+    \entry{KFF1}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ec2f546af34663a28916040c55a90643}{%
+           family={Kaiser\bibnamedelimb Family\bibnamedelimb Foundation},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec2f546af34663a28916040c55a90643}
+      \strng{fullhash}{ec2f546af34663a28916040c55a90643}
+      \strng{fullhashraw}{ec2f546af34663a28916040c55a90643}
+      \strng{bibnamehash}{ec2f546af34663a28916040c55a90643}
+      \strng{authorbibnamehash}{ec2f546af34663a28916040c55a90643}
+      \strng{authornamehash}{ec2f546af34663a28916040c55a90643}
+      \strng{authorfullhash}{ec2f546af34663a28916040c55a90643}
+      \strng{authorfullhashraw}{ec2f546af34663a28916040c55a90643}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{1}
+      \field{title}{{KFF} Health Tracking Poll: {The} Public’s Views on the {ACA}}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kff.org/interactive/kff-health-tracking-poll-the-publics-views-on-the-aca/#?response=Favorable--Unfavorable&aRange=all
+      \endverb
+      \verb{url}
+      \verb https://www.kff.org/interactive/kff-health-tracking-poll-the-publics-views-on-the-aca/#?response=Favorable--Unfavorable&aRange=all
       \endverb
     \endentry
     \entry{Census2024}{report}{}{}

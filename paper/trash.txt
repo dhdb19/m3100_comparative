@@ -1,0 +1,84 @@
+% Classical Historical Institutionalism cant handle this shit at all, punctuated equilbirium says this is just negative feedback, that doesnt allow change
+
+% For both Pucntuated Equilbirum theory and classical Historical Institutionalism, a lack of concept for endogenous change emans that
+
+% Summarizing for the purpose  of conciseness, as it relates to policy feedback \textcite[][]{Greif2004} argue that
+
+% Germane to the Historical Institutionalist literature presented
+
+% Their article raises two issues with the Historical Institutionalist literature
+
+% Applying their critiques to the two Historical Institutionalist approaches presented in this paper, their article raises two major issues with the previously presented Historical Institutionalist literature. First, even though Punctuate
+
+% From their article, we can gather
+
+% Without going into too much detail, as it specifically relates to Historical Institutionalist theories institutional development, \textcite[][]{Greif2004} raise the following
+
+% Specifically relating to the Historical Institutionalism literature, \textcite[][]{Greif2004} raise two issues. First, as
+
+% Applying this to the Historical Institutionalism literature, it follows that Insofar their article relates to Historical Institutionalism, for Punctuated Equilibrium Theory
+
+% and (2) classical Historical Institutionalism respectively, \textcite[][]{Greif2004} imply that
+
+% \textcite[][]{Greif2004} make two relevant criticisms: (1) Focussing on changes in the environment as drivers of institutional/policy change is,
+
+% Especially as it relates to \textit{change},
+
+% However they argue, in Game Theory terms: \enquote{}
+
+% \textcite[][]{Greif2004} model, within a Game Theory framework, how endogenously driven institutional/policy change
+
+% Leaving out Game Theory for the purposes of conciseness, \textcite[][]{Greif2004} point out several mechanisms by which, in contravention to Punctuated Equilibrium Theory and classical Historical Institutionalist expectation respectively, (1) exogenous shocks
+
+% \textcite[][]{Jacobs2014} focus on the implications of this
+
+% Both for the purposes of \citeauthor{Jacobs2014}'s \parencite*{Jacobs2014} and this paper, I will focus
+% synthesizing criticisms of both classical Historical Institutionalist and punctuated equilibrium theory,arguing both that (1)  and (2) increasing returns are not necessarily or primarily the operative mechanism that cause policy stability, opening the possibility for a more complex typology of mechanisms.
+
+% To illustrate the latter point, \textcite{Greif2004} illustrate present one example how increasing returns alone cannot be the sole determinant of policy stability. \textcite{Greif2004} argue that pensions programs generate decreasing returns, but are still self-reinforcing: The introduction of a national pension program will lead to (1) greater life-expectancy and (2) lower birth-rates as income in old age aids to prolong health and disincentives having children as old-age insurance, relatively to a situation without a pensions scheme. These demographic changes \textit{caused by the policy} (i.e. endogenous changes) in turn, over-time, will lead to a decrease in average pension payouts as the ration of young working people to old age recipients shifts. At the same time, however, support for the pension program will likely increase, as the relative share of the population that economically benefits as a consequence of the same demographic trends that cause the decline in payout, i.e. more pensioners relative to the working population. Classical Historical Institutionalism cant handle this shit at all, punctuated equilbirium says this is just negative feedback, that doesnt allow change
+
+% This is an example of self-reinforcing
+
+% \begin{table}
+%     \sffamily
+%     \caption{Some table}
+%     \begin{tblr}{
+%         width = \textwidth,
+%         colspec = {X[1]X[1]X[1]},
+%         cells = {
+%             valign =h,
+%             halign = left
+%             }
+%         }
+%     & Exogenous process & Endogenous process\\
+%     Positive feedback & Punctuated equilibrium theory & Classical Historical Institutionalism\\
+%     Negative feedback & \textit{Underexplored} & Punctuated equilibrium theory
+%     \end{tblr}
+% \end{table}
+
+% \begin{table}
+%     \sffamily
+%     \small
+%     \caption{Some other table}
+%     \begin{tblr}{
+%         width = \textwidth,
+%         colspec = {X[2]X[3]X[3]},
+%         cells = {
+%             valign =h,
+%             halign = l,
+%             },
+%         hline{1,2} = {1pt, solid},
+%         hline{Z} = {1pt, solid},
+%         % vline{2} = {1pt, solid},
+%         % abovespace{2,Z}{2,Z} ={1cm},
+%         row{1} ={abovesep=0.25cm, belowsep=0.25cm, font=\bfseries},
+%         row{2,Z} ={abovesep=0.25cm, belowsep=0.5cm},
+%         column{1} = {font=\bfseries}
+%         }
+%     & Exogenous change & Endogenous change\\
+%     Exogenous stability & Implied category, that has not been explored & Classical Historical Institutionalism \parencite[e.g.][]{Pierson2000}\\
+%     Endogenous stability & Classical Historical Institutionalism \& Punctuated equilibrium theory& Missing in both classical Historical Institutionalism and Punctuated equilibrium theory according to \textcite[][]{Greif2004}
+%     \end{tblr}
+% \end{table}
+
+% This, of course, still describes a self-reinforcing mechanism, but \textcite[][]{Greif2004} argue that \citeauthor{Pierson2000}'s \parencite*{Pierson2000} theoretical centering of (only) increasing returns as the driver of institutional development processes is misguided. \textcite[][]{Jacobs2014} pick up this criticism and

@@ -3,8 +3,18 @@
 nhe_2023_raw <- read_csv("data/_nhe/nhe_2023.csv", col_names = TRUE)
 cpi <- read_csv2("data/_cpi/cpi.csv")
 gdp_deflator <- read_csv("data/_cpi/gdp_deflator.csv")
+gdp <- read_csv("data/_gdp/gdp.csv")
 
 # ---- cpi data ----
+
+gdp_long <- gdp %>%
+  dplyr::filter(month(year) == 1) %>%
+  mutate(
+    gdp = gdp * 1000
+  )
+
+
+
 cpi_long <- cpi %>%
   rename(
     "year" = Year,
@@ -61,7 +71,24 @@ nhe <- nhe_2023_long %>%
   left_join(
     gdp_deflator_long,
     by = c("year")
+  ) %>%
+  left_join(
+    gdp_long,
+    by = c("year")
+  ) %>%
+  mutate(
+    post_aca = case_when(year > ymd("2010-03-23") ~ 1, .default = 0),
+    post_clinton = case_when(year > ymd("1994-09-26") & year < ymd("2010-03-23") ~ 1, .default = 0),
+    post_medicaid = case_when(year < ymd("1994-09-26") ~ 1, .default = 0),
   )
+
+
+# ---- regression ----
+model_1 <- lm(
+  (total_national_health_expenditures / population) ~
+    year * post_aca * post_clinton,
+  data = nhe
+)
 
 
 # ----data vis ----
@@ -100,7 +127,7 @@ nhe_plot_1 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("1965-07-30"),
-    y = 5000,
+    y = 14500,
     label = "Medicare and Medicaid \n signed into law",
     size = 2,
     label.padding = unit(0.5, "lines")
@@ -108,7 +135,7 @@ nhe_plot_1 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("1993-11-13"),
-    y = 5000,
+    y = 14500,
     label = "Clinton healthcare \n reform effort",
     size = 2,
     label.padding = unit(0.5, "lines")
@@ -116,35 +143,46 @@ nhe_plot_1 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("2009-08-01"),
-    y = 5000,
+    y = 14500,
     label = "Obama inaugurated -- \n ACA comes into force",
     size = 2,
     label.padding = unit(0.5, "lines")
   ) +
-  geom_line(
+  geom_point(
     aes(
-      y = total_national_health_expenditures / 1000,
+      y = (total_national_health_expenditures * gdp_deflator) / population,
+      x = year,
+      color = "2025 dollars"
+    ),
+    shape = 5,
+  ) +
+  geom_point(
+    aes(
+      y = total_national_health_expenditures / population,
       x = year,
       color = "Nominal"
     ),
+    shape = 4
   ) +
   geom_line(
     aes(
-      y = (total_national_health_expenditures * cpi_deflator) / 1000,
+      y = total_national_health_expenditures / population,
       x = year,
-      color = "Inflation-adjusted (CPI)"
+      color = "Nominal"
     ),
+    linewidth = 0.1,
   ) +
   geom_line(
     aes(
-      y = (total_national_health_expenditures * gdp_deflator) / 1000,
+      y = (total_national_health_expenditures * gdp_deflator) / population,
       x = year,
-      color = "Inflation-adjusted (GDP deflator)"
+      color = "2025 dollars"
     ),
+    linewidth = 0.1,
   ) +
   scale_y_continuous(
-    limits = c(0, 6000),
-    name = "Health care expenditure (in Billion USD)",
+    limits = c(0, 17000),
+    name = "Expenditures p.c. (USD)",
     breaks = waiver(),
     n.breaks = 10,
     expand = expansion(add = 0)
@@ -159,28 +197,35 @@ nhe_plot_1 <- nhe %>%
   scale_color_manual(
     name = "",
     values = c(
-      "Inflation-adjusted (CPI)" = "#3c644b",
-      "Inflation-adjusted (GDP deflator)" = "#a4cbae",
-      "Nominal" = "grey"
+      "2025 dollars" = "#3c644b",
+      "Nominal" = "#FFC107"
     ),
     limits = c(
-      "Inflation-adjusted (CPI)",
-      "Inflation-adjusted (GDP deflator)",
+      "2025 dollars",
       "Nominal"
     ),
   ) +
   coord_cartesian(clip = "off") +
+  labs(
+    title = "Total national health expenditures (per capita)"
+  ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
     axis.title = element_text(size = 8),
     axis.text = element_text(size = 5),
-    legend.text = element_text(size = 8),
+    legend.text = element_text(size = 6),
     legend.position = "bottom",
     plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm")
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
   )
 nhe_plot_1
 
+
+# tikz("figures/fig8.tex", width = 6.3, height = 4, standAlone = FALSE)
+# nhe_plot_1
+# dev.off()
 
 
 nhe_plot_2 <- nhe %>%
@@ -217,7 +262,7 @@ nhe_plot_2 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("1965-07-30"),
-    y = 14500,
+    y = 22,
     label = "Medicare and Medicaid \n signed into law",
     size = 2,
     label.padding = unit(0.5, "lines")
@@ -225,7 +270,7 @@ nhe_plot_2 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("1993-11-13"),
-    y = 14500,
+    y = 22,
     label = "Clinton healthcare \n reform effort",
     size = 2,
     label.padding = unit(0.5, "lines")
@@ -233,37 +278,32 @@ nhe_plot_2 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("2009-08-01"),
-    y = 14500,
+    y = 22,
     label = "Obama inaugurated -- \n ACA comes into force",
     size = 2,
     label.padding = unit(0.5, "lines")
   ) +
-  geom_line(
+  geom_point(
     aes(
-      y = total_national_health_expenditures / population,
+      y = (total_national_health_expenditures / gdp) * 100,
       x = year,
-      color = "Nominal"
     ),
-    lty = "dotted"
+    shape = 4,
+    size = 1,
+    color = "#3c644b",
   ) +
-  geom_line(
+  geom_smooth(
+    method = "lm",
     aes(
-      y = (total_national_health_expenditures * cpi_deflator) / population,
+      y = (total_national_health_expenditures / gdp) * 100,
       x = year,
-      color = "Inflation-adjusted \n (CPI, reference 2025)"
     ),
-    lty = "dashed"
-  ) +
-  geom_line(
-    aes(
-      y = (total_national_health_expenditures * gdp_deflator) / population,
-      x = year,
-      color = "Inflation-adjusted  \n (GDP deflator, reference 2025)"
-    ),
+    color = "#3c644b",
+    linewidth = 0.4
   ) +
   scale_y_continuous(
-    limits = c(0, 17000),
-    name = "Health care expenditure p.c. (USD)",
+    limits = c(0, 30),
+    name = "Percentage",
     breaks = waiver(),
     n.breaks = 10,
     expand = expansion(add = 0)
@@ -275,41 +315,51 @@ nhe_plot_2 <- nhe %>%
     date_labels = "'%y",
     expand = expansion(add = 5)
   ) +
-  scale_color_manual(
-    name = "",
-    values = c(
-      "Inflation-adjusted \n (CPI, reference 2025)" = "#a4cbae",
-      "Inflation-adjusted  \n (GDP deflator, reference 2025)" = "#3c644b",
-      "Nominal" = "grey"
-    ),
-    limits = c(
-      "Inflation-adjusted \n (CPI, reference 2025)",
-      "Inflation-adjusted  \n (GDP deflator, reference 2025)",
-      "Nominal"
-    ),
-  ) +
+  # scale_color_manual(
+  #   name = "",
+  #   values = c(
+  #     "Inflation-adjusted \n (CPI, reference 2025)" = "#a4cbae",
+  #     "Inflation-adjusted  \n (GDP deflator, reference 2025)" = "#3c644b",
+  #     "Nominal" = "grey"
+  #   ),
+  #   limits = c(
+  #     "Inflation-adjusted \n (CPI, reference 2025)",
+  #     "Inflation-adjusted  \n (GDP deflator, reference 2025)",
+  #     "Nominal"
+  #   ),
+  # ) +
   coord_cartesian(clip = "off") +
+  labs(
+    title = "Total national health expenditures (share of GDP)"
+  ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
     axis.title = element_text(size = 8),
     axis.text = element_text(size = 5),
-    legend.text = element_text(size = 8),
+    legend.text = element_text(size = 6),
     legend.position = "bottom",
     plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm")
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
   )
 nhe_plot_2
 
+gdp_plot <- plot_grid(
+  nhe_plot_1,
+  nhe_plot_2,
+  nrow = 2,
+  ncol = 1,
+  rel_heights = c(23, 20)
+)
 
 
-tikz("figures/fig8.tex", width = 6.3, height = 4, standAlone = FALSE)
-nhe_plot_2
+tikz("figures/fig18.tex", width = 6.3, height = 5, standAlone = FALSE)
+gdp_plot
 dev.off()
 
 
-
-
-
+# ---- private -----
 
 nhe_plot_3 <- nhe %>%
   ggplot() +
@@ -345,7 +395,7 @@ nhe_plot_3 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("1965-07-30"),
-    y = 4500,
+    y = 14500,
     label = "Medicare and Medicaid \n signed into law",
     size = 2,
     label.padding = unit(0.5, "lines")
@@ -366,32 +416,41 @@ nhe_plot_3 <- nhe %>%
     size = 2,
     label.padding = unit(0.5, "lines")
   ) +
+  geom_point(
+    aes(
+      y = (private_health_insurance * gdp_deflator) / population,
+      x = year,
+      color = "2025 dollars"
+    ),
+    shape = 5,
+  ) +
+  geom_point(
+    aes(
+      y = private_health_insurance / population,
+      x = year,
+      color = "Nominal"
+    ),
+    shape = 4
+  ) +
   geom_line(
     aes(
       y = private_health_insurance / population,
       x = year,
       color = "Nominal"
     ),
-    lty = "dotted"
-  ) +
-  geom_line(
-    aes(
-      y = (private_health_insurance * cpi_deflator) / population,
-      x = year,
-      color = "Inflation-adjusted \n (CPI, reference 2025)"
-    ),
-    lty = "dashed"
+    linewidth = 0.1,
   ) +
   geom_line(
     aes(
       y = (private_health_insurance * gdp_deflator) / population,
       x = year,
-      color = "Inflation-adjusted  \n (GDP deflator, reference 2025)"
+      color = "2025 dollars"
     ),
+    linewidth = 0.1,
   ) +
   scale_y_continuous(
     limits = c(0, 5000),
-    name = "Health care expenditure p.c. (USD)",
+    name = "Expenditures p.c. (USD)",
     breaks = waiver(),
     n.breaks = 10,
     expand = expansion(add = 0)
@@ -406,36 +465,165 @@ nhe_plot_3 <- nhe %>%
   scale_color_manual(
     name = "",
     values = c(
-      "Inflation-adjusted \n (CPI, reference 2025)" = "#a4cbae",
-      "Inflation-adjusted  \n (GDP deflator, reference 2025)" = "#3c644b",
-      "Nominal" = "grey"
+      "2025 dollars" = "#3c644b",
+      "Nominal" = "#FFC107"
     ),
     limits = c(
-      "Inflation-adjusted \n (CPI, reference 2025)",
-      "Inflation-adjusted  \n (GDP deflator, reference 2025)",
+      "2025 dollars",
       "Nominal"
     ),
   ) +
   coord_cartesian(clip = "off") +
+  labs(
+    title = "Private health insurance expenditures (per capita)"
+  ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
     axis.title = element_text(size = 8),
     axis.text = element_text(size = 5),
-    legend.text = element_text(size = 8),
+    legend.text = element_text(size = 6),
     legend.position = "bottom",
     plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm")
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
   )
 nhe_plot_3
 
 
-tikz("figures/fig9.tex", width = 6.3, height = 4, standAlone = FALSE)
-nhe_plot_3
+
+nhe_plot_8 <- nhe %>%
+  ggplot() +
+  geom_vline(
+    xintercept = as.Date("1960-01-01"),
+    color = "grey",
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("1993-01-01"),
+      xmax = as.Date("1994-09-26"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("2009-01-20"),
+      xmax = as.Date("2010-03-23"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  geom_vline(
+    xintercept = as.Date("1965-07-30"),
+    lty = "dashed",
+    color = "grey",
+  ) +
+  annotate(
+    geom = "label",
+    x = as.Date("1965-07-30"),
+    y = 40,
+    label = "Medicare and Medicaid \n signed into law",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  annotate(
+    geom = "label",
+    x = as.Date("1993-11-13"),
+    y = 40,
+    label = "Clinton healthcare \n reform effort",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  annotate(
+    geom = "label",
+    x = as.Date("2009-08-01"),
+    y = 40,
+    label = "Obama inaugurated -- \n ACA comes into force",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  geom_point(
+    aes(
+      y = (private_health_insurance / total_national_health_expenditures) * 100,
+      x = year,
+    ),
+    shape = 4,
+    size = 1,
+    color = "#3c644b",
+  ) +
+  geom_smooth(
+    method = "lm",
+    aes(
+      y = (private_health_insurance / total_national_health_expenditures) * 100,
+      x = year,
+    ),
+    color = "#3c644b",
+    linewidth = 0.2
+  ) +
+  scale_y_continuous(
+    limits = c(0, 50),
+    name = "Percentage",
+    breaks = waiver(),
+    n.breaks = 10,
+    expand = expansion(add = 0)
+  ) +
+  scale_x_date(
+    name = "Year",
+    date_breaks = "2 years",
+    # date_minor_breaks = "1 month",
+    date_labels = "'%y",
+    expand = expansion(add = 5)
+  ) +
+  # scale_color_manual(
+  #   name = "",
+  #   values = c(
+  #     "Inflation-adjusted \n (CPI, reference 2025)" = "#a4cbae",
+  #     "Inflation-adjusted  \n (GDP deflator, reference 2025)" = "#3c644b",
+  #     "Nominal" = "grey"
+  #   ),
+  #   limits = c(
+  #     "Inflation-adjusted \n (CPI, reference 2025)",
+  #     "Inflation-adjusted  \n (GDP deflator, reference 2025)",
+  #     "Nominal"
+  #   ),
+  # ) +
+  coord_cartesian(clip = "off") +
+  labs(
+    title = "Private healthcare expenditure (share of total national health expenditure)"
+  ) +
+  theme(
+    panel.background = element_rect(fill = "#f0f0f0"),
+    axis.title = element_text(size = 8),
+    axis.text = element_text(size = 5),
+    legend.text = element_text(size = 6),
+    legend.position = "bottom",
+    plot.margin = margin(10, 45, 10, 10),
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
+  )
+nhe_plot_8
+
+ph_plot <- plot_grid(
+  nhe_plot_3,
+  nhe_plot_8,
+  nrow = 2,
+  ncol = 1,
+  rel_heights = c(6, 5)
+)
+
+tikz("figures/fig17.tex", width = 6.3, height = 5, standAlone = FALSE)
+ph_plot
 dev.off()
 
 
 
-
+# ---- oop ----
 
 nhe_plot_4 <- nhe %>%
   ggplot() +
@@ -492,32 +680,41 @@ nhe_plot_4 <- nhe %>%
     size = 2,
     label.padding = unit(0.5, "lines")
   ) +
+  geom_point(
+    aes(
+      y = (out_of_pocket * gdp_deflator) / population,
+      x = year,
+      color = "2025 dollars"
+    ),
+    shape = 5,
+  ) +
+  geom_point(
+    aes(
+      y = out_of_pocket / population,
+      x = year,
+      color = "Nominal"
+    ),
+    shape = 4
+  ) +
   geom_line(
     aes(
       y = out_of_pocket / population,
       x = year,
       color = "Nominal"
     ),
-    lty = "dotted"
-  ) +
-  geom_line(
-    aes(
-      y = (out_of_pocket * cpi_deflator) / population,
-      x = year,
-      color = "Inflation-adjusted \n (CPI, reference 2025)"
-    ),
-    lty = "dashed"
+    linewidth = 0.2,
   ) +
   geom_line(
     aes(
       y = (out_of_pocket * gdp_deflator) / population,
       x = year,
-      color = "Inflation-adjusted  \n (GDP deflator, reference 2025)"
+      color = "2025 dollars"
     ),
+    linewidth = 0.2,
   ) +
   scale_y_continuous(
     limits = c(0, 2500),
-    name = "Health care expenditure p.c. (USD)",
+    name = "Expenditures p.c. (USD)",
     breaks = waiver(),
     n.breaks = 10,
     expand = expansion(add = 0)
@@ -532,40 +729,40 @@ nhe_plot_4 <- nhe %>%
   scale_color_manual(
     name = "",
     values = c(
-      "Inflation-adjusted \n (CPI, reference 2025)" = "#a4cbae",
-      "Inflation-adjusted  \n (GDP deflator, reference 2025)" = "#3c644b",
-      "Nominal" = "grey"
+      "2025 dollars" = "#3c644b",
+      "Nominal" = "#FFC107"
     ),
     limits = c(
-      "Inflation-adjusted \n (CPI, reference 2025)",
-      "Inflation-adjusted  \n (GDP deflator, reference 2025)",
+      "2025 dollars",
       "Nominal"
     ),
   ) +
   coord_cartesian(clip = "off") +
+  labs(
+    title = "Out-of-pocket expenditures (per capita)"
+  ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
     axis.title = element_text(size = 8),
     axis.text = element_text(size = 5),
-    legend.text = element_text(size = 8),
+    legend.text = element_text(size = 6),
     legend.position = "bottom",
     plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm")
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
   )
 nhe_plot_4
 
-tikz("figures/fig10.tex", width = 6.3, height = 4, standAlone = FALSE)
-nhe_plot_4
-dev.off()
 
 
 
-nhe_plot_5 <- nhe %>%
+nhe_plot_7 <- nhe %>%
   ggplot() +
-  # geom_vline(
-  #   xintercept = as.Date("1960-01-01"),
-  #   color = "grey",
-  # ) +
+  geom_vline(
+    xintercept = as.Date("1960-01-01"),
+    color = "grey",
+  ) +
   geom_rect(
     aes(
       xmin = as.Date("1993-01-01"),
@@ -588,13 +785,146 @@ nhe_plot_5 <- nhe %>%
   ) +
   geom_vline(
     xintercept = as.Date("1965-07-30"),
-    lty = "solid",
+    lty = "dashed",
     color = "grey",
   ) +
+  annotate(
+    geom = "label",
+    x = as.Date("1965-07-30"),
+    y = 15,
+    label = "Medicare and Medicaid \n signed into law",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  annotate(
+    geom = "label",
+    x = as.Date("1993-11-13"),
+    y = 40,
+    label = "Clinton healthcare \n reform effort",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  annotate(
+    geom = "label",
+    x = as.Date("2009-08-01"),
+    y = 40,
+    label = "Obama inaugurated -- \n ACA comes into force",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  geom_point(
+    aes(
+      y = (out_of_pocket / total_national_health_expenditures) * 100,
+      x = year,
+    ),
+    shape = 4,
+    size = 1,
+    color = "#3c644b",
+  ) +
+  geom_smooth(
+    method = "lm",
+    aes(
+      y = (out_of_pocket / total_national_health_expenditures) * 100,
+      x = year,
+    ),
+    color = "#3c644b",
+    linewidth = 0.2
+  ) +
+  scale_y_continuous(
+    limits = c(0, 50),
+    name = "Percentage",
+    breaks = waiver(),
+    n.breaks = 10,
+    expand = expansion(add = 0)
+  ) +
+  scale_x_date(
+    name = "Year",
+    date_breaks = "2 years",
+    # date_minor_breaks = "1 month",
+    date_labels = "'%y",
+    expand = expansion(add = 5)
+  ) +
+  # scale_color_manual(
+  #   name = "",
+  #   values = c(
+  #     "Inflation-adjusted \n (CPI, reference 2025)" = "#a4cbae",
+  #     "Inflation-adjusted  \n (GDP deflator, reference 2025)" = "#3c644b",
+  #     "Nominal" = "grey"
+  #   ),
+  #   limits = c(
+  #     "Inflation-adjusted \n (CPI, reference 2025)",
+  #     "Inflation-adjusted  \n (GDP deflator, reference 2025)",
+  #     "Nominal"
+  #   ),
+  # ) +
+  coord_cartesian(clip = "off") +
+  labs(
+    title = "Out-of-pocket expenditures (share of total national health expenditure)"
+  ) +
+  theme(
+    panel.background = element_rect(fill = "#f0f0f0"),
+    axis.title = element_text(size = 8),
+    axis.text = element_text(size = 5),
+    legend.text = element_text(size = 6),
+    legend.position = "bottom",
+    plot.margin = margin(10, 45, 10, 10),
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
+  )
+nhe_plot_7
+
+
+
+oop_plot <- plot_grid(
+  nhe_plot_4,
+  nhe_plot_7,
+  nrow = 2,
+  ncol = 1,
+  rel_heights = c(6, 5)
+)
+
+tikz("figures/fig16.tex", width = 6.3, height = 5, standAlone = FALSE)
+oop_plot
+dev.off()
+
+# ---- gov't ----
+
+nhe_plot_5 <- nhe %>%
+  ggplot() +
+  geom_vline(
+    xintercept = as.Date("1960-01-01"),
+    color = "grey",
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("1993-01-01"),
+      xmax = as.Date("1994-09-26"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("2009-01-20"),
+      xmax = as.Date("2010-03-23"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  # geom_vline(
+  #   xintercept = as.Date("1965-07-30"),
+  #   lty = "dashed",
+  #   color = "grey",
+  # ) +
   # annotate(
   #   geom = "label",
   #   x = as.Date("1965-07-30"),
-  #   y = 3500,
+  #   y = 2000,
   #   label = "Medicare and Medicaid \n signed into law",
   #   size = 2,
   #   label.padding = unit(0.5, "lines")
@@ -614,26 +944,42 @@ nhe_plot_5 <- nhe %>%
     label = "Obama inaugurated -- \n ACA comes into force",
     size = 2,
     label.padding = unit(0.5, "lines")
+  ) +
+  geom_point(
+    aes(
+      y = (medicare * gdp_deflator) / population,
+      x = year,
+      color = "Medicare (2023 dollars)"
+    ),
+    shape = 5,
+  ) +
+  geom_point(
+    aes(
+      y = (medicaid_title_xix * gdp_deflator) / population,
+      x = year,
+      color = "Medicaid (2023 dollars)"
+    ),
+    shape = 4
   ) +
   geom_line(
     aes(
       y = (medicare * gdp_deflator) / population,
       x = year,
-      color = "Medicare \n (GDP deflator, reference 2025)"
+      color = "Medicare (2023 dollars)"
     ),
-    lty = "solid"
+    linewidth = 0.2,
   ) +
   geom_line(
     aes(
       y = (medicaid_title_xix * gdp_deflator) / population,
       x = year,
-      color = "Medicaid \n (GDP deflator, reference 2025)"
+      color = "Medicaid (2023 dollars)"
     ),
-    lty = "dashed"
+    linewidth = 0.2,
   ) +
   scale_y_continuous(
     limits = c(0, 4000),
-    name = "Health care expenditure p.c. (USD)",
+    name = "Expenditures p.c. (USD)",
     breaks = waiver(),
     n.breaks = 10,
     expand = expansion(add = 0)
@@ -649,35 +995,427 @@ nhe_plot_5 <- nhe %>%
   scale_color_manual(
     name = "",
     values = c(
-      "Medicaid \n (GDP deflator, reference 2025)" = "#a4cbae",
-      "Medicare \n (GDP deflator, reference 2025)" = "#3c644b",
-      "Nominal" = "grey"
+      "Medicare (2023 dollars)" = "#3c644b",
+      "Medicaid (2023 dollars)" = "#FFC107"
     ),
     limits = c(
-      "Medicare \n (GDP deflator, reference 2025)",
-      "Medicaid \n (GDP deflator, reference 2025)"
+      "Medicare (2023 dollars)",
+      "Medicaid (2023 dollars)"
     ),
   ) +
   coord_cartesian(clip = "off") +
+  labs(
+    title = "Medicare and Medicaid expenditures (per capita)"
+  ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
     axis.title = element_text(size = 8),
     axis.text = element_text(size = 5),
-    legend.text = element_text(size = 8),
+    legend.text = element_text(size = 6),
     legend.position = "bottom",
     plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm")
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
   )
 nhe_plot_5
 
 
-tikz("figures/fig11.tex", width = 6.3, height = 4, standAlone = FALSE)
-nhe_plot_5
+
+
+
+nhe_plot_9 <- nhe %>%
+  ggplot() +
+  geom_vline(
+    xintercept = as.Date("1960-01-01"),
+    color = "grey",
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("1993-01-01"),
+      xmax = as.Date("1994-09-26"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("2009-01-20"),
+      xmax = as.Date("2010-03-23"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  # geom_vline(
+  #   xintercept = as.Date("1965-07-30"),
+  #   lty = "dashed",
+  #   color = "grey",
+  # ) +
+  # annotate(
+  #   geom = "label",
+  #   x = as.Date("1965-07-30"),
+  #   y = 2000,
+  #   label = "Medicare and Medicaid \n signed into law",
+  #   size = 2,
+  #   label.padding = unit(0.5, "lines")
+  # ) +
+  annotate(
+    geom = "label",
+    x = as.Date("1993-11-13"),
+    y = 7,
+    label = "Clinton healthcare \n reform effort",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  annotate(
+    geom = "label",
+    x = as.Date("2009-08-01"),
+    y = 7,
+    label = "Obama inaugurated -- \n ACA comes into force",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  geom_point(
+    aes(
+      y = (medicare / total_national_health_expenditures) * 100,
+      x = year,
+      color = "Medicare "
+    ),
+    shape = 5,
+  ) +
+  geom_point(
+    aes(
+      y = (medicaid_title_xix / total_national_health_expenditures) * 100,
+      x = year,
+      color = "Medicaid"
+    ),
+    shape = 4
+  ) +
+  geom_line(
+    aes(
+      y = (medicare / total_national_health_expenditures) * 100,
+      x = year,
+      color = "Medicare"
+    ),
+    linewidth = 0.2,
+  ) +
+  geom_line(
+    aes(
+      y = (medicaid_title_xix / total_national_health_expenditures) * 100,
+      x = year,
+      color = "Medicaid"
+    ),
+    linewidth = 0.2,
+  ) +
+  scale_y_continuous(
+    limits = c(0, 25),
+    name = "Percentage",
+    breaks = waiver(),
+    n.breaks = 10,
+    expand = expansion(add = 0)
+  ) +
+  scale_x_date(
+    limits = c(as.Date("1965-07-30"), as.Date("2023-01-01")),
+    name = "Year",
+    date_breaks = "2 years",
+    # date_minor_breaks = "1 month",
+    date_labels = "'%y",
+    expand = expansion(add = 5)
+  ) +
+  scale_color_manual(
+    name = "",
+    values = c(
+      "Medicare" = "#3c644b",
+      "Medicaid" = "#FFC107"
+    ),
+    limits = c(
+      "Medicare",
+      "Medicaid"
+    ),
+  ) +
+  coord_cartesian(clip = "off") +
+  labs(
+    title = "Medicare and Medicaid expenditures (share of total national health expenditures)"
+  ) +
+  theme(
+    panel.background = element_rect(fill = "#f0f0f0"),
+    axis.title = element_text(size = 8),
+    axis.text = element_text(size = 5),
+    legend.text = element_text(size = 6),
+    legend.position = "bottom",
+    plot.margin = margin(10, 45, 10, 10),
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
+  )
+nhe_plot_9
+
+
+
+# nhe_plot_xxx <- nhe %>%
+#   ggplot() +
+#   # geom_vline(
+#   #   xintercept = as.Date("1960-01-01"),
+#   #   color = "grey",
+#   # ) +
+#   geom_rect(
+#     aes(
+#       xmin = as.Date("1993-01-01"),
+#       xmax = as.Date("1994-09-26"),
+#       ymax = Inf,
+#       ymin = -Inf,
+#     ),
+#     fill = "grey",
+#     alpha = 0.01
+#   ) +
+#   geom_rect(
+#     aes(
+#       xmin = as.Date("2009-01-20"),
+#       xmax = as.Date("2010-03-23"),
+#       ymax = Inf,
+#       ymin = -Inf,
+#     ),
+#     fill = "grey",
+#     alpha = 0.01
+#   ) +
+#   geom_vline(
+#     xintercept = as.Date("1965-07-30"),
+#     lty = "solid",
+#     color = "grey",
+#   ) +
+#   # annotate(
+#   #   geom = "label",
+#   #   x = as.Date("1965-07-30"),
+#   #   y = 3500,
+#   #   label = "Medicare and Medicaid \n signed into law",
+#   #   size = 2,
+#   #   label.padding = unit(0.5, "lines")
+#   # ) +
+#   annotate(
+#     geom = "label",
+#     x = as.Date("1993-11-13"),
+#     y = 7,
+#     label = "Clinton healthcare \n reform effort",
+#     size = 2,
+#     label.padding = unit(0.5, "lines")
+#   ) +
+#   annotate(
+#     geom = "label",
+#     x = as.Date("2009-08-01"),
+#     y = 7,
+#     label = "Obama inaugurated -- \n ACA comes into force",
+#     size = 2,
+#     label.padding = unit(0.5, "lines")
+#   ) +
+#   geom_line(
+#     aes(
+#       y = ((medicare + medicaid_title_xix) / total_national_health_expenditures) * 100,
+#       x = year,
+#       color = "Medicare + Medicaid"
+#     ),
+#     lty = "solid"
+#   ) +
+#   scale_y_continuous(
+#     limits = c(0, 10),
+#     name = "Expenditures p.c. (USD)",
+#     breaks = waiver(),
+#     n.breaks = 10,
+#     expand = expansion(add = 0)
+#   ) +
+#   scale_x_date(
+#     limits = c(as.Date("1965-07-30"), as.Date("2023-01-01")),
+#     name = "Year",
+#     date_breaks = "2 years",
+#     # date_minor_breaks = "1 month",
+#     date_labels = "'%y",
+#     expand = expansion(add = 5)
+#   ) +
+#   scale_color_manual(
+#     name = "",
+#     values = c(
+#       "Medicaid (federal + state, 2025 dollars)" = "#a4cbae",
+#       "Medicare (2025 dollars)" = "#3c644b",
+#       "Nominal" = "grey"
+#     ),
+#     limits = c(
+#       "Medicare (2025 dollars)",
+#       "Medicaid (federal + state, 2025 dollars)"
+#     ),
+#   ) +
+#   coord_cartesian(clip = "off") +
+#   labs(
+#     title = "Medicare and Medicaid expenditures (per capita)"
+#   ) +
+#   theme(
+#     panel.background = element_rect(fill = "#f0f0f0"),
+#     axis.title = element_text(size = 8),
+#     axis.text = element_text(size = 5),
+#     legend.text = element_text(size = 6),
+#     legend.position = "bottom",
+#     plot.margin = margin(10, 45, 10, 10),
+#     legend.key.spacing.x = unit(1.5, "cm"),
+#     axis.line = element_line(color = "black", linewidth = 0.2),
+#     plot.title = element_text(size = 8),
+#   )
+# nhe_plot_xxx
+
+govt_plot <- plot_grid(
+  nhe_plot_5,
+  nhe_plot_9,
+  nrow = 2,
+  ncol = 1,
+  rel_heights = c(20, 20)
+)
+
+tikz("figures/fig12.tex", width = 6.3, height = 4, standAlone = FALSE)
+govt_plot
+dev.off()
+
+# ---- expend_states ----
+
+nhe_plot_6 <- nhe %>%
+  ggplot() +
+  geom_vline(
+    xintercept = as.Date("1960-01-01"),
+    color = "grey",
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("1993-01-01"),
+      xmax = as.Date("1994-09-26"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  geom_rect(
+    aes(
+      xmin = as.Date("2009-01-20"),
+      xmax = as.Date("2010-03-23"),
+      ymax = Inf,
+      ymin = -Inf,
+    ),
+    fill = "grey",
+    alpha = 0.01
+  ) +
+  # geom_vline(
+  #   xintercept = as.Date("1965-07-30"),
+  #   lty = "dashed",
+  #   color = "grey",
+  # ) +
+  # annotate(
+  #   geom = "label",
+  #   x = as.Date("1965-07-30"),
+  #   y = 2000,
+  #   label = "Medicare and Medicaid \n signed into law",
+  #   size = 2,
+  #   label.padding = unit(0.5, "lines")
+  # ) +
+  annotate(
+    geom = "label",
+    x = as.Date("1993-11-13"),
+    y = 1500,
+    label = "Clinton healthcare \n reform effort",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  annotate(
+    geom = "label",
+    x = as.Date("2009-08-01"),
+    y = 1500,
+    label = "Obama inaugurated -- \n ACA comes into force",
+    size = 2,
+    label.padding = unit(0.5, "lines")
+  ) +
+  geom_point(
+    aes(
+      y = (state_and_local * gdp_deflator) / population,
+      x = year,
+      color = "State and local (2023 dollars)"
+    ),
+    shape = 5,
+  ) +
+  geom_point(
+    aes(
+      y = (federal * gdp_deflator) / population,
+      x = year,
+      color = "Federal (2023 dollars)"
+    ),
+    shape = 4
+  ) +
+  geom_line(
+    aes(
+      y = (state_and_local * gdp_deflator) / population,
+      x = year,
+      color = "State and local (2023 dollars)"
+    ),
+    linewidth = 0.2,
+  ) +
+  geom_line(
+    aes(
+      y = (federal * gdp_deflator) / population,
+      x = year,
+      color = "Federal (2023 dollars)"
+    ),
+    linewidth = 0.2,
+  ) +
+  scale_y_continuous(
+    limits = c(0, 2000),
+    name = "Expenditures p.c. (USD)",
+    breaks = waiver(),
+    n.breaks = 10,
+    expand = expansion(add = 0)
+  ) +
+  scale_x_date(
+    limits = c(as.Date("1965-07-30"), as.Date("2023-01-01")),
+    name = "Year",
+    date_breaks = "2 years",
+    # date_minor_breaks = "1 month",
+    date_labels = "'%y",
+    expand = expansion(add = 5)
+  ) +
+  scale_color_manual(
+    name = "",
+    values = c(
+      "State and local (2023 dollars)" = "#3c644b",
+      "Federal (2023 dollars)" = "#FFC107"
+    ),
+    limits = c(
+      "State and local (2023 dollars)",
+      "Federal (2023 dollars)"
+    ),
+  ) +
+  coord_cartesian(clip = "off") +
+  labs(
+    title = "Medicaid expenditures by state/local and federal level (per capita)"
+  ) +
+  theme(
+    panel.background = element_rect(fill = "#f0f0f0"),
+    axis.title = element_text(size = 8),
+    axis.text = element_text(size = 5),
+    legend.text = element_text(size = 6),
+    legend.position = "bottom",
+    plot.margin = margin(10, 45, 10, 10),
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.2),
+    plot.title = element_text(size = 8),
+  )
+nhe_plot_6
+
+
+tikz("figures/fig20.tex", width = 6.3, height = 3, standAlone = FALSE)
+nhe_plot_6
 dev.off()
 
 
+# --- - compare everything ----
 
-nhe_plot_6 <- nhe %>%
+nhe_plot_10 <- nhe %>%
   ggplot() +
   # geom_vline(
   #   xintercept = as.Date("1960-01-01"),
@@ -719,7 +1457,7 @@ nhe_plot_6 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("1993-11-13"),
-    y = 1500,
+    y = 8,
     label = "Clinton healthcare \n reform effort",
     size = 2,
     label.padding = unit(0.5, "lines")
@@ -727,30 +1465,68 @@ nhe_plot_6 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("2009-08-01"),
-    y = 1500,
+    y = 8,
     label = "Obama inaugurated -- \n ACA comes into force",
     size = 2,
     label.padding = unit(0.5, "lines")
   ) +
-  geom_line(
+  geom_point(
     aes(
-      y = (state_and_local * gdp_deflator) / population,
+      y = ((medicare + medicaid_title_xix) / gdp) * 100,
       x = year,
-      color = "Medicaid (state and local) \n (GDP deflator, reference 2025)"
+      color = "Medicare + Medicaid",
     ),
-    lty = "solid"
+    shape = 4,
+    size = 1
   ) +
-  geom_line(
+  geom_point(
     aes(
-      y = (federal * gdp_deflator) / population,
+      y = ((private_health_insurance) / gdp) * 100,
       x = year,
-      color = "Medicaid (federal) \n (GDP deflator, reference 2025)"
+      color = "Private health insurance"
     ),
-    lty = "dashed"
+    shape = 5,
+    size = 1
+  ) +
+  geom_point(
+    aes(
+      y = ((out_of_pocket) / gdp) * 100,
+      x = year,
+      color = "Out-of-pocket",
+    ),
+    shape = 6,
+    size = 1
+  ) +
+  geom_smooth(
+    method = "lm",
+    aes(
+      x = year,
+      y = ((medicare + medicaid_title_xix) / gdp) * 100,
+      color = "Medicare + Medicaid",
+    ),
+    linewidth = 0.5
+  ) +
+  geom_smooth(
+    method = "lm",
+    aes(
+      x = year,
+      y = ((private_health_insurance) / gdp) * 100,
+      color = "Private health insurance"
+    ),
+    linewidth = 0.5
+  ) +
+  geom_smooth(
+    method = "lm",
+    aes(
+      x = year,
+      y = ((out_of_pocket) / gdp) * 100,
+      color = "Out-of-pocket",
+    ),
+    linewidth = 0.5
   ) +
   scale_y_continuous(
-    limits = c(0, 2000),
-    name = "Health care expenditure p.c. (USD)",
+    limits = c(0, 9),
+    name = "Percentage",
     breaks = waiver(),
     n.breaks = 10,
     expand = expansion(add = 0)
@@ -766,31 +1542,40 @@ nhe_plot_6 <- nhe %>%
   scale_color_manual(
     name = "",
     values = c(
-      "Medicaid (federal) \n (GDP deflator, reference 2025)" = "#a4cbae",
-      "Medicaid (state and local) \n (GDP deflator, reference 2025)" = "#3c644b",
-      "Nominal" = "grey"
+      "Medicare + Medicaid" = "#FFC107",
+      "Private health insurance" = "#004D40",
+      "Out-of-pocket" = "#D81B60"
     ),
     limits = c(
-      "Medicaid (state and local) \n (GDP deflator, reference 2025)",
-      "Medicaid (federal) \n (GDP deflator, reference 2025)"
+      "Medicare + Medicaid",
+      "Private health insurance",
+      "Out-of-pocket"
     ),
   ) +
   coord_cartesian(clip = "off") +
+  labs(
+    title = "Health care expenditures by source (share of GDP)"
+  ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
     axis.title = element_text(size = 8),
     axis.text = element_text(size = 5),
-    legend.text = element_text(size = 8),
+    legend.text = element_text(size = 6),
     legend.position = "bottom",
     plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm")
+    legend.key.spacing.x = unit(1.5, "cm"),
+    axis.line = element_line(color = "black", linewidth = 0.1),
+    plot.title = element_text(size = 8),
   )
-nhe_plot_6
+nhe_plot_10
 
 
-tikz("figures/fig12.tex", width = 6.3, height = 4, standAlone = FALSE)
-nhe_plot_6
+tikz("figures/fig19.tex", width = 6.3, height = 3, standAlone = FALSE)
+nhe_plot_10
 dev.off()
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (INITEX)  11 FEB 2025 17:43
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (INITEX)  15 FEB 2025 23:16
  restricted system commands enabled.
 **lualatex.ini
 ("C:/Program Files/MiKTeX/tex/latex/tex-ini-files/lualatex.ini"
@@ -1209,7 +1209,7 @@ Reading Unicode data
 Local configuration file hyphen.cfg used
 ===========================================
 ("C:/Program Files/MiKTeX/tex/generic/babel/hyphen.cfg"
-File: hyphen.cfg 2025/01/25 v25.2 Babel hyphens
+File: hyphen.cfg 2025/02/02 v25.3 Babel hyphens
 
 ("C:/Program Files/MiKTeX/tex/generic/babel/luababel.def")
 \l@english=\language0
@@ -1228,9 +1228,9 @@ xes to external files and packages
 )
 ))
 Beginning to dump on file lualatex.fmt
- (format=lualatex 2025.2.11)
+ (format=lualatex 2025.2.15)
 24488 strings using 443151 bytes
-1078159 memory locations dumped; current usage is 204&513336
+1078123 memory locations dumped; current usage is 204&513318
 23131 multiletter control sequences
 \font\nullfont=nullfont
 \font\OMX/cmex/m/n/10=cmex10

@@ -1,10 +1,10 @@
 library("cowplot")
 
 # ---- load data ----
-ehbs_single_premium <- read_csv("data/_ehbs_single_premium.csv")
-ehbs_single_contrib <- read_csv("data/_ehbs_single_contrib.csv")
-ehbs_family_premium <- read_csv("data/_ehbs_family_premium.csv")
-ehbs_family_contrib <- read_csv("data/_ehbs_family_contrib.csv")
+ehbs_single_premium <- read_csv("data/_ehbs/_ehbs_single_premium.csv")
+ehbs_single_contrib <- read_csv("data/_ehbs/_ehbs_single_contrib.csv")
+ehbs_family_premium <- read_csv("data/_ehbs/_ehbs_family_premium.csv")
+ehbs_family_contrib <- read_csv("data/_ehbs/_ehbs_family_contrib.csv")
 
 
 # ---- clean up data ----
@@ -121,10 +121,10 @@ ehbs_share_plot <- ehbs_share %>%
     fill = "grey",
     alpha = 0.01
   ) +
-  geom_hline(
-    yintercept = 0,
-    color = "grey"
-  ) +
+  # geom_hline(
+  #   yintercept = 0,
+  #   color = "grey"
+  # ) +
   geom_vline(
     xintercept = as.Date("1999-12-31"),
     color = "grey"
@@ -158,7 +158,7 @@ ehbs_share_plot <- ehbs_share %>%
     aes(
       x = year,
       y = share * 100,
-      label = format((share * 100), digits = 3),
+      label = format((share * 100), digits = 1),
     ),
     direction = "y",
     size = 2,
@@ -177,7 +177,7 @@ ehbs_share_plot <- ehbs_share %>%
   # ) +
   scale_x_date(
     name = "Year",
-    date_breaks = "1 year",
+    date_breaks = "2 years",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",
     expand = expansion(add = 5)
@@ -196,7 +196,7 @@ ehbs_share_plot <- ehbs_share %>%
   coord_cartesian(clip = "off") +
   labs(
     y = "Percentage",
-    title = "Employee share of healthcare premium"
+    title = "Employee contribution to total healthcare premium (share)"
   ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
@@ -205,7 +205,8 @@ ehbs_share_plot <- ehbs_share %>%
     legend.text = element_text(size = 6),
     legend.position = "bottom",
     plot.margin = margin(10, 10, 10, 10),
-    plot.title = element_text(size = 8)
+    plot.title = element_text(size = 8),
+    axis.line = element_line(color = "black", linewidth = unit(0.2, "pt")),
   )
 
 
@@ -224,10 +225,10 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
     fill = "grey",
     alpha = 0.01
   ) +
-  geom_hline(
-    yintercept = 0,
-    color = "grey"
-  ) +
+  # geom_hline(
+  #   yintercept = 0,
+  #   color = "grey"
+  # ) +
   geom_vline(
     xintercept = as.Date("1999-12-31"),
     color = "grey"
@@ -235,7 +236,7 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
   geom_line(
     aes(
       x = year,
-      y = est_contrib,
+      y = est_contrib / 1000,
     ),
     color = "#3C714F"
   ) +
@@ -260,8 +261,8 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
   geom_text_repel(
     aes(
       x = year,
-      y = est_contrib,
-      label = est_contrib,
+      y = est_contrib / 1000,
+      label = round((est_contrib / 1000), digits = 1),
     ),
     direction = "y",
     size = 2,
@@ -280,7 +281,7 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
   # ) +
   scale_x_date(
     name = "Year",
-    date_breaks = "1 year",
+    date_breaks = "2 years",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",
     expand = expansion(add = 5)
@@ -298,8 +299,8 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
   ) +
   coord_cartesian(clip = "off") +
   labs(
-    y = "Cost (USD)",
-    title = "Employee healthcare contribution (absolute)"
+    y = "Cost (1000 USD)",
+    title = "Employee contribution to total healthcare premium (absolute)"
   ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
@@ -308,7 +309,8 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
     legend.text = element_text(size = 6),
     legend.position = "bottom",
     plot.margin = margin(10, 10, 10, 10),
-    plot.title = element_text(size = 8)
+    plot.title = element_text(size = 8),
+    axis.line = element_line(color = "black", linewidth = unit(0.2, "pt")),
   )
 
 
@@ -330,10 +332,10 @@ ehbs_abs_prem_plot <- ehbs_share %>%
     fill = "grey",
     alpha = 0.01
   ) +
-  geom_hline(
-    yintercept = 0,
-    color = "grey"
-  ) +
+  # geom_hline(
+  #   yintercept = 0,
+  #   color = "grey"
+  # ) +
   geom_vline(
     xintercept = as.Date("1999-12-31"),
     color = "grey"
@@ -341,7 +343,7 @@ ehbs_abs_prem_plot <- ehbs_share %>%
   geom_line(
     aes(
       x = year,
-      y = est_prem,
+      y = est_prem / 1000,
     ),
     color = "#3C714F"
   ) +
@@ -366,8 +368,8 @@ ehbs_abs_prem_plot <- ehbs_share %>%
   geom_text_repel(
     aes(
       x = year,
-      y = est_prem,
-      label = est_prem,
+      y = est_prem / 1000,
+      label = round((est_prem / 1000), digits = 1),
     ),
     direction = "y",
     size = 2,
@@ -386,7 +388,7 @@ ehbs_abs_prem_plot <- ehbs_share %>%
   # ) +
   scale_x_date(
     name = "Year",
-    date_breaks = "1 year",
+    date_breaks = "2 years",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",
     expand = expansion(add = 5)
@@ -404,8 +406,8 @@ ehbs_abs_prem_plot <- ehbs_share %>%
   ) +
   coord_cartesian(clip = "off") +
   labs(
-    y = "Cost (USD)",
-    title = "Total healthcare premium"
+    y = "Cost (1000 USD)",
+    title = "Total healthcare premium (employer + employee contribution)"
   ) +
   theme(
     panel.background = element_rect(fill = "#f0f0f0"),
@@ -414,7 +416,8 @@ ehbs_abs_prem_plot <- ehbs_share %>%
     legend.text = element_text(size = 6),
     legend.position = "bottom",
     plot.margin = margin(10, 10, 10, 10),
-    plot.title = element_text(size = 8)
+    plot.title = element_text(size = 8),
+    axis.line = element_line(color = "black", linewidth = unit(0.2, "pt")),
   )
 
 
@@ -422,8 +425,8 @@ ehbs_abs_prem_plot <- ehbs_share %>%
 
 ehbs_plot <- plot_grid(
   ehbs_abs_contrib_plot,
-  ehbs_abs_prem_plot,
   ehbs_share_plot,
+  ehbs_abs_prem_plot,
   nrow = 3,
   ncol = 1
 )

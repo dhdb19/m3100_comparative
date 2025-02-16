@@ -130,6 +130,12 @@
 %\setseriffont{Latin Modern Roman}
 \setmainfont{Latin Modern Roman}
 \newfontfamily{\myhelvetica}{TeX Gyre Heros}[Ligatures=TeX]
+\newfontfamily{\sflight}[
+  Path=../fonts/Lato/,
+  Extension = .ttf,
+  UprightFont=*-Light,
+  ItalicFont=*-LightItalic
+]{Lato}
 %font--------------------------------------
 
 %columntype--------------
@@ -165,16 +171,21 @@
 {}
 
 \titleformat{\subsection}
-{\color{green3rgb}\sffamily\itshape}
+{\color{green1rgb}\sffamily\itshape}
 {}
 {0em}
 {}
 
 \titleformat{\subsubsection}
-{\color{green3rgb}\sffamily}
+{\color{green3rgb}\sffamily\itshape}
 {}
 {0em}
 {}
+
+\titlespacing*{\section}{0cm}{*4}{*0}
+\titlespacing*{\subsection}{0cm}{*2}{*0}
+\titlespacing*{\subsubsection}{0cm}{*2}{*0}
+
 %Sectiontitle------------------------------
 
 %TikzLibraries-----------------------------
@@ -231,9 +242,9 @@
 \addto\captionsenglish{\renewcommand{\tablename}{Table}}
 %Subcaptioneinstellung---------------------
 
-%BlockzitateStil---------------------------
+%block-quotes---------------------------
 \AtBeginEnvironment{quote}{\singlespacing\small}
-%BlockzitateStil---------------------------
+%block-quotes---------------------------
 
 %headerfooterplagraism---------------
 \fancypagestyle{page1}{
@@ -259,10 +270,10 @@
 \pagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
-\fancyhead[L]{\sffamily\color{green3rgb}{\@seminar}}
-\fancyhead[R]{\sffamily{\color{green3rgb}\thepage}}
+\fancyhead[L]{\small\sffamily\color{black!30}{\@seminar}}
+\fancyhead[R]{\small\sffamily{\color{black!30}\thepage}}
 \renewcommand{\headrulewidth}{0pt}
-\setlength{\headheight}{1.5cm}
+% \setlength{\headheight}{1.5cm}
 %HeaderFooter------------------------------
 
 %Indent------------------------------------
@@ -279,7 +290,6 @@
   {
     \begin{titlepage}
       \sffamily \thispagestyle{empty} \setstretch{1.25}
-      \vspace*{-2cm}
 
       \noindent
       \begin{minipage}[t]{0.5\textwidth}
