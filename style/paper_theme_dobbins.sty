@@ -41,6 +41,7 @@
 \RequirePackage{pdfpages}
 \RequirePackage{ragged2e}
 \RequirePackage{microtype}
+\RequirePackage{layouts}
 % \RequirePackage[soul]{lua-ul}
 %Packages----------------------------------
 
@@ -118,6 +119,14 @@
 \setul{0.2ex}{0.2ex}
 % %underline-----------------
 
+%floatsep ----------------------------
+\setlength{\intextsep}{0.2cm}
+\setlength{\textfloatsep}{0.2cm}
+\setlength{\floatsep}{0cm}
+\setlength{\abovecaptionskip}{0.25cm}
+\setlength{\belowcaptionskip}{0.25cm}
+%floatsep ----------------------------
+
 %font--------------------------------------
 \setsansfont{Lato}[
   Path=../fonts/Lato/,
@@ -126,6 +135,16 @@
   BoldFont=*-Bold,
   ItalicFont=*-Italic,
   BoldItalicFont=*-BoldItalic
+]
+
+\setmonofont{JetBrainsMono}[
+  Path=../fonts/JetBrainsMono/,
+  Extension = .ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic,
+  BoldItalicFont=*-BoldItalic,
+  Ligatures = TeX
 ]
 %\setseriffont{Latin Modern Roman}
 \setmainfont{Latin Modern Roman}
@@ -202,7 +221,7 @@
 \tikzstyle{startstop1} = [rectangle, draw=black, text width=3cm, minimum width=3cm, minimum height=0.5cm, fill=white]
 \tikzstyle{S4} = [rectangle, draw=gray, dashed, text width=3.5cm, minimum width=3cm, minimum height=0.5cm, fill=white]
 \tikzstyle{Mg} = [rectangle, draw=gray, dashed, text width=4cm, minimum width=3cm, minimum height=0.5cm, fill=white]
-\tikzstyle{Mk} = [rectangle, draw=gray, dashed, minimum width=3cm, minimum height=0.5cm, fill=white, align=flush left]
+\tikzstyle{Mk} = [rectangle, draw=gray, dashed, , text width = 4.5cm, minimum width=3.5cm, minimum height=0.5cm, fill=white, align=flush left, font=\ttfamily]
 %TikzStyles--------------------------------
 
 %Biblatex----------------------------------
@@ -279,7 +298,7 @@
 %Indent------------------------------------
 
 %linespacing-----------------------------
-\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\baselinestretch}{1.25}
 %linespacing-----------------------------
 
 %titlepace-------------------------------

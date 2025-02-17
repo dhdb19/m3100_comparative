@@ -121,20 +121,22 @@ ehbs_share_plot <- ehbs_share %>%
     fill = "grey",
     alpha = 0.01
   ) +
-  # geom_hline(
-  #   yintercept = 0,
-  #   color = "grey"
-  # ) +
-  geom_vline(
-    xintercept = as.Date("1999-12-31"),
-    color = "grey"
-  ) +
-  geom_line(
+  geom_point(
     aes(
       x = year,
       y = share * 100,
     ),
+    shape = 4,
     color = "#3C714F"
+  ) +
+  geom_smooth(
+    aes(
+      x = year,
+      y = share * 100,
+    ),
+    color = "#3C714F",
+    method = "lm",
+    linewidth = 0.3,
   ) +
   # geom_line(
   #   aes(
@@ -154,29 +156,29 @@ ehbs_share_plot <- ehbs_share %>%
   #   alpha = 0.2,
   #   show.legend = FALSE,
   # ) +
-  geom_text_repel(
-    aes(
-      x = year,
-      y = share * 100,
-      label = format((share * 100), digits = 1),
-    ),
-    direction = "y",
-    size = 2,
-    min.segment.length = 0,
-    segment.linetype = "dashed",
-    segment.size = 0.1,
-    # nudge_y = 0.5,
-    xlim = c(-Inf, Inf)
-  ) +
-  # scale_y_continuous(
-  #   limits = c(0, 10000),
-  #   name = "Cost (USD)",
-  #   breaks = waiver(),
-  #   # n.breaks = 1000,
-  #   expand = expansion(add = 0)
+  # geom_text_repel(
+  #   aes(
+  #     x = year,
+  #     y = share * 100,
+  #     label = format((share * 100), digits = 1),
+  #   ),
+  #   direction = "y",
+  #   size = 2,
+  #   min.segment.length = 0,
+  #   segment.linetype = "dashed",
+  #   segment.size = 0.1,
+  #   # nudge_y = 0.5,
+  #   xlim = c(-Inf, Inf)
   # ) +
+  # # scale_y_continuous(
+  # #   limits = c(0, 10000),
+  # #   name = "Cost (USD)",
+  # #   breaks = waiver(),
+  # #   # n.breaks = 1000,
+  # #   expand = expansion(add = 0)
+  # # ) +
   scale_x_date(
-    name = "Year",
+    name = NULL,
     date_breaks = "2 years",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",
@@ -198,17 +200,18 @@ ehbs_share_plot <- ehbs_share %>%
     y = "Percentage",
     title = "Employee contribution to total healthcare premium (share)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 10, 10, 10),
-    plot.title = element_text(size = 8),
-    axis.line = element_line(color = "black", linewidth = unit(0.2, "pt")),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.45),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
-
+ehbs_share_plot
 
 
 # ---- plot absolute contrib----
@@ -225,21 +228,34 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
     fill = "grey",
     alpha = 0.01
   ) +
-  # geom_hline(
-  #   yintercept = 0,
-  #   color = "grey"
-  # ) +
-  geom_vline(
-    xintercept = as.Date("1999-12-31"),
-    color = "grey"
-  ) +
-  geom_line(
+  geom_pointrange(
     aes(
       x = year,
       y = est_contrib / 1000,
+      ymin = (est_contrib - std_err_contrib) / 1000,
+      ymax = (est_contrib + std_err_contrib) / 1000,
     ),
-    color = "#3C714F"
+    color = "#3C714F",
+    size = 0.1,
   ) +
+  # geom_point(
+  #   aes(
+  #     x = year,
+  #     y = est_contrib / 1000,
+  #   ),
+  #   shape = 3,
+  #   color = "#3C714F"
+  # ) +
+  # geom_smooth(
+  #   aes(
+  #     x = year,
+  #     y = est_contrib / 1000,
+  #   ),
+  #   method = "lm",
+  #   shape = 3,
+  #   color = "#3C714F",
+  #   linewidth = 0.3,
+  # ) +
   # geom_line(
   #   aes(
   #     x = year,
@@ -258,20 +274,20 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
   #   alpha = 0.2,
   #   show.legend = FALSE,
   # ) +
-  geom_text_repel(
-    aes(
-      x = year,
-      y = est_contrib / 1000,
-      label = round((est_contrib / 1000), digits = 1),
-    ),
-    direction = "y",
-    size = 2,
-    min.segment.length = 0,
-    segment.linetype = "dashed",
-    segment.size = 0.1,
-    # nudge_y = 0.5,
-    xlim = c(-Inf, Inf)
-  ) +
+  # geom_text_repel(
+  #   aes(
+  #     x = year,
+  #     y = est_contrib / 1000,
+  #     label = round((est_contrib / 1000), digits = 1),
+  #   ),
+  #   direction = "y",
+  #   size = 2,
+  #   min.segment.length = 0,
+  #   segment.linetype = "dashed",
+  #   segment.size = 0.1,
+  #   # nudge_y = 0.5,
+  #   xlim = c(-Inf, Inf)
+  # ) +
   # scale_y_continuous(
   #   limits = c(0, 10000),
   #   name = "Cost (USD)",
@@ -280,7 +296,7 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
   #   expand = expansion(add = 0)
   # ) +
   scale_x_date(
-    name = "Year",
+    name = NULL,
     date_breaks = "2 years",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",
@@ -302,17 +318,18 @@ ehbs_abs_contrib_plot <- ehbs_share %>%
     y = "Cost (1000 USD)",
     title = "Employee contribution to total healthcare premium (absolute)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 10, 10, 10),
-    plot.title = element_text(size = 8),
-    axis.line = element_line(color = "black", linewidth = unit(0.2, "pt")),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.45),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
-
+ehbs_abs_contrib_plot
 
 
 
@@ -332,21 +349,34 @@ ehbs_abs_prem_plot <- ehbs_share %>%
     fill = "grey",
     alpha = 0.01
   ) +
-  # geom_hline(
-  #   yintercept = 0,
-  #   color = "grey"
-  # ) +
-  geom_vline(
-    xintercept = as.Date("1999-12-31"),
-    color = "grey"
-  ) +
-  geom_line(
+  geom_pointrange(
     aes(
       x = year,
       y = est_prem / 1000,
+      ymin = (est_prem - std_err_prem) / 1000,
+      ymax = (est_prem + std_err_prem) / 1000,
     ),
-    color = "#3C714F"
+    color = "#3C714F",
+    size = 0.1,
   ) +
+  # geom_point(
+  #   aes(
+  #     x = year,
+  #     y = est_prem / 1000,
+  #   ),
+  #   shape = 3,
+  #   color = "#3C714F"
+  # ) +
+  # geom_smooth(
+  #   aes(
+  #     x = year,
+  #     y = est_prem / 1000,
+  #   ),
+  #   method = "lm",
+  #   shape = 3,
+  #   color = "#3C714F",
+  #   linewidth = 0.3,
+  # ) +
   # geom_line(
   #   aes(
   #     x = year,
@@ -365,20 +395,20 @@ ehbs_abs_prem_plot <- ehbs_share %>%
   #   alpha = 0.2,
   #   show.legend = FALSE,
   # ) +
-  geom_text_repel(
-    aes(
-      x = year,
-      y = est_prem / 1000,
-      label = round((est_prem / 1000), digits = 1),
-    ),
-    direction = "y",
-    size = 2,
-    min.segment.length = 0,
-    segment.linetype = "dashed",
-    segment.size = 0.1,
-    # nudge_y = 0.5,
-    xlim = c(-Inf, Inf)
-  ) +
+  # geom_text_repel(
+  #   aes(
+  #     x = year,
+  #     y = est_prem / 1000,
+  #     label = round((est_prem / 1000), digits = 1),
+  #   ),
+  #   direction = "y",
+  #   size = 2,
+  #   min.segment.length = 0,
+  #   segment.linetype = "dashed",
+  #   segment.size = 0.1,
+  #   # nudge_y = 0.5,
+  #   xlim = c(-Inf, Inf)
+  # ) +
   # scale_y_continuous(
   #   limits = c(0, 10000),
   #   name = "Cost (USD)",
@@ -409,17 +439,18 @@ ehbs_abs_prem_plot <- ehbs_share %>%
     y = "Cost (1000 USD)",
     title = "Total healthcare premium (employer + employee contribution)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 10, 10, 10),
-    plot.title = element_text(size = 8),
-    axis.line = element_line(color = "black", linewidth = unit(0.2, "pt")),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.45),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
-
+ehbs_abs_prem_plot
 
 # ---- combine plot ----
 
@@ -433,7 +464,7 @@ ehbs_plot <- plot_grid(
 
 
 
-tikz("figures/fig7.tex", width = 6.3, height = 6.3, standAlone = FALSE)
+tikz("figures/fig7.tex", width = 6.3, height = 6, standAlone = FALSE)
 ehbs_plot
 dev.off()
 

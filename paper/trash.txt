@@ -82,3 +82,15 @@
 % \end{table}
 
 % This, of course, still describes a self-reinforcing mechanism, but \textcite[][]{Greif2004} argue that \citeauthor{Pierson2000}'s \parencite*{Pierson2000} theoretical centering of (only) increasing returns as the driver of institutional development processes is misguided. \textcite[][]{Jacobs2014} pick up this criticism and
+
+
+% For a full account why reform was possible in 2010 and not in the 1990s, As far as I can tell, most or many of the quantitative long run data employed by \textcite[][]{Jacobs2014} are derived from the Survey of Income and Program Participation (SIPP) conducted by the U.S. Census Bureau. The SIPP data available on the online platform reach back to 1984, which is a bit shorter than I propose would be necessary to get a full picture, but the time horizon might be extendable by using Current Population Survey (CPS) data, which was relied upon for the desired kind of data before the introduction of SIPP, which has also continued to be conducted alongside SIPP \parencite[][]{Census2022}.
+
+% The overall theoretical framework \textcite[][]{Jacobs2014} present is very compelling, but in presenting it they, I argue they  . First, there is no explicit empirical motivation, no empirical puzzle mentioned to motivate the article. The treatise of the Obamacare reform can be understood as an empirical motivation of sorts, but, since this case study comes last in the in their article and is not discussed at all before that point, it is at points difficult to ascertain what the authors' propose the value-add of their approach is. Generally it is at times unclear
+
+% As it relates to their empirical case study, I have demonstrated how the authors, in my view, do not provide the necessary empirical evidence to sufficiently support their claims as regards the critical variables enabling healthcare reform in 2010 but not in the 90s.
+
+% \section*{Future research, }
+
+Add somewhere:
+Also counter to intuition, as a consequence, organized labor in the U.S. was largely not a beneficiary of the Medicare/Medicaid reform, as they had adapted to providing healthcare via the private insurance market for their members \parencite[][]{Hacker1998}.

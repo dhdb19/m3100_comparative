@@ -127,7 +127,7 @@ nhe_plot_1 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("1965-07-30"),
-    y = 14500,
+    y = 14.500,
     label = "Medicare and Medicaid \n signed into law",
     size = 2,
     label.padding = unit(0.5, "lines")
@@ -135,7 +135,7 @@ nhe_plot_1 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("1993-11-13"),
-    y = 14500,
+    y = 14.5,
     label = "Clinton healthcare \n reform effort",
     size = 2,
     label.padding = unit(0.5, "lines")
@@ -143,14 +143,14 @@ nhe_plot_1 <- nhe %>%
   annotate(
     geom = "label",
     x = as.Date("2009-08-01"),
-    y = 14500,
+    y = 14.500,
     label = "Obama inaugurated -- \n ACA comes into force",
     size = 2,
     label.padding = unit(0.5, "lines")
   ) +
   geom_point(
     aes(
-      y = (total_national_health_expenditures * gdp_deflator) / population,
+      y = ((total_national_health_expenditures * gdp_deflator) / population) / 1000,
       x = year,
       color = "2025 dollars"
     ),
@@ -158,7 +158,7 @@ nhe_plot_1 <- nhe %>%
   ) +
   geom_point(
     aes(
-      y = total_national_health_expenditures / population,
+      y = (total_national_health_expenditures / population) / 1000,
       x = year,
       color = "Nominal"
     ),
@@ -166,7 +166,7 @@ nhe_plot_1 <- nhe %>%
   ) +
   geom_line(
     aes(
-      y = total_national_health_expenditures / population,
+      y = (total_national_health_expenditures / population) / 1000,
       x = year,
       color = "Nominal"
     ),
@@ -174,28 +174,28 @@ nhe_plot_1 <- nhe %>%
   ) +
   geom_line(
     aes(
-      y = (total_national_health_expenditures * gdp_deflator) / population,
+      y = ((total_national_health_expenditures * gdp_deflator) / population) / 1000,
       x = year,
       color = "2025 dollars"
     ),
-    linewidth = 0.1,
+    linewidth = 0.2,
   ) +
   scale_y_continuous(
-    limits = c(0, 17000),
-    name = "Expenditures p.c. (USD)",
+    limits = c(0, 17),
+    name = "Expenditures p.c. (thousand USD)",
     breaks = waiver(),
     n.breaks = 10,
     expand = expansion(add = 0)
   ) +
   scale_x_date(
-    name = "Year",
+    name = NULL,
     date_breaks = "2 years",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",
     expand = expansion(add = 5)
   ) +
   scale_color_manual(
-    name = "",
+    name = "Legend",
     values = c(
       "2025 dollars" = "#3c644b",
       "Nominal" = "#FFC107"
@@ -209,17 +209,18 @@ nhe_plot_1 <- nhe %>%
   labs(
     title = "Total national health expenditures (per capita)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.15),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
+
 nhe_plot_1
 
 
@@ -332,16 +333,16 @@ nhe_plot_2 <- nhe %>%
   labs(
     title = "Total national health expenditures (share of GDP)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.15),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 nhe_plot_2
 
@@ -350,11 +351,13 @@ gdp_plot <- plot_grid(
   nhe_plot_2,
   nrow = 2,
   ncol = 1,
-  rel_heights = c(23, 20)
+  rel_heights = c(20, 20)
+  # labels = c("a)", "b)"),
+  # label_size = 8
 )
 
 
-tikz("figures/fig18.tex", width = 6.3, height = 5, standAlone = FALSE)
+tikz("figures/fig18.tex", width = 6.3, height = 4.5, standAlone = FALSE)
 gdp_plot
 dev.off()
 
@@ -456,7 +459,7 @@ nhe_plot_3 <- nhe %>%
     expand = expansion(add = 0)
   ) +
   scale_x_date(
-    name = "Year",
+    name = NULL,
     date_breaks = "2 years",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",
@@ -477,16 +480,16 @@ nhe_plot_3 <- nhe %>%
   labs(
     title = "Private health insurance expenditures (per capita)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.15),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 nhe_plot_3
 
@@ -596,16 +599,16 @@ nhe_plot_8 <- nhe %>%
   labs(
     title = "Private healthcare expenditure (share of total national health expenditure)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.15),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 nhe_plot_8
 
@@ -614,10 +617,10 @@ ph_plot <- plot_grid(
   nhe_plot_8,
   nrow = 2,
   ncol = 1,
-  rel_heights = c(6, 5)
+  rel_heights = c(20, 20)
 )
 
-tikz("figures/fig17.tex", width = 6.3, height = 5, standAlone = FALSE)
+tikz("figures/fig17.tex", width = 6.3, height = 4.5, standAlone = FALSE)
 ph_plot
 dev.off()
 
@@ -720,7 +723,7 @@ nhe_plot_4 <- nhe %>%
     expand = expansion(add = 0)
   ) +
   scale_x_date(
-    name = "Year",
+    name = NULL,
     date_breaks = "2 years",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",
@@ -741,16 +744,16 @@ nhe_plot_4 <- nhe %>%
   labs(
     title = "Out-of-pocket expenditures (per capita)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.15),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 nhe_plot_4
 
@@ -861,16 +864,16 @@ nhe_plot_7 <- nhe %>%
   labs(
     title = "Out-of-pocket expenditures (share of total national health expenditure)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.15),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 nhe_plot_7
 
@@ -881,10 +884,10 @@ oop_plot <- plot_grid(
   nhe_plot_7,
   nrow = 2,
   ncol = 1,
-  rel_heights = c(6, 5)
+  rel_heights = c(20, 20)
 )
 
-tikz("figures/fig16.tex", width = 6.3, height = 5, standAlone = FALSE)
+tikz("figures/fig16.tex", width = 6.3, height = 4.5, standAlone = FALSE)
 oop_plot
 dev.off()
 
@@ -892,10 +895,6 @@ dev.off()
 
 nhe_plot_5 <- nhe %>%
   ggplot() +
-  geom_vline(
-    xintercept = as.Date("1960-01-01"),
-    color = "grey",
-  ) +
   geom_rect(
     aes(
       xmin = as.Date("1993-01-01"),
@@ -986,7 +985,7 @@ nhe_plot_5 <- nhe %>%
   ) +
   scale_x_date(
     limits = c(as.Date("1965-07-30"), as.Date("2023-01-01")),
-    name = "Year",
+    name = NULL,
     date_breaks = "2 years",
     # date_minor_breaks = "1 month",
     date_labels = "'%y",
@@ -1007,16 +1006,16 @@ nhe_plot_5 <- nhe %>%
   labs(
     title = "Medicare and Medicaid expenditures (per capita)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.15),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 nhe_plot_5
 
@@ -1141,16 +1140,16 @@ nhe_plot_9 <- nhe %>%
   labs(
     title = "Medicare and Medicaid expenditures (share of total national health expenditures)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.15),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 nhe_plot_9
 
@@ -1394,21 +1393,21 @@ nhe_plot_6 <- nhe %>%
   labs(
     title = "Medicaid expenditures by state/local and federal level (per capita)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.15),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 nhe_plot_6
 
 
-tikz("figures/fig20.tex", width = 6.3, height = 3, standAlone = FALSE)
+tikz("figures/fig20.tex", width = 6.3, height = 2, standAlone = FALSE)
 nhe_plot_6
 dev.off()
 
@@ -1556,21 +1555,21 @@ nhe_plot_10 <- nhe %>%
   labs(
     title = "Health care expenditures by source (share of GDP)"
   ) +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.1),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.4),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 nhe_plot_10
 
 
-tikz("figures/fig19.tex", width = 6.3, height = 3, standAlone = FALSE)
+tikz("figures/fig19.tex", width = 6.3, height = 2.5, standAlone = FALSE)
 nhe_plot_10
 dev.off()
 
@@ -1583,148 +1582,148 @@ dev.off()
 
 # ---- template ----
 
-emp_un %>%
-  ggplot() +
-  geom_rect(
-    aes(
-      xmin = as.Date("1993-01-01"),
-      xmax = as.Date("1994-09-26"),
-      ymax = Inf,
-      ymin = -Inf,
-    ),
-    fill = "grey",
-    alpha = 0.01
-  ) +
-  geom_rect(
-    aes(
-      xmin = as.Date("2009-01-20"),
-      xmax = as.Date("2010-03-23"),
-      ymax = Inf,
-      ymin = -Inf,
-    ),
-    fill = "grey",
-    alpha = 0.01
-  ) +
-  geom_vline(
-    xintercept = as.Date("2007-12-31"),
-    lty = "dashed",
-    color = "grey",
-  ) +
-  geom_hline(
-    yintercept = 0,
-    color = "grey"
-  ) +
-  geom_line(
-    aes(
-      x = year,
-      y = employer * 100,
-      color = "Employer-based insurance"
-    ),
-  ) +
-  geom_line(
-    aes(
-      x = year,
-      y = uninsured * 100,
-      color = "Uninsured"
-    ),
-  ) +
-  # geom_ribbon(
-  #   data = subset(emp_un, year > as.Date("2008-12-31")),
-  #   aes(
-  #     x = year,
-  #     y = employer,
-  #     ymin = (employer - employer_se) * 100,
-  #     ymax = (employer + employer_se) * 100,
-  #   ),
-  #   alpha = 0.2,
-  # ) +
-  geom_text_repel(
-    aes(
-      x = year,
-      y = uninsured * 100,
-      label = uninsured * 100,
-    ),
-    direction = "y",
-    size = 2,
-    min.segment.length = 0,
-    segment.linetype = "dashed",
-    segment.size = 0.1,
-    # nudge_y = 2,
-    xlim = c(-Inf, Inf),
-  ) +
-  geom_text_repel(
-    aes(
-      x = year,
-      y = employer * 100,
-      label = employer * 100,
-    ),
-    direction = "y",
-    size = 2,
-    min.segment.length = 0,
-    segment.linetype = "dashed",
-    segment.size = 0.1,
-    # nudge_y = 10,
-    xlim = c(-Inf, Inf),
-  ) +
-  scale_y_continuous(
-    limits = c(0, 80),
-    name = "Percentage",
-    breaks = waiver(),
-    n.breaks = 10,
-    expand = expansion(add = 0)
-  ) +
-  scale_x_date(
-    name = "Year",
-    date_breaks = "1 year",
-    # date_minor_breaks = "1 month",
-    date_labels = "'%y",
-    expand = expansion(add = 5)
-  ) +
-  annotate(
-    geom = "label",
-    x = as.Date("2007-12-31"),
-    y = 30,
-    label = "Change in data",
-    size = 2.75,
-    label.padding = unit(0.5, "lines"),
-    label.r = unit(0, "lines"),
-    label.size = 0,
-    color = "grey"
-  ) +
-  annotate(
-    geom = "label",
-    x = as.Date("1993-11-13"),
-    y = 40,
-    label = "Clinton healthcare \n reform effort",
-    size = 2.75,
-    label.padding = unit(0.5, "lines")
-  ) +
-  annotate(
-    geom = "label",
-    x = as.Date("2009-08-01"),
-    y = 40,
-    label = "Obama inaugurated -- \n ACA comes into force",
-    size = 2.75,
-    label.padding = unit(0.5, "lines")
-  ) +
-  scale_color_manual(
-    name = "",
-    values = c(
-      "Employer-based insurance" = "#3C714F",
-      "Uninsured" = "#9db0a2"
-    ),
-    limits = c(
-      "Employer-based insurance",
-      "Uninsured"
-    ),
-  ) +
-  coord_cartesian(clip = "off") +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 10, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm")
-  )
+# emp_un %>%
+#   ggplot() +
+#   geom_rect(
+#     aes(
+#       xmin = as.Date("1993-01-01"),
+#       xmax = as.Date("1994-09-26"),
+#       ymax = Inf,
+#       ymin = -Inf,
+#     ),
+#     fill = "grey",
+#     alpha = 0.01
+#   ) +
+#   geom_rect(
+#     aes(
+#       xmin = as.Date("2009-01-20"),
+#       xmax = as.Date("2010-03-23"),
+#       ymax = Inf,
+#       ymin = -Inf,
+#     ),
+#     fill = "grey",
+#     alpha = 0.01
+#   ) +
+#   geom_vline(
+#     xintercept = as.Date("2007-12-31"),
+#     lty = "dashed",
+#     color = "grey",
+#   ) +
+#   geom_hline(
+#     yintercept = 0,
+#     color = "grey"
+#   ) +
+#   geom_line(
+#     aes(
+#       x = year,
+#       y = employer * 100,
+#       color = "Employer-based insurance"
+#     ),
+#   ) +
+#   geom_line(
+#     aes(
+#       x = year,
+#       y = uninsured * 100,
+#       color = "Uninsured"
+#     ),
+#   ) +
+#   # geom_ribbon(
+#   #   data = subset(emp_un, year > as.Date("2008-12-31")),
+#   #   aes(
+#   #     x = year,
+#   #     y = employer,
+#   #     ymin = (employer - employer_se) * 100,
+#   #     ymax = (employer + employer_se) * 100,
+#   #   ),
+#   #   alpha = 0.2,
+#   # ) +
+#   geom_text_repel(
+#     aes(
+#       x = year,
+#       y = uninsured * 100,
+#       label = uninsured * 100,
+#     ),
+#     direction = "y",
+#     size = 2,
+#     min.segment.length = 0,
+#     segment.linetype = "dashed",
+#     segment.size = 0.1,
+#     # nudge_y = 2,
+#     xlim = c(-Inf, Inf),
+#   ) +
+#   geom_text_repel(
+#     aes(
+#       x = year,
+#       y = employer * 100,
+#       label = employer * 100,
+#     ),
+#     direction = "y",
+#     size = 2,
+#     min.segment.length = 0,
+#     segment.linetype = "dashed",
+#     segment.size = 0.1,
+#     # nudge_y = 10,
+#     xlim = c(-Inf, Inf),
+#   ) +
+#   scale_y_continuous(
+#     limits = c(0, 80),
+#     name = "Percentage",
+#     breaks = waiver(),
+#     n.breaks = 10,
+#     expand = expansion(add = 0)
+#   ) +
+#   scale_x_date(
+#     name = "Year",
+#     date_breaks = "1 year",
+#     # date_minor_breaks = "1 month",
+#     date_labels = "'%y",
+#     expand = expansion(add = 5)
+#   ) +
+#   annotate(
+#     geom = "label",
+#     x = as.Date("2007-12-31"),
+#     y = 30,
+#     label = "Change in data",
+#     size = 2.75,
+#     label.padding = unit(0.5, "lines"),
+#     label.r = unit(0, "lines"),
+#     label.size = 0,
+#     color = "grey"
+#   ) +
+#   annotate(
+#     geom = "label",
+#     x = as.Date("1993-11-13"),
+#     y = 40,
+#     label = "Clinton healthcare \n reform effort",
+#     size = 2.75,
+#     label.padding = unit(0.5, "lines")
+#   ) +
+#   annotate(
+#     geom = "label",
+#     x = as.Date("2009-08-01"),
+#     y = 40,
+#     label = "Obama inaugurated -- \n ACA comes into force",
+#     size = 2.75,
+#     label.padding = unit(0.5, "lines")
+#   ) +
+#   scale_color_manual(
+#     name = "",
+#     values = c(
+#       "Employer-based insurance" = "#3C714F",
+#       "Uninsured" = "#9db0a2"
+#     ),
+#     limits = c(
+#       "Employer-based insurance",
+#       "Uninsured"
+#     ),
+#   ) +
+#   coord_cartesian(clip = "off") +
+#   theme(
+#     panel.background = element_rect(fill = "#f0f0f0"),
+#     axis.title = element_text(size = 8),
+#     axis.text = element_text(size = 5),
+#     legend.text = element_text(size = 6),
+#     legend.position = "bottom",
+#     plot.margin = margin(10, 10, 10, 10),
+#     legend.key.spacing.x = unit(1.5, "cm")
+#   )

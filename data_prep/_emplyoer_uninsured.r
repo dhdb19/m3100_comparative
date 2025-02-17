@@ -173,16 +173,16 @@ emp_un_plot <- emp_un %>%
     ),
   ) +
   coord_cartesian(clip = "off") +
-  theme(
-    panel.background = element_rect(fill = "#f0f0f0"),
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 5),
-    legend.text = element_text(size = 6),
-    legend.position = "bottom",
-    plot.margin = margin(10, 45, 10, 10),
-    legend.key.spacing.x = unit(1.5, "cm"),
-    axis.line = element_line(color = "black", linewidth = 0.2),
-    plot.title = element_text(size = 8),
+  dobbins_theme(
+    legend.position = "inside",
+    legend.frame = element_rect(
+      linewidth = 1,
+      color = "black",
+      linetype = "solid",
+    ),
+    legend.position.inside = c(1, 0.45),
+    legend.justification = "right",
+    legend.background = element_rect(fill = "#f0f0f0", color = NULL),
   )
 emp_un_plot
 
